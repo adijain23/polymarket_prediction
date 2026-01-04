@@ -60,6 +60,7 @@ So what: you can publish a simple webpage + JSON feed of alerts without running 
   - `docs/index.html` (webpage)
   - `docs/alerts.json` and `docs/alerts.jsonl` (public feeds)
   - `state/state.json` (lightweight dedupe + cooldown state)
+  - `archive/alerts-YYYY-MM.jsonl` (append-only full history; partitioned monthly)
 - Enable GitHub Pages in repo settings:
   - Settings → Pages → Build and deployment → Source: “Deploy from a branch”
   - Branch: `main` (or default) / Folder: `/docs`

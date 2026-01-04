@@ -5,6 +5,7 @@ import json
 import os
 import time
 from dataclasses import asdict
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -27,6 +28,22 @@ def _atomic_write(path: Path, content: str) -> None:
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(content, encoding="utf-8")
     tmp.replace(path)
+
+
+def _append_lines(path: Path, lines: list[str]) -> None:
+    if not lines:
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a", encoding="utf-8") as f:
+        for line in lines:
+            f.write(line)
+            if not line.endswith("\n"):
+                f.write("\n")
+
+
+def _archive_path(archive_dir: Path, ts: int) -> Path:
+    dt = datetime.fromtimestamp(int(ts), tz=timezone.utc)
+    return archive_dir / f"alerts-{dt:%Y-%m}.jsonl"
 
 
 def _now_ts() -> int:
@@ -146,6 +163,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--state", default="state/state.json", help="State JSON path (committed).")
     p.add_argument("--out", default="docs/alerts.json", help="Public JSON feed path.")
     p.add_argument("--out-jsonl", default="docs/alerts.jsonl", help="Public JSONL feed path.")
+    p.add_argument(
+        "--archive-dir",
+        default="archive",
+        help="Directory for append-only JSONL archives (partitioned monthly).",
+    )
     p.add_argument("--limit", type=int, default=500, help="Trades fetch limit.")
     p.add_argument("--min-notional", type=float, default=2000.0, help="Min notional ($).")
     p.add_argument("--min-score", type=int, default=3, help="Min score to alert.")
@@ -167,6 +189,7 @@ def main(argv: list[str] | None = None) -> int:
     state_path = Path(args.state)
     out_path = Path(args.out)
     out_jsonl_path = Path(args.out_jsonl)
+    archive_dir = Path(args.archive_dir)
 
     state: dict[str, Any] = _load_json(state_path, default={})
     client = PolymarketClient()
@@ -247,6 +270,15 @@ def main(argv: list[str] | None = None) -> int:
     _atomic_write(
         out_jsonl_path, "\n".join(json.dumps(x, sort_keys=True) for x in for_alerts_jsonl) + "\n"
     )
+
+    # Append new alerts to an archive so we don't lose history as the public feed is capped.
+    archive_batches: dict[Path, list[str]] = {}
+    for a in new_alerts:
+        ts = int(a.get("trade", {}).get("timestamp", 0))
+        path = _archive_path(archive_dir, ts if ts > 0 else _now_ts())
+        archive_batches.setdefault(path, []).append(json.dumps(a, sort_keys=True))
+    for path, lines in archive_batches.items():
+        _append_lines(path, lines)
 
     # Keep state small-ish.
     state["updated_at"] = _now_ts()

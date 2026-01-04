@@ -46,6 +46,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/ state/
+          git add docs/ state/ archive/
           git commit -m "chore(pmwatch): publish alerts"
           git push
