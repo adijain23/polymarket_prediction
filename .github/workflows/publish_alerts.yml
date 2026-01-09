@@ -96,23 +96,26 @@ jobs:
           git commit --amend -m "chore(pmwatch): update state"
           git push --force origin "${STATE_BRANCH}"
 
-      - name: Publish to main (at most hourly)
+      - name: Publish to main (twice daily)
         run: |
           set -euo pipefail
-          NOW_HOUR="$(date -u +'%Y-%m-%dT%H')"
-          LAST_FILE="state/last_published_hour_utc.txt"
+          HOUR="$(date -u +'%H')"
+          BUCKET_HOUR="$((10#${HOUR} / 12 * 12))"
+          BUCKET_HOUR_PADDED="$(printf '%02d' "${BUCKET_HOUR}")"
+          NOW_BUCKET="$(date -u +'%Y-%m-%dT')${BUCKET_HOUR_PADDED}"
+          LAST_FILE="state/last_published_bucket_utc.txt"
 
-          LAST_HOUR=""
+          LAST_BUCKET=""
           if [ -f "${LAST_FILE}" ]; then
-            LAST_HOUR="$(cat "${LAST_FILE}" | tr -d '\n' || true)"
+            LAST_BUCKET="$(cat "${LAST_FILE}" | tr -d '\n' || true)"
           fi
 
-          if [ "${NOW_HOUR}" = "${LAST_HOUR}" ]; then
-            echo "Already published for ${NOW_HOUR}; skipping."
+          if [ "${NOW_BUCKET}" = "${LAST_BUCKET}" ]; then
+            echo "Already published for bucket ${NOW_BUCKET}; skipping."
             exit 0
           fi
 
-          echo "${NOW_HOUR}" > "${LAST_FILE}"
+          echo "${NOW_BUCKET}" > "${LAST_FILE}"
 
           if git diff --quiet; then
             echo "No changes to publish."
