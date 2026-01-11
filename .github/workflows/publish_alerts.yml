@@ -96,11 +96,11 @@ jobs:
           git commit --amend -m "chore(pmwatch): update state"
           git push --force origin "${STATE_BRANCH}"
 
-      - name: Publish to main (twice daily)
+      - name: Publish to main (every 3 hours)
         run: |
           set -euo pipefail
           HOUR="$(date -u +'%H')"
-          BUCKET_HOUR="$((10#${HOUR} / 12 * 12))"
+          BUCKET_HOUR="$((10#${HOUR} / 3 * 3))"
           BUCKET_HOUR_PADDED="$(printf '%02d' "${BUCKET_HOUR}")"
           NOW_BUCKET="$(date -u +'%Y-%m-%dT')${BUCKET_HOUR_PADDED}"
           LAST_FILE="state/last_published_bucket_utc.txt"
