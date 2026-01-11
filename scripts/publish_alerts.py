@@ -65,6 +65,33 @@ def _window_label(seconds: int) -> str:
     return f"{s}s"
 
 
+def _should_exclude_strings(
+    *, event_slug: str, title: str, event_slug_prefixes: list[str], title_keywords: list[str]
+) -> bool:
+    event_slug_l = (event_slug or "").lower()
+    title_l = (title or "").lower()
+    for prefix in event_slug_prefixes:
+        pfx = str(prefix or "").lower()
+        if pfx and event_slug_l.startswith(pfx):
+            return True
+    for keyword in title_keywords:
+        key = str(keyword or "").lower()
+        if key and key in title_l:
+            return True
+    return False
+
+
+def _should_exclude_trade(
+    trade: Trade, *, event_slug_prefixes: list[str], title_keywords: list[str]
+) -> bool:
+    return _should_exclude_strings(
+        event_slug=trade.event_slug,
+        title=trade.title,
+        event_slug_prefixes=event_slug_prefixes,
+        title_keywords=title_keywords,
+    )
+
+
 def _as_market(obj: dict[str, Any]) -> Market:
     return Market(
         condition_id=str(obj.get("condition_id", "")),
@@ -470,6 +497,18 @@ def main(argv: list[str] | None = None) -> int:
         default=14 * 24 * 60 * 60,
         help="How long to keep wallet/market/cooldown state (seconds).",
     )
+    p.add_argument(
+        "--exclude-event-slug-prefix",
+        action="append",
+        default=[],
+        help="Skip trades whose event_slug starts with any of these prefixes (case-insensitive).",
+    )
+    p.add_argument(
+        "--exclude-title-keyword",
+        action="append",
+        default=[],
+        help="Skip trades whose title contains any of these keywords (case-insensitive).",
+    )
     args = p.parse_args(argv)
 
     state_path = Path(args.state)
@@ -496,6 +535,13 @@ def main(argv: list[str] | None = None) -> int:
     latest_trade_by_market_wallet: dict[str, dict[str, Trade]] = {}
     for trade in trades:
         if trade.trade_id in seen_set:
+            continue
+
+        if _should_exclude_trade(
+            trade,
+            event_slug_prefixes=list(args.exclude_event_slug_prefix or []),
+            title_keywords=list(args.exclude_title_keyword or []),
+        ):
             continue
 
         notional = trade_notional_usd(trade)
@@ -693,6 +739,14 @@ def main(argv: list[str] | None = None) -> int:
     prev_filtered: list[dict[str, Any]] = []
     for a in prev_alerts:
         if not isinstance(a, dict):
+            continue
+        trade = a.get("trade") if isinstance(a.get("trade"), dict) else {}
+        if _should_exclude_strings(
+            event_slug=str(trade.get("event_slug", "")),
+            title=str(trade.get("title", "")),
+            event_slug_prefixes=list(args.exclude_event_slug_prefix or []),
+            title_keywords=list(args.exclude_title_keyword or []),
+        ):
             continue
         try:
             if float(a.get("notional", 0.0) or 0.0) >= min_notional:
