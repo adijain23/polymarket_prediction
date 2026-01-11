@@ -97,6 +97,7 @@ jobs:
           git push --force origin "${STATE_BRANCH}"
 
       - name: Publish to main (every 3 hours)
+        id: publish_main
         run: |
           set -euo pipefail
           HOUR="$(date -u +'%H')"
@@ -112,6 +113,7 @@ jobs:
 
           if [ "${NOW_BUCKET}" = "${LAST_BUCKET}" ]; then
             echo "Already published for bucket ${NOW_BUCKET}; skipping."
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -119,6 +121,7 @@ jobs:
 
           if git diff --quiet; then
             echo "No changes to publish."
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -127,3 +130,11 @@ jobs:
           git add docs/ state/ archive/
           git commit -m "chore(pmwatch): publish alerts"
           git push
+          echo "published=true" >> "$GITHUB_OUTPUT"
+
+      - name: Notify Slack
+        if: steps.publish_main.outputs.published == 'true'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          python scripts/notify_slack.py --alerts-json docs/alerts.json --max-items 10
