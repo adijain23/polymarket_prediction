@@ -71,7 +71,31 @@ jobs:
             --market-events-keep-seconds 86400 \
             --state-keep-seconds 604800 \
             --max-alerts-per-day 20 \
-            --max-alerts 200
+            --max-alerts 200 \
+            --exclude-event-slug-prefix nba- \
+            --exclude-event-slug-prefix nfl- \
+            --exclude-event-slug-prefix mlb- \
+            --exclude-event-slug-prefix mlbb- \
+            --exclude-event-slug-prefix nhl- \
+            --exclude-event-slug-prefix wnba- \
+            --exclude-event-slug-prefix mls- \
+            --exclude-event-slug-prefix epl- \
+            --exclude-event-slug-prefix ufc- \
+            --exclude-title-keyword nba \
+            --exclude-title-keyword nfl \
+            --exclude-title-keyword mlb \
+            --exclude-title-keyword nhl \
+            --exclude-title-keyword ufc \
+            --exclude-title-keyword soccer \
+            --exclude-title-keyword football \
+            --exclude-title-keyword basketball \
+            --exclude-title-keyword baseball \
+            --exclude-title-keyword hockey \
+            --exclude-title-keyword tennis \
+            --exclude-title-keyword golf \
+            --exclude-title-keyword cricket \
+            --exclude-title-keyword boxing \
+            --exclude-title-keyword mma
 
       - name: Persist state (pmwatch-state)
         run: |
