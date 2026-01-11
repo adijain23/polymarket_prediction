@@ -70,7 +70,7 @@ jobs:
             --fast-window-seconds 86400 \
             --market-events-keep-seconds 86400 \
             --state-keep-seconds 604800 \
-            --max-alerts-per-day 5 \
+            --max-alerts-per-day 20 \
             --max-alerts 200
 
       - name: Persist state (pmwatch-state)
