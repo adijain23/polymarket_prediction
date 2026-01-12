@@ -98,8 +98,7 @@ def main(argv: list[str] | None = None) -> int:
             continue
         lines.append(_format_alert(alert))
 
-    _post_slack(args.webhook_url, "
-".join(lines))
+    _post_slack(args.webhook_url, "\n".join(lines))
     return 0
 
 
