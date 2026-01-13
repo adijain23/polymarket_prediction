@@ -65,7 +65,7 @@ jobs:
           python scripts/publish_alerts.py \
             --limit 500 \
             --min-notional 2000 \
-            --min-score 7 \
+            --min-score 5 \
             --cooldown-seconds 86400 \
             --fast-window-seconds 86400 \
             --market-events-keep-seconds 86400 \
