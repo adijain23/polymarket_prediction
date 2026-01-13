@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xdde10390229a08f12134eb8cbbffbc9b6f8c7bf26e1867a73ebb932e256b514e",
+        "liquidity_num": 624311.4091,
+        "outcome_prices": [
+          0.575,
+          0.425
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will VfB Stuttgart win on 2026-01-13?",
+        "slug": "bun-stu-ein-2026-01-13-stu",
+        "volume24hr": 284440.8115499998
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 27652.079999999994,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 27652.079999999994,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 5,
+        "top_wallet_accum_window": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
+        "top_wallet_notional_accum_window": 27652.079999999994,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 5,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 27652.079999999994,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "97212124472656863524759471926817043433361174058046518215176297401726819547323",
+        "condition_id": "0xdde10390229a08f12134eb8cbbffbc9b6f8c7bf26e1867a73ebb932e256b514e",
+        "event_slug": "bun-stu-ein-2026-01-13",
+        "name": "c4c4",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.58,
+        "proxy_wallet": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
+        "pseudonym": "Melodic-Thunderbolt",
+        "side": "BUY",
+        "size": 4268.0,
+        "slug": "bun-stu-ein-2026-01-13-stu",
+        "timestamp": 1768318539,
+        "title": "Will VfB Stuttgart win on 2026-01-13?",
+        "trade_id": "044663439e459ead7819b53970c74114d098fbc0e456c0fd5113e9ba267410a7",
+        "transaction_hash": "0x2df41483374ce218eaf4cb55b215369c2bf5499455db38529dc446e621aecdbe"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/bun-stu-ein-2026-01-13-stu",
+      "wallet_stats": {
+        "avg_notional_7d": 5530.415999999999,
+        "first_seen_ts": 1768318531,
+        "proxy_wallet": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
+        "trades_7d": 5,
+        "trades_total": 5,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x17815081230e3b9c78b098162c33b1ffa68c4ec29c123d3d14989599e0c2e113",
         "liquidity_num": 5511917.74417,
         "outcome_prices": [
@@ -76,9 +150,9 @@
       }
     }
   ],
-  "generated_at": 1768316525,
+  "generated_at": 1768327214,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "20961491283",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/20961491283"
+  "workflow_run_id": "20967173930",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/20967173930"
 }
