@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xed6fe1051827a92cd88bcda75cb18a0c1c6432a534b1175fa722f72329431df1",
+        "liquidity_num": 868589.0645,
+        "outcome_prices": [
+          0.525,
+          0.475
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Arsenal FC win on 2026-01-14?",
+        "slug": "efl-cfc-ars-2026-01-14-ars-win",
+        "volume24hr": 137954.3391049999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 42025.796399,
+        "price_range_accum_window": 1.155520124029863e-12,
+        "price_range_fast_window": 1.155520124029863e-12,
+        "top_net_wallet_accum_window": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 42025.796399,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "top_wallet_notional_accum_window": 42025.796399,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 42025.796399,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "100888715192521510603930570194563886380468738904819671385104481676838784371186",
+        "condition_id": "0xed6fe1051827a92cd88bcda75cb18a0c1c6432a534b1175fa722f72329431df1",
+        "event_slug": "efl-cfc-ars-2026-01-14",
+        "name": "beachboy4",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.5199999999988445,
+        "proxy_wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "pseudonym": "Threadbare-Skunk",
+        "side": "BUY",
+        "size": 69230.769229,
+        "slug": "efl-cfc-ars-2026-01-14-ars-win",
+        "timestamp": 1768419880,
+        "title": "Will Arsenal FC win on 2026-01-14?",
+        "trade_id": "f25bf84a3cc0bb0533531057a7101498d416e47f999f0799086d60b975992c1e",
+        "transaction_hash": "0xa2bbffed9d9f8da360655116de94ade848bdfcf1951cacb3008121e33d6e0152"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/efl-cfc-ars-2026-01-14-ars-win",
+      "wallet_stats": {
+        "avg_notional_7d": 140682.91936633334,
+        "first_seen_ts": 1768067278,
+        "proxy_wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x03cdd1d7132de0e52318a0afd9fc5ff75382fc8b7f4e607a5504f4948ded5a6c",
         "liquidity_num": 45390.7702,
         "outcome_prices": [
@@ -443,9 +517,9 @@
       }
     }
   ],
-  "generated_at": 1768415003,
+  "generated_at": 1768426052,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21005208974",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21005208974"
+  "workflow_run_id": "21010493712",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21010493712"
 }
