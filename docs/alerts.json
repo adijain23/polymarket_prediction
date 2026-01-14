@@ -2,6 +2,153 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x03cdd1d7132de0e52318a0afd9fc5ff75382fc8b7f4e607a5504f4948ded5a6c",
+        "liquidity_num": 45390.7702,
+        "outcome_prices": [
+          0.645,
+          0.355
+        ],
+        "outcomes": [
+          "Massachusetts Minutemen",
+          "Western Michigan Broncos"
+        ],
+        "question": "Massachusetts Minutemen vs. Western Michigan Broncos",
+        "slug": "cbb-umass-wmich-2026-01-13",
+        "volume24hr": 882.168558
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 211616.3076,
+        "price_range_accum_window": 0.00028236732296238465,
+        "price_range_fast_window": 0.00028236732296238465,
+        "top_net_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 211616.3076,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_wallet_notional_accum_window": 211616.3076,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 211616.3076,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "44308738334806869623603044484246965892763601321993799614516268445266086900005",
+        "condition_id": "0x03cdd1d7132de0e52318a0afd9fc5ff75382fc8b7f4e607a5504f4948ded5a6c",
+        "event_slug": "cbb-umass-wmich-2026-01-13",
+        "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+        "outcome": "Massachusetts Minutemen",
+        "outcome_index": 0,
+        "price": 0.6799982496495128,
+        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "pseudonym": "Multicolored-Self",
+        "side": "BUY",
+        "size": 77927.25,
+        "slug": "cbb-umass-wmich-2026-01-13",
+        "timestamp": 1768347016,
+        "title": "Massachusetts Minutemen vs. Western Michigan Broncos",
+        "trade_id": "b52aa785967bf009b1a34c02beced0373f27b4ce8146583ae2eaa6c9265d77e2",
+        "transaction_hash": "0x72d0193b90ee93530e52ec8056d27b48af9c98f127197d8c0852712904f36c3f"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cbb-umass-wmich-2026-01-13",
+      "wallet_stats": {
+        "avg_notional_7d": 123608.67601000001,
+        "first_seen_ts": 1767923612,
+        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "trades_7d": 10,
+        "trades_total": 10,
+        "unique_markets_7d": 9,
+        "unique_markets_total": 9
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
+        "liquidity_num": 8880361.74544,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "volume24hr": 6039548.418112008
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 63620.316000000006,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xce5bec63b40392845a9a504915f607c8e03a047a",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 40643.316,
+        "top_net_wallet_share_of_market_accum_window": 0.6388417812951447,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xce5bec63b40392845a9a504915f607c8e03a047a",
+        "top_wallet_notional_accum_window": 40643.316,
+        "top_wallet_share_accum_window": 0.6388417812951447,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 40643.316,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "extreme_price"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "42139849929574046088630785796780813725435914859433767469767950066058132350666",
+        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
+        "event_slug": "fed-decision-in-january",
+        "name": "Nexuus",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xce5bec63b40392845a9a504915f607c8e03a047a",
+        "pseudonym": "Educated-Jockey",
+        "side": "SELL",
+        "size": 20234.0,
+        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "timestamp": 1768341158,
+        "title": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+        "trade_id": "1f39ef10c115496d86dbd65b0eee63676dce67e08de739cb02b7b6d93ac65e87",
+        "transaction_hash": "0x28405145478b5e578d9356b7b64f8c5057cd1d518496b87354b6bb43143688ff"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+      "wallet_stats": {
+        "avg_notional_7d": 20321.658,
+        "first_seen_ts": 1768340530,
+        "proxy_wallet": "0xce5bec63b40392845a9a504915f607c8e03a047a",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd1047755d35a03b7ceea9923daae56ecf67784446daa63e87eebc471b4b9dbd9",
         "liquidity_num": 34674.0469,
         "outcome_prices": [
@@ -296,9 +443,9 @@
       }
     }
   ],
-  "generated_at": 1768339559,
+  "generated_at": 1768352705,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "20973155528",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/20973155528"
+  "workflow_run_id": "20978483628",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/20978483628"
 }
