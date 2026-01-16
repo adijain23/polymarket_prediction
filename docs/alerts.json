@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x1b0ccb1570442e3e0561f2665519e24535a601ddf9d778031e58e3064d4f4c64",
+        "liquidity_num": 13717.6568,
+        "outcome_prices": [
+          0.025,
+          0.975
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will AS Monaco FC win on 2026-01-16?",
+        "slug": "fl1-asm-lor-2026-01-16-asm",
+        "volume24hr": 63774.22758600002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 46398.88264,
+        "price_range_accum_window": 0.609,
+        "price_range_fast_window": 0.609,
+        "top_net_wallet_accum_window": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 32969.463,
+        "top_net_wallet_share_of_market_accum_window": 0.710565882713248,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+        "top_wallet_notional_accum_window": 32969.463,
+        "top_wallet_share_accum_window": 0.710565882713248,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 46398.88264,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "60528961208256900846720953121482048800330933168191987327399376942166043329049",
+        "condition_id": "0x1b0ccb1570442e3e0561f2665519e24535a601ddf9d778031e58e3064d4f4c64",
+        "event_slug": "fl1-asm-lor-2026-01-16",
+        "name": "BlackLabel",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xe06c5981ea05d611d91cfbf9954cf58d8f9062ae",
+        "pseudonym": "Functional-Polyp",
+        "side": "SELL",
+        "size": 4930.36,
+        "slug": "fl1-asm-lor-2026-01-16-asm",
+        "timestamp": 1768593106,
+        "title": "Will AS Monaco FC win on 2026-01-16?",
+        "trade_id": "5f5f642cfcab4464aa7c6ffded5d0cefd8f9cac0fd40f4814136fa9f1034412c",
+        "transaction_hash": "0xfc6f26c4b12e4f8c2398b7eca6d0b0148d301786d7dfa2888fdda8b0afd30bd3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fl1-asm-lor-2026-01-16-asm",
+      "wallet_stats": {
+        "avg_notional_7d": 4925.429639999999,
+        "first_seen_ts": 1768593106,
+        "proxy_wallet": "0xe06c5981ea05d611d91cfbf9954cf58d8f9062ae",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
         "liquidity_num": 8880361.74544,
         "outcome_prices": [
@@ -662,9 +735,9 @@
       }
     }
   ],
-  "generated_at": 1768588662,
+  "generated_at": 1768598543,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21076942853",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21076942853"
+  "workflow_run_id": "21081237438",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21081237438"
 }
