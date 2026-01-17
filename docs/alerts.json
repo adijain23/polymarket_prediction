@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x843fc1f23d8cfd3df343031312a8a3f0a930ad118c0c0e81a56c21f0ea9ff217",
+        "liquidity_num": 63004.8302,
+        "outcome_prices": [
+          0.115,
+          0.885
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "US strikes Iran by January 23, 2026?",
+        "slug": "us-strikes-iran-by-january-23-2026-494-711-798-734-155",
+        "volume24hr": 453109.14284199954
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 24579.964396000003,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.09133831163055062,
+        "top_net_wallet_accum_window": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 15508.699996000001,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
+        "top_wallet_notional_accum_window": 15508.699996000001,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 24579.964396000003,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "107096794127270890984101242570698639474010707625351397547174129311341989598349",
+        "condition_id": "0x843fc1f23d8cfd3df343031312a8a3f0a930ad118c0c0e81a56c21f0ea9ff217",
+        "event_slug": "us-strikes-iran-by",
+        "name": "revers4l",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.8961398674224954,
+        "proxy_wallet": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
+        "pseudonym": "Ashamed-Veal",
+        "side": "BUY",
+        "size": 17306.11544,
+        "slug": "us-strikes-iran-by-january-23-2026-494-711-798-734-155",
+        "timestamp": 1768628930,
+        "title": "US strikes Iran by January 23, 2026?",
+        "trade_id": "914e1ea6df3973b9eb138a4045541246a1adaba6464381f59e3cb878d0b05c91",
+        "transaction_hash": "0x73190892370bf6a623f503f0bbd8668beb147bdb4d871d3909d69f77c5976b92"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/us-strikes-iran-by-january-23-2026-494-711-798-734-155",
+      "wallet_stats": {
+        "avg_notional_7d": 15508.699996000001,
+        "first_seen_ts": 1768628930,
+        "proxy_wallet": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1b0ccb1570442e3e0561f2665519e24535a601ddf9d778031e58e3064d4f4c64",
         "liquidity_num": 13717.6568,
         "outcome_prices": [
@@ -735,9 +807,9 @@
       }
     }
   ],
-  "generated_at": 1768622203,
+  "generated_at": 1768631903,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21088056064",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21088056064"
+  "workflow_run_id": "21090096547",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21090096547"
 }
