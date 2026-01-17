@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
+        "liquidity_num": 8880361.74544,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "volume24hr": 6039548.418112008
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 70420.730779,
+        "price_range_accum_window": 0.0010000000000000009,
+        "price_range_fast_window": 0.0010000000000000009,
+        "top_net_wallet_accum_window": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 13533.70834,
+        "top_net_wallet_share_of_market_accum_window": 0.4541099283021208,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
+        "top_wallet_notional_accum_window": 13533.70834,
+        "top_wallet_share_accum_window": 0.4541099283021208,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 70420.730779,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "42139849929574046088630785796780813725435914859433767469767950066058132350666",
+        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
+        "event_slug": "fed-decision-in-january",
+        "name": "RenzoProtocol",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.998,
+        "proxy_wallet": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
+        "pseudonym": "Able-Keyboard",
+        "side": "SELL",
+        "size": 13560.83,
+        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "timestamp": 1768639224,
+        "title": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+        "trade_id": "4cbfb6b366597cef422a9e37899ddca42042c64f21332b1fa001ce3a334df6ad",
+        "transaction_hash": "0xa959e89dfc4fbe0d346de4fca95f0eb2891388049a7d4565158b8aa42ed70107"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+      "wallet_stats": {
+        "avg_notional_7d": 13533.70834,
+        "first_seen_ts": 1768639224,
+        "proxy_wallet": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x843fc1f23d8cfd3df343031312a8a3f0a930ad118c0c0e81a56c21f0ea9ff217",
         "liquidity_num": 63004.8302,
         "outcome_prices": [
@@ -807,9 +880,9 @@
       }
     }
   ],
-  "generated_at": 1768631903,
+  "generated_at": 1768641453,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21090096547",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21090096547"
+  "workflow_run_id": "21092010036",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21092010036"
 }
