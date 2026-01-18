@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x549738ac5670af45f638ba8cfb70144536f939edcdeae93fca2c3dbfcac5405b",
+        "liquidity_num": 17556.74343,
+        "outcome_prices": [
+          0.019,
+          0.981
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Juventus FC win on 2026-01-17?",
+        "slug": "sea-cag-juv-2026-01-17-juv",
+        "volume24hr": 54190.58719299999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 15844.469249,
+        "price_range_accum_window": 0.639,
+        "price_range_fast_window": 0.639,
+        "top_net_wallet_accum_window": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 6274.46925,
+        "top_net_wallet_share_of_market_accum_window": 0.39600375067129523,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
+        "top_wallet_notional_accum_window": 6274.46925,
+        "top_wallet_share_accum_window": 0.39600375067129523,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 15844.469249,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "98973084904726294176858484691428160988022011351380877678384134838288605931898",
+        "condition_id": "0x549738ac5670af45f638ba8cfb70144536f939edcdeae93fca2c3dbfcac5405b",
+        "event_slug": "sea-cag-juv-2026-01-17",
+        "name": "olegio",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
+        "pseudonym": "Pushy-Program",
+        "side": "SELL",
+        "size": 6280.75,
+        "slug": "sea-cag-juv-2026-01-17-juv",
+        "timestamp": 1768686172,
+        "title": "Will Juventus FC win on 2026-01-17?",
+        "trade_id": "f38562e27a191f6ead0735eb51688ca17ab01070ef51bf50e4aeafa4978280e5",
+        "transaction_hash": "0xc28b6b150bf5cc1c84e2d49fcd0c94572e7a4d57831cc6022781bd4664e89370"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/sea-cag-juv-2026-01-17-juv",
+      "wallet_stats": {
+        "avg_notional_7d": 6274.46925,
+        "first_seen_ts": 1768686172,
+        "proxy_wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd4551b6c64a42d3feef54a23bc3d19d5dc8bf9361084ade4ca39d782d6dde478",
         "liquidity_num": 33818.13967,
         "outcome_prices": [
@@ -1096,9 +1168,9 @@
       }
     }
   ],
-  "generated_at": 1768684632,
+  "generated_at": 1768698059,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21100994609",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21100994609"
+  "workflow_run_id": "21103600378",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21103600378"
 }
