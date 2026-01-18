@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x84758bb59a632c79f543672201ec79fbc8f456ca8b01225c442e39f5e0da19e1",
+        "liquidity_num": 27400.1146,
+        "outcome_prices": [
+          0.065,
+          0.935
+        ],
+        "outcomes": [
+          "Anyone's Legend",
+          "JD Gaming"
+        ],
+        "question": "LoL: Anyone's Legend vs JD Gaming (BO3)",
+        "slug": "lol-al-jdg-2026-01-18",
+        "volume24hr": 70540.68243199999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 10379.128098000001,
+        "price_range_accum_window": 0.6363831921908493,
+        "price_range_fast_window": 0.6363831921908493,
+        "top_net_wallet_accum_window": "0x6683dc5307a8cc191a05d2741d34182a6b05de6b",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 5499.999998,
+        "top_net_wallet_share_of_market_accum_window": 0.5299096365387204,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x6683dc5307a8cc191a05d2741d34182a6b05de6b",
+        "top_wallet_notional_accum_window": 5499.999998,
+        "top_wallet_share_accum_window": 0.5299096365387204,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 10379.128098000001,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "28613222429111443709326756172985183159179537788502217519464059661529500311945",
+        "condition_id": "0x84758bb59a632c79f543672201ec79fbc8f456ca8b01225c442e39f5e0da19e1",
+        "event_slug": "lol-al-jdg-2026-01-18",
+        "name": "elPolloLoco",
+        "outcome": "JD Gaming",
+        "outcome_index": 1,
+        "price": 0.9374573649666451,
+        "proxy_wallet": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "pseudonym": "Pessimistic-Abdomen",
+        "side": "BUY",
+        "size": 5204.64,
+        "slug": "lol-al-jdg-2026-01-18",
+        "timestamp": 1768744698,
+        "title": "LoL: Anyone's Legend vs JD Gaming (BO3)",
+        "trade_id": "60e69fbeb3bbad75fc7755956726cc1a3d1c65bec43cc232388a3ec4de0e3619",
+        "transaction_hash": "0x87da667c3973601ca3181e7aad7b581f3bedb6db2e56434998fc29835e0b23f7"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-al-jdg-2026-01-18",
+      "wallet_stats": {
+        "avg_notional_7d": 6910.803865999999,
+        "first_seen_ts": 1768391598,
+        "proxy_wallet": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 4
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x549738ac5670af45f638ba8cfb70144536f939edcdeae93fca2c3dbfcac5405b",
         "liquidity_num": 17556.74343,
         "outcome_prices": [
@@ -1168,9 +1239,9 @@
       }
     }
   ],
-  "generated_at": 1768739379,
+  "generated_at": 1768749760,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21111741937",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21111741937"
+  "workflow_run_id": "21114055518",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21114055518"
 }
