@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xe8fb90db70908f0ac690bf2c8648a80d1784fb36e2e6cd42ac71841f2a1a5f1e",
+        "liquidity_num": 293575.26586,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Top Esports",
+          "Weibo Gaming"
+        ],
+        "question": "LoL: Top Esports vs Weibo Gaming - Game 1 Winner",
+        "slug": "lol-tes-wb-2026-01-19-game1",
+        "volume24hr": 1851.908639
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 4380.67439,
+        "price_range_accum_window": 0.5889537398782655,
+        "price_range_fast_window": 0.5889537398782655,
+        "top_net_wallet_accum_window": "0xe79547fad69ab28a48a49c6424975abc3cef8cae",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 2370.7763,
+        "top_net_wallet_share_of_market_accum_window": 0.5411898006872864,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe79547fad69ab28a48a49c6424975abc3cef8cae",
+        "top_wallet_notional_accum_window": 2370.7763,
+        "top_wallet_share_accum_window": 0.5411898006872864,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 4380.67439,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "115156613457007473796859971616533335851255193684087653207898421415507646615502",
+        "condition_id": "0xe8fb90db70908f0ac690bf2c8648a80d1784fb36e2e6cd42ac71841f2a1a5f1e",
+        "event_slug": "lol-tes-wb-2026-01-19",
+        "name": "sipro",
+        "outcome": "Top Esports",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xa77fe4715aad1905735492424d56da359ecbe578",
+        "pseudonym": "Exhausted-Heritage",
+        "side": "SELL",
+        "size": 2011.91,
+        "slug": "lol-tes-wb-2026-01-19-game1",
+        "timestamp": 1768819868,
+        "title": "LoL: Top Esports vs Weibo Gaming - Game 1 Winner",
+        "trade_id": "eecb4bb69a789ede83804625236a63495c9f5bed9af340aca811e725a067684c",
+        "transaction_hash": "0xc8698daa4473afb21c53cc10bba69353d7962b8f7522fbe2e98d681736bd5b9e"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-tes-wb-2026-01-19-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 2009.8980900000001,
+        "first_seen_ts": 1768819868,
+        "proxy_wallet": "0xa77fe4715aad1905735492424d56da359ecbe578",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x17815081230e3b9c78b098162c33b1ffa68c4ec29c123d3d14989599e0c2e113",
         "liquidity_num": 5511917.74417,
         "outcome_prices": [
@@ -1461,9 +1533,9 @@
       }
     }
   ],
-  "generated_at": 1768814687,
+  "generated_at": 1768827212,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21132038754",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21132038754"
+  "workflow_run_id": "21138216074",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21138216074"
 }
