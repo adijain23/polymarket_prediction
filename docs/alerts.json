@@ -18,6 +18,82 @@
       },
       "metrics": {
         "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 1822452.0590649997,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 2.843281166065026e-13,
+        "top_net_wallet_accum_window": "0x4e09ac04b37800d7643cee48642c646c1b9dd784",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 1764690.0,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 3,
+        "top_wallet_accum_window": "0x4e09ac04b37800d7643cee48642c646c1b9dd784",
+        "top_wallet_notional_accum_window": 1764690.0,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 3,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 1764690.0,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 14,
+      "trade": {
+        "asset": "71478852790279095447182996049071040792010759617668969799049179229104800573786",
+        "condition_id": "0x17815081230e3b9c78b098162c33b1ffa68c4ec29c123d3d14989599e0c2e113",
+        "event_slug": "fed-decision-in-january",
+        "name": "scottxia1988",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.997,
+        "proxy_wallet": "0x4e09ac04b37800d7643cee48642c646c1b9dd784",
+        "pseudonym": "Gray-Boot",
+        "side": "BUY",
+        "size": 503778.1,
+        "slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+        "timestamp": 1768798360,
+        "title": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+        "trade_id": "a8b9e81e4028e6ca0bb7c8774967e96880515833a173dd01e21576e1b7ce4721",
+        "transaction_hash": "0xc9eeb698e2eb2226fabae9ad91113052d4dcf3f10fcffc446566c0948b45988a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+      "wallet_stats": {
+        "avg_notional_7d": 588230.0,
+        "first_seen_ts": 1768798358,
+        "proxy_wallet": "0x4e09ac04b37800d7643cee48642c646c1b9dd784",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x17815081230e3b9c78b098162c33b1ffa68c4ec29c123d3d14989599e0c2e113",
+        "liquidity_num": 5511917.74417,
+        "outcome_prices": [
+          0.0025,
+          0.9975
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+        "slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+        "volume24hr": 5220318.671724005
+      },
+      "metrics": {
+        "accum_window_s": 21600,
         "event_type": "fast_move",
         "fast_window_s": 86400,
         "notional_fast_window": 57726.09653000001,
@@ -1385,9 +1461,9 @@
       }
     }
   ],
-  "generated_at": 1768795088,
+  "generated_at": 1768804067,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21124794777",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21124794777"
+  "workflow_run_id": "21127574357",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21127574357"
 }
