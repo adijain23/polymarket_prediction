@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x6d9ca1a9c8243ba3ba7e86794eaf85b33bef3852b241e969c28b038e93aa8bb2",
+        "liquidity_num": 127365.2347,
+        "outcome_prices": [
+          0.505,
+          0.495
+        ],
+        "outcomes": [
+          "Up",
+          "Down"
+        ],
+        "question": "Bitcoin Up or Down - January 21, 12PM ET",
+        "slug": "bitcoin-up-or-down-january-21-12pm-et",
+        "volume24hr": 400.0
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 53282.5,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xc043ee62e9182eb2f050e173c7cfdd9f6bccd2da",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 19765.0,
+        "top_net_wallet_share_of_market_accum_window": 0.37094730915403745,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xc043ee62e9182eb2f050e173c7cfdd9f6bccd2da",
+        "top_wallet_notional_accum_window": 19765.0,
+        "top_wallet_share_accum_window": 0.37094730915403745,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 53282.5,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "19962749110534228276518402659829589163476556065521975681913482475174187918612",
+        "condition_id": "0x6d9ca1a9c8243ba3ba7e86794eaf85b33bef3852b241e969c28b038e93aa8bb2",
+        "event_slug": "bitcoin-up-or-down-january-21-12pm-et",
+        "name": "LunarLure",
+        "outcome": "Down",
+        "outcome_index": 1,
+        "price": 0.5,
+        "proxy_wallet": "0xc043ee62e9182eb2f050e173c7cfdd9f6bccd2da",
+        "pseudonym": "Rotten-Essential",
+        "side": "BUY",
+        "size": 39530.0,
+        "slug": "bitcoin-up-or-down-january-21-12pm-et",
+        "timestamp": 1769007184,
+        "title": "Bitcoin Up or Down - January 21, 12PM ET",
+        "trade_id": "e535553b82e0704a257fed9dfaa03df4e2bab0badcfbc80ad68cbb762a9830e6",
+        "transaction_hash": "0x16a04a43c37a404acc5482eb5a44e34b747f42bf78e73e8d96f432f12a56e5bc"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/bitcoin-up-or-down-january-21-12pm-et",
+      "wallet_stats": {
+        "avg_notional_7d": 19765.0,
+        "first_seen_ts": 1769007184,
+        "proxy_wallet": "0xc043ee62e9182eb2f050e173c7cfdd9f6bccd2da",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9f831543cff7e4dafe5c80650714dadf348b8881ad041b793ffe77b05212648d",
         "liquidity_num": 14234.8091,
         "outcome_prices": [
@@ -1677,9 +1749,9 @@
       }
     }
   ],
-  "generated_at": 1769000622,
+  "generated_at": 1769008961,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21210618581",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21210618581"
+  "workflow_run_id": "21215142931",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21215142931"
 }
