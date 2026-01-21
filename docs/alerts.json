@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xdece3c9a32a0244f9dc4622feadd31f74dec86b02399454db743cc59a5e23eb2",
+        "liquidity_num": 377979.89665,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Villarreal CF win on 2026-01-20?",
+        "slug": "ucl-vil1-aja-2026-01-20-vil1",
+        "volume24hr": 277381.33764499985
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 14941.298197999999,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.709,
+        "top_net_wallet_accum_window": "0xba8179e81c9ced0c5cec89a6df6b63a907e7dc35",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 9690.3,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xba8179e81c9ced0c5cec89a6df6b63a907e7dc35",
+        "top_wallet_notional_accum_window": 9690.3,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 14941.298197999999,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "101332409402578985509542214130553909196942369261369350044116647140149881633025",
+        "condition_id": "0xdece3c9a32a0244f9dc4622feadd31f74dec86b02399454db743cc59a5e23eb2",
+        "event_slug": "ucl-vil1-aja-2026-01-20",
+        "name": "ogwieny2",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xba8179e81c9ced0c5cec89a6df6b63a907e7dc35",
+        "pseudonym": "Sunny-Honeybee",
+        "side": "SELL",
+        "size": 9700.0,
+        "slug": "ucl-vil1-aja-2026-01-20-vil1",
+        "timestamp": 1768953396,
+        "title": "Will Villarreal CF win on 2026-01-20?",
+        "trade_id": "4386c86d28ac2ff30960936db038c869c1514e34d33591aac42c2447f5e4fd87",
+        "transaction_hash": "0xe810aa7c6dbf3b31c747689e08b43b452fba890d146d8f702c8213b5864e1604"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/ucl-vil1-aja-2026-01-20-vil1",
+      "wallet_stats": {
+        "avg_notional_7d": 9690.3,
+        "first_seen_ts": 1768953396,
+        "proxy_wallet": "0xba8179e81c9ced0c5cec89a6df6b63a907e7dc35",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xe8fb90db70908f0ac690bf2c8648a80d1784fb36e2e6cd42ac71841f2a1a5f1e",
         "liquidity_num": 293575.26586,
         "outcome_prices": [
@@ -1533,9 +1605,9 @@
       }
     }
   ],
-  "generated_at": 1768943416,
+  "generated_at": 1768960636,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21187351389",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21187351389"
+  "workflow_run_id": "21194377659",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21194377659"
 }
