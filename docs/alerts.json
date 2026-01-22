@@ -1821,9 +1821,9 @@
       }
     }
   ],
-  "generated_at": 1769040027,
-  "new_alerts": 1,
+  "generated_at": 1769054332,
+  "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21230343503",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21230343503"
+  "workflow_run_id": "21235494989",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21235494989"
 }
