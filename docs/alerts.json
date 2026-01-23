@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xb0f0551126b7918a6cef68612dd87baa6ae9a16a45e88f15ba2921339c00c51c",
+        "liquidity_num": 24177.2487,
+        "outcome_prices": [
+          0.28,
+          0.72
+        ],
+        "outcomes": [
+          "JD Gaming",
+          "Bilibili Gaming"
+        ],
+        "question": "LoL: JD Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+        "slug": "lol-jdg-blg-2026-01-23",
+        "volume24hr": 360128.2099260002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 43626.425998,
+        "price_range_accum_window": 0.17798489865765593,
+        "price_range_fast_window": 0.2079848986576559,
+        "top_net_wallet_accum_window": "0x22d04f62e0540e4c943458e74e95030a5fb16293",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 6126.426000000001,
+        "top_net_wallet_share_of_market_accum_window": 0.5052128303104663,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x22d04f62e0540e4c943458e74e95030a5fb16293",
+        "top_wallet_notional_accum_window": 6126.426000000001,
+        "top_wallet_share_accum_window": 0.5052128303104663,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 43626.425998,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "2105989056202399883484511789385249734920523289567184759377918541125405051883",
+        "condition_id": "0xb0f0551126b7918a6cef68612dd87baa6ae9a16a45e88f15ba2921339c00c51c",
+        "event_slug": "lol-jdg-blg-2026-01-23",
+        "name": "retroactivesource",
+        "outcome": "Bilibili Gaming",
+        "outcome_index": 1,
+        "price": 0.8379848986576559,
+        "proxy_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "pseudonym": "Black-And-White-Catalogue",
+        "side": "BUY",
+        "size": 7160.033561,
+        "slug": "lol-jdg-blg-2026-01-23",
+        "timestamp": 1769175272,
+        "title": "LoL: JD Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
+        "trade_id": "88392050ca481baba0c93d67f52906acea153b4b3333fe2970de5f2dff08ef5a",
+        "transaction_hash": "0xaf99e4e07396b514c1aeb536a3b9393ce43276ed68c0e110ea6a6cb91915251f"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-jdg-blg-2026-01-23",
+      "wallet_stats": {
+        "avg_notional_7d": 5999.999998,
+        "first_seen_ts": 1769175272,
+        "proxy_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc04741da1290eaf4b8b362d1183e23fa0231a37026b13d3073c4417ce7f9d407",
         "liquidity_num": 5541.3597,
         "outcome_prices": [
@@ -1965,9 +2037,9 @@
       }
     }
   ],
-  "generated_at": 1769172796,
+  "generated_at": 1769181769,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21286821866",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21286821866"
+  "workflow_run_id": "21291262188",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21291262188"
 }
