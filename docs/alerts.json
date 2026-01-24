@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x67380827288e5007453855c611af240d21c479dfbd0220c4ad7e645b83bf42ed",
+        "liquidity_num": 21240.2847,
+        "outcome_prices": [
+          0.245,
+          0.755
+        ],
+        "outcomes": [
+          "Top Esports",
+          "Anyone's Legend"
+        ],
+        "question": "LoL: Top Esports vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "slug": "lol-tes-al-2026-01-24",
+        "volume24hr": 183367.35746499995
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 20355.035693,
+        "price_range_accum_window": 0.24704646720617662,
+        "price_range_fast_window": 0.24704646720617662,
+        "top_net_wallet_accum_window": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 14699.999993000001,
+        "top_net_wallet_share_of_market_accum_window": 0.722180015535677,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "top_wallet_notional_accum_window": 14699.999993000001,
+        "top_wallet_share_accum_window": 0.722180015535677,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 20355.035693,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "68719078006344649026751398594602845072833758422751254199339749746796132995419",
+        "condition_id": "0x67380827288e5007453855c611af240d21c479dfbd0220c4ad7e645b83bf42ed",
+        "event_slug": "lol-tes-al-2026-01-24",
+        "name": "elPolloLoco",
+        "outcome": "Anyones Legend",
+        "outcome_index": 1,
+        "price": 0.9570464672061766,
+        "proxy_wallet": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "pseudonym": "Pessimistic-Abdomen",
+        "side": "BUY",
+        "size": 15359.755766,
+        "slug": "lol-tes-al-2026-01-24",
+        "timestamp": 1769254008,
+        "title": "LoL: Top Esports vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "trade_id": "c91136bba004f3fe129fd4f088279efbe7edb91a33a0b98a5e8d4aa15d8d06b9",
+        "transaction_hash": "0x429d44900f6f336d656674bd549e4c0f74547528dd9a8a7da5f53d798a62f5a9"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-tes-al-2026-01-24",
+      "wallet_stats": {
+        "avg_notional_7d": 8311.27959825,
+        "first_seen_ts": 1768744698,
+        "proxy_wallet": "0xa2f1fecf1cc7db65a46588f764b6691533052d22",
+        "trades_7d": 4,
+        "trades_total": 4,
+        "unique_markets_7d": 4,
+        "unique_markets_total": 7
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xfa8750906a1e4d018a0f8e0a6cbac21442943280751b9e5887b8daed1918ebf0",
         "liquidity_num": 25468.32489,
         "outcome_prices": [
@@ -2108,9 +2180,9 @@
       }
     }
   ],
-  "generated_at": 1769245979,
+  "generated_at": 1769258401,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21312757503",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21312757503"
+  "workflow_run_id": "21315232599",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21315232599"
 }
