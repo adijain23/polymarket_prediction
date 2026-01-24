@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x139f214609cd16e37baa53e56516388b291818d39630d5019aa5d7a3fc2fca9b",
+        "liquidity_num": 200106.98333,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Cilic",
+          "Ruud"
+        ],
+        "question": "Australian Open Men's: Marin Cilic vs Casper Ruud",
+        "slug": "atp-cilic-ruud-2026-01-24",
+        "volume24hr": 114248.47511899994
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 21780.405908,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.28025099599276215,
+        "top_net_wallet_accum_window": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 11672.40591,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+        "top_wallet_notional_accum_window": 11672.40591,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 21780.405908,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "56413667639665407086608670115183984971117210814467961288311468676115028291896",
+        "condition_id": "0x139f214609cd16e37baa53e56516388b291818d39630d5019aa5d7a3fc2fca9b",
+        "event_slug": "atp-cilic-ruud-2026-01-24",
+        "name": "coinlaundry",
+        "outcome": "Ruud",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+        "pseudonym": "Hefty-Metabolite",
+        "side": "SELL",
+        "size": 11684.09,
+        "slug": "atp-cilic-ruud-2026-01-24",
+        "timestamp": 1769262848,
+        "title": "Australian Open Men's: Marin Cilic vs Casper Ruud",
+        "trade_id": "12eb253e617617cc9992e888782f45ce8c12a80f4b02ab8e5e639cb343342210",
+        "transaction_hash": "0xc70057b4ec36c53b78fcf4779068b1e35637a77159e0b4129525cf1c6a98bd35"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-cilic-ruud-2026-01-24",
+      "wallet_stats": {
+        "avg_notional_7d": 11672.40591,
+        "first_seen_ts": 1769262848,
+        "proxy_wallet": "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x67380827288e5007453855c611af240d21c479dfbd0220c4ad7e645b83bf42ed",
         "liquidity_num": 21240.2847,
         "outcome_prices": [
@@ -2180,9 +2253,9 @@
       }
     }
   ],
-  "generated_at": 1769258401,
+  "generated_at": 1769268141,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21315232599",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21315232599"
+  "workflow_run_id": "21317272131",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21317272131"
 }
