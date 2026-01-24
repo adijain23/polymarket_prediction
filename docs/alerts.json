@@ -2,6 +2,151 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x40ecc299398583333d01bb7e5066fe1ca03307276eaae0246f3807eb705f48b4",
+        "liquidity_num": 240225.36047,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Stade Rennais FC 1901 win on 2026-01-24?",
+        "slug": "fl1-ren-lor-2026-01-24-ren",
+        "volume24hr": 156317.40984900002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6407.43,
+        "price_range_accum_window": 0.519,
+        "price_range_fast_window": 0.519,
+        "top_net_wallet_accum_window": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 4259.58,
+        "top_net_wallet_share_of_market_accum_window": 0.6647875981477753,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
+        "top_wallet_notional_accum_window": 4259.58,
+        "top_wallet_share_accum_window": 0.6647875981477753,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6407.43,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "3303060769947577032375017342705745193121842121762857571448202940432234529945",
+        "condition_id": "0x40ecc299398583333d01bb7e5066fe1ca03307276eaae0246f3807eb705f48b4",
+        "event_slug": "fl1-ren-lor-2026-01-24",
+        "name": null,
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x19ede0cbe4fbd49aa1f73e907526a0a581486dc8",
+        "pseudonym": null,
+        "side": "SELL",
+        "size": 2150.0,
+        "slug": "fl1-ren-lor-2026-01-24-ren",
+        "timestamp": 1769287708,
+        "title": "Will Stade Rennais FC 1901 win on 2026-01-24?",
+        "trade_id": "3d9c563704c985bc764c1fdfccff334d2e2526b6d1947ce12af36914c7b4c763",
+        "transaction_hash": "0xd2639d68f3c41f47506bde1a1f9f1e965d2eec644a87aef99c43f301e70bd433"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fl1-ren-lor-2026-01-24-ren",
+      "wallet_stats": {
+        "avg_notional_7d": 3201.8089333333337,
+        "first_seen_ts": 1768845204,
+        "proxy_wallet": "0x19ede0cbe4fbd49aa1f73e907526a0a581486dc8",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x502da6826885f05ad07398a23ffddc58e8b0c80d80c180a34d41583c24667fe5",
+        "liquidity_num": 12876.1429,
+        "outcome_prices": [
+          0.435,
+          0.565
+        ],
+        "outcomes": [
+          "Bethune-Cookman Wildcats",
+          "Jackson State Tigers"
+        ],
+        "question": "Spread: Bethune-Cookman Wildcats (-9.5)",
+        "slug": "cbb-jackst-bcook-2026-01-24-spread-home-9pt5",
+        "volume24hr": null
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 61583.71890000001,
+        "price_range_accum_window": 0.0018325344304878644,
+        "price_range_fast_window": 0.0018325344304878644,
+        "top_net_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 61583.71890000001,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_wallet_notional_accum_window": 61583.71890000001,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 61583.71890000001,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "20684949126760428290825930214672117998186859625089304085722978266674549180221",
+        "condition_id": "0x502da6826885f05ad07398a23ffddc58e8b0c80d80c180a34d41583c24667fe5",
+        "event_slug": "cbb-jackst-bcook-2026-01-24",
+        "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
+        "outcome": "Bethune-Cookman Wildcats",
+        "outcome_index": 0,
+        "price": 0.46999494308478806,
+        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "pseudonym": "Multicolored-Self",
+        "side": "BUY",
+        "size": 100337.85,
+        "slug": "cbb-jackst-bcook-2026-01-24-spread-home-9pt5",
+        "timestamp": 1769286984,
+        "title": "Spread: Bethune-Cookman Wildcats (-9.5)",
+        "trade_id": "04b77004ed17aa3b351f26b82fab64c16b18f82bb57a8432c84e57be7d2b032e",
+        "transaction_hash": "0x3624768c6bf332058f11ec88dcd0a9cec426c64a294e541980d3b8650a8ad6c2"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cbb-jackst-bcook-2026-01-24-spread-home-9pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 86325.21312500001,
+        "first_seen_ts": 1768682754,
+        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "trades_7d": 12,
+        "trades_total": 12,
+        "unique_markets_7d": 10,
+        "unique_markets_total": 22
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xcc1cab3c19f766793c884c7178eb18fe923614d0f67f0a01a3169c93dbf45cbd",
         "liquidity_num": 997.1656,
         "outcome_prices": [
@@ -2397,9 +2542,9 @@
       }
     }
   ],
-  "generated_at": 1769279519,
+  "generated_at": 1769289604,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21319659520",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21319659520"
+  "workflow_run_id": "21321787360",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21321787360"
 }
