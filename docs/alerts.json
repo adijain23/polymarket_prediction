@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xfa8750906a1e4d018a0f8e0a6cbac21442943280751b9e5887b8daed1918ebf0",
+        "liquidity_num": 25468.32489,
+        "outcome_prices": [
+          0.022,
+          0.978
+        ],
+        "outcomes": [
+          "Spizzirri",
+          "Sinner"
+        ],
+        "question": "Australian Open Men's: Eliot Spizzirri vs Jannik Sinner",
+        "slug": "atp-spizzir-sinner-2026-01-24",
+        "volume24hr": 236660.41386800003
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 16836.545599999998,
+        "price_range_accum_window": 0.37,
+        "price_range_fast_window": 0.37,
+        "top_net_wallet_accum_window": "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 8677.503599999998,
+        "top_net_wallet_share_of_market_accum_window": 0.5153969113474203,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+        "top_wallet_notional_accum_window": 8677.503599999998,
+        "top_wallet_share_accum_window": 0.5153969113474203,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 16836.545599999998,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "29380310224996992529208533195082143660778176643535521403760351787968805996119",
+        "condition_id": "0xfa8750906a1e4d018a0f8e0a6cbac21442943280751b9e5887b8daed1918ebf0",
+        "event_slug": "atp-spizzir-sinner-2026-01-24",
+        "name": "phonesculptor",
+        "outcome": "Sinner",
+        "outcome_index": 1,
+        "price": 0.97,
+        "proxy_wallet": "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+        "pseudonym": "Distant-Tunnel",
+        "side": "BUY",
+        "size": 8945.88,
+        "slug": "atp-spizzir-sinner-2026-01-24",
+        "timestamp": 1769230760,
+        "title": "Australian Open Men's: Eliot Spizzirri vs Jannik Sinner",
+        "trade_id": "200f266ba09c4db4661df6255d0c043ed6fc902d5dcfdf6e5dfaebeca1bc86a8",
+        "transaction_hash": "0x6b51ea0a8170079b79dc8c1096edc3a3accb21c54e7ef8618a63ec40caf31917"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-spizzir-sinner-2026-01-24",
+      "wallet_stats": {
+        "avg_notional_7d": 8490.001799999998,
+        "first_seen_ts": 1769142752,
+        "proxy_wallet": "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xb0f0551126b7918a6cef68612dd87baa6ae9a16a45e88f15ba2921339c00c51c",
         "liquidity_num": 24177.2487,
         "outcome_prices": [
@@ -2037,9 +2108,9 @@
       }
     }
   ],
-  "generated_at": 1769223885,
+  "generated_at": 1769235890,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21308114075",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21308114075"
+  "workflow_run_id": "21310658222",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21310658222"
 }
