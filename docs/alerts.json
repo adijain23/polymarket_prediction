@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7cc8a449a467addba0aba537c2312149b98a9d40aea142c9d40cad5f8ac7e767",
+        "liquidity_num": 13539.7816,
+        "outcome_prices": [
+          0.935,
+          0.065
+        ],
+        "outcomes": [
+          "T1",
+          "BNK FEARX"
+        ],
+        "question": "LoL: T1 vs BNK FEARX (BO3) - LCK Cup Group Stage",
+        "slug": "lol-t1-fox1-2026-01-25",
+        "volume24hr": 447921.1886669999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12458.1991,
+        "price_range_accum_window": 0.25073485321571853,
+        "price_range_fast_window": 0.25073485321571853,
+        "top_net_wallet_accum_window": "0x1835ea8b147157e90c298c550f3f0f4d8543b828",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 9550.31,
+        "top_net_wallet_share_of_market_accum_window": 0.7665883265583707,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x1835ea8b147157e90c298c550f3f0f4d8543b828",
+        "top_wallet_notional_accum_window": 9550.31,
+        "top_wallet_share_accum_window": 0.7665883265583707,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 12458.1991,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "35706489463905798377206276908448279262252632810990716119761574211765419066022",
+        "condition_id": "0x7cc8a449a467addba0aba537c2312149b98a9d40aea142c9d40cad5f8ac7e767",
+        "event_slug": "lol-t1-fox1-2026-01-25",
+        "name": "0xeD2c371514045D7292b8Cbc5234ED2317a709597-1765450442089",
+        "outcome": "T1",
+        "outcome_index": 0,
+        "price": 0.9507348532157185,
+        "proxy_wallet": "0xed2c371514045d7292b8cbc5234ed2317a709597",
+        "pseudonym": "Stormy-Sherbet",
+        "side": "BUY",
+        "size": 3058.57,
+        "slug": "lol-t1-fox1-2026-01-25",
+        "timestamp": 1769337624,
+        "title": "LoL: T1 vs BNK FEARX (BO3) - LCK Cup Group Stage",
+        "trade_id": "5a438b16098f1924e40c5e8c9eb6806b32c201d6691020c0a79b9b97ec1e60ee",
+        "transaction_hash": "0x5bb31efa45ce16d8b833d02a07c67a0babdafa56c6dc120e03107f73913921b2"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-t1-fox1-2026-01-25",
+      "wallet_stats": {
+        "avg_notional_7d": 2766.2939666666666,
+        "first_seen_ts": 1768755328,
+        "proxy_wallet": "0xed2c371514045d7292b8cbc5234ed2317a709597",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 4
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x395be77c2c7579c2b15c86e635285d5fe0187fa6d6cf42682adc7078533c7583",
         "liquidity_num": 16401.8418,
         "outcome_prices": [
@@ -2830,9 +2902,9 @@
       }
     }
   ],
-  "generated_at": 1769331642,
+  "generated_at": 1769345445,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21330035695",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21330035695"
+  "workflow_run_id": "21332878160",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21332878160"
 }
