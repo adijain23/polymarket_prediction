@@ -2,6 +2,294 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x395be77c2c7579c2b15c86e635285d5fe0187fa6d6cf42682adc7078533c7583",
+        "liquidity_num": 16401.8418,
+        "outcome_prices": [
+          0.445,
+          0.555
+        ],
+        "outcomes": [
+          "Alabama Crimson Tide",
+          "Tennessee Volunteers"
+        ],
+        "question": "Spread: Alabama Crimson Tide (-5.5)",
+        "slug": "cbb-tenn-ala-2026-01-24-spread-home-5pt5",
+        "volume24hr": null
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 31666.35,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x1af1dfc2c523af1d7551597c985277cd11b30f7b",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 31666.35,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 5,
+        "top_wallet_accum_window": "0x1af1dfc2c523af1d7551597c985277cd11b30f7b",
+        "top_wallet_notional_accum_window": 31666.35,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 5,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 31666.35,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "59383676185569473636802916633192852994280042328489757397918205792886301743369",
+        "condition_id": "0x395be77c2c7579c2b15c86e635285d5fe0187fa6d6cf42682adc7078533c7583",
+        "event_slug": "cbb-tenn-ala-2026-01-24",
+        "name": "Pimping",
+        "outcome": "Tennessee Volunteers",
+        "outcome_index": 1,
+        "price": 0.57,
+        "proxy_wallet": "0x1af1dfc2c523af1d7551597c985277cd11b30f7b",
+        "pseudonym": "Failing-Lapdog",
+        "side": "BUY",
+        "size": 11111.0,
+        "slug": "cbb-tenn-ala-2026-01-24-spread-home-5pt5",
+        "timestamp": 1769298344,
+        "title": "Spread: Alabama Crimson Tide (-5.5)",
+        "trade_id": "72d7f56d944ca7d2f02e331f7455dd97ea6bbf6eeab570032e0880f284cf1154",
+        "transaction_hash": "0x63b36c6cf49d5755eaa814190ecbc7ec390c8117edc694caad2915411067f614"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cbb-tenn-ala-2026-01-24-spread-home-5pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 6131.201433333333,
+        "first_seen_ts": 1769125116,
+        "proxy_wallet": "0x1af1dfc2c523af1d7551597c985277cd11b30f7b",
+        "trades_7d": 6,
+        "trades_total": 6,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x43ec78527bd98a0588dd9455685b2cc82f5743140cb3a154603dc03c02b57de5",
+        "liquidity_num": 103854.1022,
+        "outcome_prices": [
+          0.74,
+          0.26
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will there be another US government shutdown by January 31?",
+        "slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "volume24hr": 149113.48307700004
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12581.352599999998,
+        "price_range_accum_window": 0.19000000000000006,
+        "price_range_fast_window": 0.19000000000000006,
+        "top_net_wallet_accum_window": "0xd748c701ad93cfec32a3420e10f3b08e68612125",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4207.035,
+        "top_net_wallet_share_of_market_accum_window": 0.3343865428268818,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xd748c701ad93cfec32a3420e10f3b08e68612125",
+        "top_wallet_notional_accum_window": 4207.035,
+        "top_wallet_share_accum_window": 0.3343865428268818,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 12581.352599999998,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "52607315900507156846622820770453728082833251091510131025984187712529448877245",
+        "condition_id": "0x43ec78527bd98a0588dd9455685b2cc82f5743140cb3a154603dc03c02b57de5",
+        "event_slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "name": "tourists",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.77,
+        "proxy_wallet": "0xc6dd722558dbfbd8fa780efcbe819ed8c6604b9f",
+        "pseudonym": "Trusting-Bungalow",
+        "side": "BUY",
+        "size": 3042.08,
+        "slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "timestamp": 1769295348,
+        "title": "Will there be another US government shutdown by January 31?",
+        "trade_id": "437109aff94640f5e308ff6c823eda2725309271fb16d23bcd28d113970660a2",
+        "transaction_hash": "0xa168dc152d24ff7d98f5fbdefd8b3a7a03f0e6f3760a2a0bbf34f459cab10779"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-there-be-another-us-government-shutdown-by-january-31",
+      "wallet_stats": {
+        "avg_notional_7d": 2342.4016,
+        "first_seen_ts": 1769295348,
+        "proxy_wallet": "0xc6dd722558dbfbd8fa780efcbe819ed8c6604b9f",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xc35afdd644eca15c11872008a99529d079f52e47d2fa44850e0b2def69ec35c6",
+        "liquidity_num": 23618.22563,
+        "outcome_prices": [
+          0.9965,
+          0.0035
+        ],
+        "outcomes": [
+          "Jacksonville Dolphins",
+          "Eastern Kentucky Colonels"
+        ],
+        "question": "Spread: Jacksonville Dolphins (-2.5)",
+        "slug": "cbb-ekent-jax-2026-01-24-spread-home-2pt5",
+        "volume24hr": null
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 255981.9328,
+        "price_range_accum_window": 0.5020329001880659,
+        "price_range_fast_window": 0.5020329001880659,
+        "top_net_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 240109.41280000002,
+        "top_net_wallet_share_of_market_accum_window": 0.9379935926478011,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
+        "top_wallet_notional_accum_window": 240109.41280000002,
+        "top_wallet_share_accum_window": 0.9379935926478011,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 255981.9328,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "extreme_price"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "99069139553886997636442554296562390888345810377640035992564987650937430970664",
+        "condition_id": "0xc35afdd644eca15c11872008a99529d079f52e47d2fa44850e0b2def69ec35c6",
+        "event_slug": "cbb-ekent-jax-2026-01-24",
+        "name": "BDJL",
+        "outcome": "Jacksonville Dolphins",
+        "outcome_index": 0,
+        "price": 0.9920325,
+        "proxy_wallet": "0xbb6613776b31359157607f8d985694ca13ed2f53",
+        "pseudonym": "Sad-Sampan",
+        "side": "SELL",
+        "size": 16000.0,
+        "slug": "cbb-ekent-jax-2026-01-24-spread-home-2pt5",
+        "timestamp": 1769293980,
+        "title": "Spread: Jacksonville Dolphins (-2.5)",
+        "trade_id": "dbd3be792e5be1b9bf6bcae8f579bb3575618a30e13a1c23911e807989c62b82",
+        "transaction_hash": "0x145fc7ae4e987fe1d38ecd4b569ac56d8cf3b6bb71a74863fbe4f95f61d0e3cf"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cbb-ekent-jax-2026-01-24-spread-home-2pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 9436.26,
+        "first_seen_ts": 1769122472,
+        "proxy_wallet": "0xbb6613776b31359157607f8d985694ca13ed2f53",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x0dc53555a2de0f767b7b391ee602c0a90846d7a5c0ab6ca1c5342223b093af3c",
+        "liquidity_num": 18747.3119,
+        "outcome_prices": [
+          0.79,
+          0.21
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Real Madrid CF win on 2026-01-24?",
+        "slug": "lal-vil-rea-2026-01-24-rea",
+        "volume24hr": 260183.4552989992
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 37479.968394999996,
+        "price_range_accum_window": 0.29677381859336005,
+        "price_range_fast_window": 0.29677381859336005,
+        "top_net_wallet_accum_window": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 17031.3216,
+        "top_net_wallet_share_of_market_accum_window": 0.4544113116774148,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+        "top_wallet_notional_accum_window": 17031.3216,
+        "top_wallet_share_accum_window": 0.4544113116774148,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 37479.968394999996,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "13528971240582768843160683966430712093740933664755222193914686828791602073423",
+        "condition_id": "0x0dc53555a2de0f767b7b391ee602c0a90846d7a5c0ab6ca1c5342223b093af3c",
+        "event_slug": "lal-vil-rea-2026-01-24",
+        "name": "FelipeDiniz",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.8167738185933601,
+        "proxy_wallet": "0x40edcbed259e8cb80775229559a585bbeff44ae2",
+        "pseudonym": "Avaricious-Request",
+        "side": "BUY",
+        "size": 2998.002555,
+        "slug": "lal-vil-rea-2026-01-24-rea",
+        "timestamp": 1769290416,
+        "title": "Will Real Madrid CF win on 2026-01-24?",
+        "trade_id": "46b17237c22aee8f56338da9b1e392425c9a0231b441561d95a37d8a6bd4665b",
+        "transaction_hash": "0x265b3f20a07a329578c5de06c290661615aaa44d035a4dec6b14396bf675dc07"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lal-vil-rea-2026-01-24-rea",
+      "wallet_stats": {
+        "avg_notional_7d": 2448.6897825,
+        "first_seen_ts": 1769290400,
+        "proxy_wallet": "0x40edcbed259e8cb80775229559a585bbeff44ae2",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x40ecc299398583333d01bb7e5066fe1ca03307276eaae0246f3807eb705f48b4",
         "liquidity_num": 240225.36047,
         "outcome_prices": [
@@ -2542,9 +2830,9 @@
       }
     }
   ],
-  "generated_at": 1769289604,
+  "generated_at": 1769304505,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21321787360",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21321787360"
+  "workflow_run_id": "21324784771",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21324784771"
 }
