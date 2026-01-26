@@ -2,6 +2,81 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x35cc41270f5cdfd59b45e68ab85dc51b0b900d286a6c74ea006b8572d9ff5934",
+        "liquidity_num": 2206660.68199,
+        "outcome_prices": [
+          0.0075,
+          0.9925
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+        "slug": "fed-decreases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "volume24hr": 2885325.173709013
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 50573.66874,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x241f846866c2de4fb67cdb0ca6b963d85e56ef50",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 45578.7,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x241f846866c2de4fb67cdb0ca6b963d85e56ef50",
+        "top_wallet_notional_accum_window": 45578.7,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 45578.7,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 11,
+      "trade": {
+        "asset": "48193521645113703700467246669338225849301704920590102230072263970163239985027",
+        "condition_id": "0x35cc41270f5cdfd59b45e68ab85dc51b0b900d286a6c74ea006b8572d9ff5934",
+        "event_slug": "fed-decision-in-january",
+        "name": "Pestle",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.993,
+        "proxy_wallet": "0x241f846866c2de4fb67cdb0ca6b963d85e56ef50",
+        "pseudonym": "Excitable-Saviour",
+        "side": "BUY",
+        "size": 22800.0,
+        "slug": "fed-decreases-interest-rates-by-25-bps-after-january-2026-meeting",
+        "timestamp": 1769377368,
+        "title": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+        "trade_id": "6234c27661a9a9996e61a5e9b6f64f2b78022fe867e96f69daeac1bfb2815934",
+        "transaction_hash": "0xbdc8b2fffd74dc10c792f3a18c5faaa6ba6fc29e9a387d6fa4b9ec4fa8566aff"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fed-decreases-interest-rates-by-25-bps-after-january-2026-meeting",
+      "wallet_stats": {
+        "avg_notional_7d": 18285.547293333333,
+        "first_seen_ts": 1769368156,
+        "proxy_wallet": "0x241f846866c2de4fb67cdb0ca6b963d85e56ef50",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 5
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7cc8a449a467addba0aba537c2312149b98a9d40aea142c9d40cad5f8ac7e767",
         "liquidity_num": 13539.7816,
         "outcome_prices": [
@@ -2902,9 +2977,9 @@
       }
     }
   ],
-  "generated_at": 1769375556,
+  "generated_at": 1769394525,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21339643433",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21339643433"
+  "workflow_run_id": "21344287478",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21344287478"
 }
