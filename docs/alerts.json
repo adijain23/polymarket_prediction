@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9708334534b504e2025a5a6af92f8600808c10be577e5066f920c40625fbec16",
+        "liquidity_num": 451746.44833,
+        "outcome_prices": [
+          0.0015,
+          0.9985
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Bitcoin reach $150,000 in January?",
+        "slug": "will-bitcoin-reach-150k-in-january-2026",
+        "volume24hr": 2996059.2784239943
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 60990.763613999996,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.0020000000000000018,
+        "top_net_wallet_accum_window": "0xcc40657a4c8c690df954c2ae26c961587d70bafc",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 17927.90234,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xcc40657a4c8c690df954c2ae26c961587d70bafc",
+        "top_wallet_notional_accum_window": 17927.90234,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 60990.763613999996,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+        "condition_id": "0x9708334534b504e2025a5a6af92f8600808c10be577e5066f920c40625fbec16",
+        "event_slug": "what-price-will-bitcoin-hit-in-january-2026",
+        "name": "hasan-nimon",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.998,
+        "proxy_wallet": "0xcc40657a4c8c690df954c2ae26c961587d70bafc",
+        "pseudonym": "Tricky-Revenge",
+        "side": "SELL",
+        "size": 17963.83,
+        "slug": "will-bitcoin-reach-150k-in-january-2026",
+        "timestamp": 1769455919,
+        "title": "Will Bitcoin reach $150,000 in January?",
+        "trade_id": "12675dd87dff6bc4822b334156f941f5275128f4780e7248e593b9f875e7777e",
+        "transaction_hash": "0xc1782f314f470e7ebe4b9b0c20ae49b15a73da9c41a30e03e8db648257468620"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-bitcoin-reach-150k-in-january-2026",
+      "wallet_stats": {
+        "avg_notional_7d": 17927.90234,
+        "first_seen_ts": 1769455919,
+        "proxy_wallet": "0xcc40657a4c8c690df954c2ae26c961587d70bafc",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x17815081230e3b9c78b098162c33b1ffa68c4ec29c123d3d14989599e0c2e113",
         "liquidity_num": 5511917.74417,
         "outcome_prices": [
@@ -3050,9 +3123,9 @@
       }
     }
   ],
-  "generated_at": 1769452694,
+  "generated_at": 1769461903,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21369476375",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21369476375"
+  "workflow_run_id": "21374128327",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21374128327"
 }
