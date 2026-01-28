@@ -2,6 +2,152 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xa3d3bf1776ea3d0f7f626f21ca9342365711871b54d0feb2306199caafe7ffd7",
+        "liquidity_num": 13690.11898,
+        "outcome_prices": [
+          0.0075,
+          0.9925
+        ],
+        "outcomes": [
+          "Up",
+          "Down"
+        ],
+        "question": "Bitcoin Up or Down - January 28, 3PM ET",
+        "slug": "bitcoin-up-or-down-january-28-3pm-et",
+        "volume24hr": 637.999995
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5263.32157,
+        "price_range_accum_window": 0.38455011705213227,
+        "price_range_fast_window": 0.38455011705213227,
+        "top_net_wallet_accum_window": "0x82d45a9c21c98e6ddd71d260818c65f02adcb3f0",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3066.46047,
+        "top_net_wallet_share_of_market_accum_window": 0.5826093711389935,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x82d45a9c21c98e6ddd71d260818c65f02adcb3f0",
+        "top_wallet_notional_accum_window": 3066.46047,
+        "top_wallet_share_accum_window": 0.5826093711389935,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5263.32157,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "28568492783707098728658540890569002772910133339453026047871973956959938877873",
+        "condition_id": "0xa3d3bf1776ea3d0f7f626f21ca9342365711871b54d0feb2306199caafe7ffd7",
+        "event_slug": "bitcoin-up-or-down-january-28-3pm-et",
+        "name": null,
+        "outcome": "Down",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x82d45a9c21c98e6ddd71d260818c65f02adcb3f0",
+        "pseudonym": null,
+        "side": "SELL",
+        "size": 3069.53,
+        "slug": "bitcoin-up-or-down-january-28-3pm-et",
+        "timestamp": 1769634026,
+        "title": "Bitcoin Up or Down - January 28, 3PM ET",
+        "trade_id": "2edfbdf7ceb9b23fb4abb07e4730cc24f0f211e760429affe1b5f06d18321957",
+        "transaction_hash": "0xf5bdc4c223a070c9000381f38695e7039264cb95756a71f6f0a980c994bf0e0e"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/bitcoin-up-or-down-january-28-3pm-et",
+      "wallet_stats": {
+        "avg_notional_7d": 3066.46047,
+        "first_seen_ts": 1769634026,
+        "proxy_wallet": "0x82d45a9c21c98e6ddd71d260818c65f02adcb3f0",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x90cda6e854383eff1f0599306b70341775771d32168e75cff29a607eb55e8bc1",
+        "liquidity_num": 1564778.1203,
+        "outcome_prices": [
+          0.635,
+          0.365
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Paris Saint-Germain FC win on 2026-01-28?",
+        "slug": "ucl-psg1-new1-2026-01-28-psg1",
+        "volume24hr": 482462.3733990005
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 83976.01519999998,
+        "price_range_accum_window": 0.020000000000000018,
+        "price_range_fast_window": 0.020000000000000018,
+        "top_net_wallet_accum_window": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 40338.986399999994,
+        "top_net_wallet_share_of_market_accum_window": 0.48036318827378705,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 6,
+        "top_wallet_accum_window": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+        "top_wallet_notional_accum_window": 40338.986399999994,
+        "top_wallet_share_accum_window": 0.48036318827378705,
+        "top_wallet_trades_accum_window": 6,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 83976.01519999998,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "whale_accumulation_6h",
+        "quiet_price_6h",
+        "new_wallet_to_system"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "59061969163618523921868600809874565490067422498902432318116694890004066137588",
+        "condition_id": "0x90cda6e854383eff1f0599306b70341775771d32168e75cff29a607eb55e8bc1",
+        "event_slug": "ucl-psg1-new1-2026-01-28",
+        "name": "Sensei2",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.36,
+        "proxy_wallet": "0xd7a58948a0aba3015f057ab4ecc5bef039e47c26",
+        "pseudonym": "French-Whole",
+        "side": "BUY",
+        "size": 12720.0,
+        "slug": "ucl-psg1-new1-2026-01-28-psg1",
+        "timestamp": 1769630260,
+        "title": "Will Paris Saint-Germain FC win on 2026-01-28?",
+        "trade_id": "68ea261bc3c0e5d99ff7a648f9be84cfb6d1fbcb3b2d1c9f97e58293106c78b5",
+        "transaction_hash": "0xbf4f4979d94a4a270693e8fa77cedb2dc0365530e3c42d0c1b05208dad757f57"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/ucl-psg1-new1-2026-01-28-psg1",
+      "wallet_stats": {
+        "avg_notional_7d": 4579.2,
+        "first_seen_ts": 1769630260,
+        "proxy_wallet": "0xd7a58948a0aba3015f057ab4ecc5bef039e47c26",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xe93c89c41d1bb08d3bb40066d8565df301a696563b2542256e6e8bbbb1ec490d",
         "liquidity_num": 2729233.64577,
         "outcome_prices": [
@@ -3416,9 +3562,9 @@
       }
     }
   ],
-  "generated_at": 1769623214,
-  "new_alerts": 0,
+  "generated_at": 1769634130,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21449706254",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21449706254"
+  "workflow_run_id": "21455293272",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21455293272"
 }
