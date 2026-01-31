@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7d0b9208c021b7f23d57305aeeecd602e5df4c9362c16ad0f1b51290a0088ebd",
+        "liquidity_num": 404428.15849,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Natus Vincere",
+          "PARIVISION"
+        ],
+        "question": "Counter-Strike: Natus Vincere vs PARIVISION - Map 2 Winner",
+        "slug": "cs2-navi-prv-2026-01-31-game2",
+        "volume24hr": null
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6994.98002,
+        "price_range_accum_window": 0.639,
+        "price_range_fast_window": 0.639,
+        "top_net_wallet_accum_window": "0x5a96cdaa5207ec9746aeb1695b1e8a7cf1d24e13",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4994.98002,
+        "top_net_wallet_share_of_market_accum_window": 0.714080670097468,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5a96cdaa5207ec9746aeb1695b1e8a7cf1d24e13",
+        "top_wallet_notional_accum_window": 4994.98002,
+        "top_wallet_share_accum_window": 0.714080670097468,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6994.98002,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "5820679299688835426141590836176456301859024976640234782987950871219223339206",
+        "condition_id": "0x7d0b9208c021b7f23d57305aeeecd602e5df4c9362c16ad0f1b51290a0088ebd",
+        "event_slug": "cs2-navi-prv-2026-01-31",
+        "name": "freethrowmerchant",
+        "outcome": "PARIVISION",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x5a96cdaa5207ec9746aeb1695b1e8a7cf1d24e13",
+        "pseudonym": "Bite-Sized-Genetics",
+        "side": "SELL",
+        "size": 4999.98,
+        "slug": "cs2-navi-prv-2026-01-31-game2",
+        "timestamp": 1769874336,
+        "title": "Counter-Strike: Natus Vincere vs PARIVISION - Map 2 Winner",
+        "trade_id": "9d864133e54eb00c96e8b6f4dc36e1a5253b009976e021d16f25b3dfb55fb490",
+        "transaction_hash": "0xecf9d0155e77961eb7f3534aa6869abeae33d66b973b01d267d1410bbf82e1ab"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-navi-prv-2026-01-31-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 4994.98002,
+        "first_seen_ts": 1769874336,
+        "proxy_wallet": "0x5a96cdaa5207ec9746aeb1695b1e8a7cf1d24e13",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x5e85b259fcb04645d9b88e4097c2a3d7606a1e9d279a331eb5baaf0b873e68cb",
         "liquidity_num": 135150.6895,
         "outcome_prices": [
@@ -3846,9 +3918,9 @@
       }
     }
   ],
-  "generated_at": 1769871679,
+  "generated_at": 1769882414,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21546317003",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21546317003"
+  "workflow_run_id": "21548561796",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21548561796"
 }
