@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x43ec78527bd98a0588dd9455685b2cc82f5743140cb3a154603dc03c02b57de5",
+        "liquidity_num": 103854.1022,
+        "outcome_prices": [
+          0.74,
+          0.26
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will there be another US government shutdown by January 31?",
+        "slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "volume24hr": 149113.48307700004
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 100100.246668,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.138,
+        "top_net_wallet_accum_window": "0x1e0cb00221fa57783175130e3cdc87444a5a6b3c",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 9960.0,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x1e0cb00221fa57783175130e3cdc87444a5a6b3c",
+        "top_wallet_notional_accum_window": 9960.0,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 100100.246668,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "52607315900507156846622820770453728082833251091510131025984187712529448877245",
+        "condition_id": "0x43ec78527bd98a0588dd9455685b2cc82f5743140cb3a154603dc03c02b57de5",
+        "event_slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "name": "alex562",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.996,
+        "proxy_wallet": "0x1e0cb00221fa57783175130e3cdc87444a5a6b3c",
+        "pseudonym": "Joyful-Stake",
+        "side": "BUY",
+        "size": 10000.0,
+        "slug": "will-there-be-another-us-government-shutdown-by-january-31",
+        "timestamp": 1769897380,
+        "title": "US government shutdown Saturday?",
+        "trade_id": "a6f94d5100661983f20d7b9f79258d4fb466a7aecba8963aaf5efe140474864a",
+        "transaction_hash": "0x73167d3cdee59dbced5b3900583d2b9e549b06fc29e358a83f99524568ede73a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-there-be-another-us-government-shutdown-by-january-31",
+      "wallet_stats": {
+        "avg_notional_7d": 9960.0,
+        "first_seen_ts": 1769897380,
+        "proxy_wallet": "0x1e0cb00221fa57783175130e3cdc87444a5a6b3c",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7d0b9208c021b7f23d57305aeeecd602e5df4c9362c16ad0f1b51290a0088ebd",
         "liquidity_num": 404428.15849,
         "outcome_prices": [
@@ -3918,9 +3992,9 @@
       }
     }
   ],
-  "generated_at": 1769894577,
+  "generated_at": 1769910806,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21551142582",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21551142582"
+  "workflow_run_id": "21554556998",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21554556998"
 }
