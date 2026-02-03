@@ -2,6 +2,76 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xd5a91c9ee50ba80385283714f2a66b1e16d544a682af2af06a8f57fcf1d0233d",
+        "liquidity_num": 122410.376,
+        "outcome_prices": [
+          0.145,
+          0.855
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will the government shutdown last 5 days or more?",
+        "slug": "will-the-government-shutdown-last-5-days-or-more",
+        "volume24hr": 1082110.7151420007
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 16382.7712,
+        "price_range_accum_window": 0.22633387357509285,
+        "price_range_fast_window": 0.22633387357509285,
+        "top_net_wallet_accum_window": "0x7a146c5e70c092d06be27097a5c770b49d0bd748",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 11779.388799999999,
+        "top_net_wallet_share_of_market_accum_window": 0.7190107617446309,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x7a146c5e70c092d06be27097a5c770b49d0bd748",
+        "top_wallet_notional_accum_window": 11779.388799999999,
+        "top_wallet_share_accum_window": 0.7190107617446309,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 16382.7712,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "8008742846391096366381429238657491392199916771102623264605530168655505543184",
+        "condition_id": "0xd5a91c9ee50ba80385283714f2a66b1e16d544a682af2af06a8f57fcf1d0233d",
+        "event_slug": "how-long-will-the-next-government-shutdown-last",
+        "name": "ImJustKen",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.16,
+        "proxy_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+        "pseudonym": "Ample-Instance",
+        "side": "BUY",
+        "size": 28771.14,
+        "slug": "will-the-government-shutdown-last-5-days-or-more",
+        "timestamp": 1770086850,
+        "title": "Will the government shutdown last 5 days or more?",
+        "trade_id": "6e324f52709a19404982fe53df6d5fb129558fc84d448165d93354faf25d33ad",
+        "transaction_hash": "0xdcac9b9620adbece71507eb28bc590f77e93d4b1b7a6ddd2550a1d6c080852e2"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-the-government-shutdown-last-5-days-or-more",
+      "wallet_stats": {
+        "avg_notional_7d": 11581.567899999998,
+        "first_seen_ts": 1769708148,
+        "proxy_wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xdeb615a52cd114e5aa27d8344ae506a72bea81f6ed13f5915f050b615a193c20",
         "liquidity_num": 1502471.04527,
         "outcome_prices": [
@@ -4357,9 +4427,9 @@
       }
     }
   ],
-  "generated_at": 1770076887,
+  "generated_at": 1770092937,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21610906463",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21610906463"
+  "workflow_run_id": "21617007971",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21617007971"
 }
