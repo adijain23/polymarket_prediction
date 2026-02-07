@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9102f44c5f13c75eee6f35a61b48bc70a51ed92b4399c5323a72d17899ece9c9",
+        "liquidity_num": 1121676.25917,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Spirit",
+          "FURIA"
+        ],
+        "question": "Counter-Strike: Spirit vs FURIA (BO3) - IEM Krakow Playoffs",
+        "slug": "cs2-ts7-furia-2026-02-07",
+        "volume24hr": 1218043.7462509999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 177557.13803899998,
+        "price_range_accum_window": 0.5683289244929811,
+        "price_range_fast_window": 0.5683289244929811,
+        "top_net_wallet_accum_window": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 164657.13804,
+        "top_net_wallet_share_of_market_accum_window": 0.9273473308847401,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+        "top_wallet_notional_accum_window": 164657.13804,
+        "top_wallet_share_accum_window": 0.9273473308847401,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 177557.13803899998,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "92265507144814913132334408692037384823066845563081711626309490617513028213934",
+        "condition_id": "0x9102f44c5f13c75eee6f35a61b48bc70a51ed92b4399c5323a72d17899ece9c9",
+        "event_slug": "cs2-ts7-furia-2026-02-07",
+        "name": "bossoskil1",
+        "outcome": "FURIA",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+        "pseudonym": "Intent-Noodle",
+        "side": "SELL",
+        "size": 164821.96,
+        "slug": "cs2-ts7-furia-2026-02-07",
+        "timestamp": 1770487873,
+        "title": "Counter-Strike: Spirit vs FURIA (BO3) - IEM Krakow Playoffs",
+        "trade_id": "3c7ef8d4907b41914ab84db85b3da72ed6660e6d783bc87d9d251eb795e3e663",
+        "transaction_hash": "0x5ff64ae6ab82b2c8e1a3ea09f5a95e4a3555895b7968499a7970ae0bc41f1e85"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-ts7-furia-2026-02-07",
+      "wallet_stats": {
+        "avg_notional_7d": 164657.13804,
+        "first_seen_ts": 1770487873,
+        "proxy_wallet": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7f6f6279ab74e333edf31a69d69a7e9e374abbb27eb5ae3084bc687c78ab7675",
         "liquidity_num": null,
         "outcome_prices": [
@@ -4646,9 +4719,9 @@
       }
     }
   ],
-  "generated_at": 1770476479,
-  "new_alerts": 0,
+  "generated_at": 1770489741,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21782009071",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21782009071"
+  "workflow_run_id": "21785004755",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21785004755"
 }
