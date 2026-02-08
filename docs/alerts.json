@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xaa26dd964ca96e870e66906786bfefd6e16141cf252197b2f4fb1ba75bbc3976",
+        "liquidity_num": 243736.50054,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "CTBC Flying Oyster",
+          "Team Secret Whales"
+        ],
+        "question": "LoL: CTBC Flying Oyster vs Team Secret Whales (BO3) - LCP Regular Season",
+        "slug": "lol-cfo-tsw-2026-02-08",
+        "volume24hr": 56125.806299
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5821.069961,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.374104735628151,
+        "top_net_wallet_accum_window": "0xb97ade9296c06ebfcc9859ae0387aa7c658d5855",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3721.069961,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xb97ade9296c06ebfcc9859ae0387aa7c658d5855",
+        "top_wallet_notional_accum_window": 3721.069961,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5821.069961,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "66178239737282799591610798448982614586299549422971084403966223287227422068470",
+        "condition_id": "0xaa26dd964ca96e870e66906786bfefd6e16141cf252197b2f4fb1ba75bbc3976",
+        "event_slug": "lol-cfo-tsw-2026-02-08",
+        "name": "moxigan",
+        "outcome": "Team Secret Whales",
+        "outcome_index": 1,
+        "price": 0.954104735628151,
+        "proxy_wallet": "0xb97ade9296c06ebfcc9859ae0387aa7c658d5855",
+        "pseudonym": "Deadly-Baggie",
+        "side": "BUY",
+        "size": 3900.06445,
+        "slug": "lol-cfo-tsw-2026-02-08",
+        "timestamp": 1770536965,
+        "title": "LoL: CTBC Flying Oyster vs Team Secret Whales (BO3) - LCP Regular Season",
+        "trade_id": "3124d433bc6865ad1040c91387fab8c10f83669491bcc23daedde25028b62660",
+        "transaction_hash": "0xad2934744d3bb9097f1e338c57c965ec98a01a68b3ee2ac11ed63cfab43fabd7"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-cfo-tsw-2026-02-08",
+      "wallet_stats": {
+        "avg_notional_7d": 3721.069961,
+        "first_seen_ts": 1770536965,
+        "proxy_wallet": "0xb97ade9296c06ebfcc9859ae0387aa7c658d5855",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9102f44c5f13c75eee6f35a61b48bc70a51ed92b4399c5323a72d17899ece9c9",
         "liquidity_num": 1121676.25917,
         "outcome_prices": [
@@ -4719,9 +4791,9 @@
       }
     }
   ],
-  "generated_at": 1770530827,
+  "generated_at": 1770542076,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21793402491",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21793402491"
+  "workflow_run_id": "21795697436",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21795697436"
 }
