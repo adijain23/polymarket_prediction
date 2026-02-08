@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x6a79204ace08d896a72cac89c3c2b4c64b90218838c213e9377860596dc77ac5",
+        "liquidity_num": 15672.5669,
+        "outcome_prices": [
+          0.365,
+          0.635
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will People\u2019s Party (PPLE) win the most seats in the 2026 Thai legislative election?",
+        "slug": "will-peoples-party-pple-win-the-most-seats-in-the-2026-thai-legislative-election",
+        "volume24hr": 690458.0746259994
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 14698.484398,
+        "price_range_accum_window": 0.2321037339317783,
+        "price_range_fast_window": 0.2321037339317783,
+        "top_net_wallet_accum_window": "0x2fe6798c3764b729d0ea3258fbef8d5eb1d07820",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 8700.894400000001,
+        "top_net_wallet_share_of_market_accum_window": 0.5919586104526476,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x2fe6798c3764b729d0ea3258fbef8d5eb1d07820",
+        "top_wallet_notional_accum_window": 8700.894400000001,
+        "top_wallet_share_accum_window": 0.5919586104526476,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 14698.484398,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "50178306595800060471430951874976657618055148106679384594654922816495456398170",
+        "condition_id": "0x6a79204ace08d896a72cac89c3c2b4c64b90218838c213e9377860596dc77ac5",
+        "event_slug": "thai-legislative-election-winner",
+        "name": "GG4444",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.6231937761517514,
+        "proxy_wallet": "0x2fe6798c3764b729d0ea3258fbef8d5eb1d07820",
+        "pseudonym": "Sweet-Thongs",
+        "side": "SELL",
+        "size": 13961.78,
+        "slug": "will-peoples-party-pple-win-the-most-seats-in-the-2026-thai-legislative-election",
+        "timestamp": 1770550413,
+        "title": "Will People\u2019s Party (PPLE) win the most seats in the 2026 Thai legislative election?",
+        "trade_id": "19c6a68904e39eb1b3baf2614dff227033b6cb7a63f5b6e66d3949ba2e71d113",
+        "transaction_hash": "0x52300c4dd1c3153d5437c6b55aeaef0576bd260bb9c41b1363274d082aaf59a7"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-peoples-party-pple-win-the-most-seats-in-the-2026-thai-legislative-election",
+      "wallet_stats": {
+        "avg_notional_7d": 8700.894400000001,
+        "first_seen_ts": 1770550413,
+        "proxy_wallet": "0x2fe6798c3764b729d0ea3258fbef8d5eb1d07820",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xaa26dd964ca96e870e66906786bfefd6e16141cf252197b2f4fb1ba75bbc3976",
         "liquidity_num": 243736.50054,
         "outcome_prices": [
@@ -4791,9 +4862,9 @@
       }
     }
   ],
-  "generated_at": 1770542076,
+  "generated_at": 1770555320,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21795697436",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21795697436"
+  "workflow_run_id": "21798507098",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21798507098"
 }
