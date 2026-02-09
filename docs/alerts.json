@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x4d20e9eccbe3ae7d76a1b04f06eb62f14d05be923c893f3df069fcbe55cddace",
+        "liquidity_num": 48010.5322,
+        "outcome_prices": [
+          0.14,
+          0.86
+        ],
+        "outcomes": [
+          "Invictus Gaming",
+          "Ninjas in Pyjamas"
+        ],
+        "question": "LoL: Invictus Gaming vs Ninjas in Pyjamas (BO5) - LPL Knights Rivals",
+        "slug": "lol-ig1-nip-2026-02-10",
+        "volume24hr": 290006.114903
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 4669.1797,
+        "price_range_accum_window": 0.41783541600255014,
+        "price_range_fast_window": 0.41783541600255014,
+        "top_net_wallet_accum_window": "0x5aa981521b4e94fee3b3bf18fe441f62e865febe",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 2534.1796999999997,
+        "top_net_wallet_share_of_market_accum_window": 0.5427462344188637,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5aa981521b4e94fee3b3bf18fe441f62e865febe",
+        "top_wallet_notional_accum_window": 2534.1796999999997,
+        "top_wallet_share_accum_window": 0.5427462344188637,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 4669.1797,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "52434125394895727674561714446529445650751304358322314587971517317054838053211",
+        "condition_id": "0x4d20e9eccbe3ae7d76a1b04f06eb62f14d05be923c893f3df069fcbe55cddace",
+        "event_slug": "lol-ig1-nip-2026-02-10",
+        "name": "apucimama",
+        "outcome": "Ninjas in Pyjamas",
+        "outcome_index": 1,
+        "price": 0.8078354160025502,
+        "proxy_wallet": "0x5aa981521b4e94fee3b3bf18fe441f62e865febe",
+        "pseudonym": "Cooked-Desk",
+        "side": "SELL",
+        "size": 3137.0,
+        "slug": "lol-ig1-nip-2026-02-10",
+        "timestamp": 1770647673,
+        "title": "LoL: Invictus Gaming vs Ninjas in Pyjamas (BO5) - LPL Knights Rivals",
+        "trade_id": "a86c6f959c027e86a71918d04b4bd0835fee05fd5153a778c5959c9eb4508034",
+        "transaction_hash": "0x5afbcf498645976fb1102a828ea9bff7e7a37abbea88d287ae4f1ecccd3c613b"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-ig1-nip-2026-02-10",
+      "wallet_stats": {
+        "avg_notional_7d": 2534.1796999999997,
+        "first_seen_ts": 1770647673,
+        "proxy_wallet": "0x5aa981521b4e94fee3b3bf18fe441f62e865febe",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9564148d4c0e27e866c6cec8dc7ccee2562501c1d0395e3fc412f5160d5d0938",
         "liquidity_num": 2867.4555,
         "outcome_prices": [
@@ -5074,9 +5145,9 @@
       }
     }
   ],
-  "generated_at": 1770638688,
+  "generated_at": 1770651396,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21824359228",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21824359228"
+  "workflow_run_id": "21831457191",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21831457191"
 }
