@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9564148d4c0e27e866c6cec8dc7ccee2562501c1d0395e3fc412f5160d5d0938",
+        "liquidity_num": 2867.4555,
+        "outcome_prices": [
+          0.03,
+          0.97
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Sam Darnold win the Super Bowl LX MVP?",
+        "slug": "will-sam-darnold-win-the-super-bowl-lx-mvp",
+        "volume24hr": 662121.6320989996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 30391.71,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.32839616000000005,
+        "top_net_wallet_accum_window": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 8971.902,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+        "top_wallet_notional_accum_window": 8971.902,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 30391.71,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "53246521931335694285434705562238240685334442984236236883037394477155954296833",
+        "condition_id": "0x9564148d4c0e27e866c6cec8dc7ccee2562501c1d0395e3fc412f5160d5d0938",
+        "event_slug": "super-bowl-lx-mvp",
+        "name": "gmanas",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.9,
+        "proxy_wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+        "pseudonym": "Wicked-Rap",
+        "side": "BUY",
+        "size": 9968.78,
+        "slug": "will-sam-darnold-win-the-super-bowl-lx-mvp",
+        "timestamp": 1770608185,
+        "title": "Will Sam Darnold win the Super Bowl LX MVP?",
+        "trade_id": "b07d04d8c42a6a2031c953557073e7596512d2dea232df16e05c3a9d5c121681",
+        "transaction_hash": "0x8eeb77b134c5fbc539e46b0ce3121c668082f0a4df2e408d7b7a1b67f5ae7c60"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-sam-darnold-win-the-super-bowl-lx-mvp",
+      "wallet_stats": {
+        "avg_notional_7d": 34127.222972,
+        "first_seen_ts": 1770327095,
+        "proxy_wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+        "trades_7d": 5,
+        "trades_total": 5,
+        "unique_markets_7d": 5,
+        "unique_markets_total": 13
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x6a7933f499b6ccf03273f29c7e1917944df88d5ebf5c83733752589bc1910b39",
         "liquidity_num": 17340.138,
         "outcome_prices": [
@@ -5003,9 +5074,9 @@
       }
     }
   ],
-  "generated_at": 1770598696,
-  "new_alerts": 0,
+  "generated_at": 1770608639,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21808748039",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21808748039"
+  "workflow_run_id": "21811580497",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21811580497"
 }
