@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x71ea1f64e61109a99cd73450fff40f1acd28df0ca69f5c22f02e4a6409a45504",
+        "liquidity_num": 34111.58548,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Sakkari",
+          "Paolini"
+        ],
+        "question": "Qatar Total Open: Maria Sakkari vs Jasmine Paolini",
+        "slug": "wta-sakkari-paolini-2026-02-10",
+        "volume24hr": 2982.4291650000005
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 7109.98395,
+        "price_range_accum_window": 0.5989984178371299,
+        "price_range_fast_window": 0.5989984178371299,
+        "top_net_wallet_accum_window": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3555.128,
+        "top_net_wallet_share_of_market_accum_window": 0.50001913154811,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+        "top_wallet_notional_accum_window": 3555.128,
+        "top_wallet_share_accum_window": 0.50001913154811,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 7109.98395,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "76463452335729422391022029344924867531407345877607878801757658198338596029189",
+        "condition_id": "0x71ea1f64e61109a99cd73450fff40f1acd28df0ca69f5c22f02e4a6409a45504",
+        "event_slug": "wta-sakkari-paolini-2026-02-10",
+        "name": "SMCAOMCRL",
+        "outcome": "Sakkari",
+        "outcome_index": 0,
+        "price": 0.99899841783713,
+        "proxy_wallet": "0x3b5c629f114098b0dee345fb78b7a3a013c7126e",
+        "pseudonym": "Majestic-Hyena",
+        "side": "BUY",
+        "size": 3558.42,
+        "slug": "wta-sakkari-paolini-2026-02-10",
+        "timestamp": 1770725055,
+        "title": "Qatar Total Open: Maria Sakkari vs Jasmine Paolini",
+        "trade_id": "1667af6b34325d9123c318f6f3f3e35e1d4ab002371f874d470a53ce40bc5d76",
+        "transaction_hash": "0x5845e8dc2e48147962caad19bcfe02c361b7a79f42ad996e3d1e26f8c3d2565a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-sakkari-paolini-2026-02-10",
+      "wallet_stats": {
+        "avg_notional_7d": 6399.627974999999,
+        "first_seen_ts": 1770144790,
+        "proxy_wallet": "0x3b5c629f114098b0dee345fb78b7a3a013c7126e",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x4d20e9eccbe3ae7d76a1b04f06eb62f14d05be923c893f3df069fcbe55cddace",
         "liquidity_num": 48010.5322,
         "outcome_prices": [
@@ -5145,9 +5216,9 @@
       }
     }
   ],
-  "generated_at": 1770716155,
-  "new_alerts": 0,
+  "generated_at": 1770725285,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21859463281",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21859463281"
+  "workflow_run_id": "21864242648",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21864242648"
 }
