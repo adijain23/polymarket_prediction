@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x257b18205f908aef01ef2d1d50e6fea7d29cf5486fe04031d8b101394476faed",
+        "liquidity_num": 721405.9623,
+        "outcome_prices": [
+          0.905,
+          0.095
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+        "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-march-2026-meeting",
+        "volume24hr": 585095.1257130004
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 69167.0525,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 69167.0525,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+        "top_wallet_notional_accum_window": 69167.0525,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 69167.0525,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "102559817034631022221500208641784929295731053857601013029449249654006364919935",
+        "condition_id": "0x257b18205f908aef01ef2d1d50e6fea7d29cf5486fe04031d8b101394476faed",
+        "event_slug": "fed-decision-in-march-885",
+        "name": "Erasmus.",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.91,
+        "proxy_wallet": "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+        "pseudonym": "Glamorous-Stitcher",
+        "side": "BUY",
+        "size": 26007.75,
+        "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-march-2026-meeting",
+        "timestamp": 1770818461,
+        "title": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+        "trade_id": "8551fd3e1a6ae8a470b04c04892f52b5531ca64b3c6763ad2baff8ec255e7897",
+        "transaction_hash": "0x3cabe0f59785221c8093e96edad82ab00113e7ab5b7c03b397a5a100ceed0d78"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-there-be-no-change-in-fed-interest-rates-after-the-march-2026-meeting",
+      "wallet_stats": {
+        "avg_notional_7d": 34583.52625,
+        "first_seen_ts": 1770818453,
+        "proxy_wallet": "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x71ea1f64e61109a99cd73450fff40f1acd28df0ca69f5c22f02e4a6409a45504",
         "liquidity_num": 34111.58548,
         "outcome_prices": [
@@ -5216,9 +5289,9 @@
       }
     }
   ],
-  "generated_at": 1770813875,
+  "generated_at": 1770822509,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21905558941",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21905558941"
+  "workflow_run_id": "21910522014",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21910522014"
 }
