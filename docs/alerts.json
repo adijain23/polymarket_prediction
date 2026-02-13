@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+        "liquidity_num": 83566.91713,
+        "outcome_prices": [
+          0.345,
+          0.655
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Government shutdown on Saturday?",
+        "slug": "another-us-government-shutdown-by-february-14",
+        "volume24hr": 4582504.161655994
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6379.56744,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.6089659626514837,
+        "top_net_wallet_accum_window": "0x8f7a4b414417911e7e9bd738399874792cdbdb40",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3252.81,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x8f7a4b414417911e7e9bd738399874792cdbdb40",
+        "top_wallet_notional_accum_window": 3252.81,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6379.56744,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "43946269812975261940442841140057396362355013850035195910637438338242851933505",
+        "condition_id": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+        "event_slug": "another-us-government-shutdown-by-february-14",
+        "name": "duderr",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.66,
+        "proxy_wallet": "0x8f7a4b414417911e7e9bd738399874792cdbdb40",
+        "pseudonym": "Submissive-Communist",
+        "side": "SELL",
+        "size": 4928.5,
+        "slug": "another-us-government-shutdown-by-february-14",
+        "timestamp": 1770974871,
+        "title": "Government shutdown on Saturday?",
+        "trade_id": "3966bc9dbeccb0161d392c723eaf0f9534a39fa790ab498a9d196d43dfd732db",
+        "transaction_hash": "0x58fe5a4ef3ad1043118f77d914e764cf911fba94a9bf61271f047889ba578133"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/another-us-government-shutdown-by-february-14",
+      "wallet_stats": {
+        "avg_notional_7d": 3252.81,
+        "first_seen_ts": 1770974871,
+        "proxy_wallet": "0x8f7a4b414417911e7e9bd738399874792cdbdb40",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x257b18205f908aef01ef2d1d50e6fea7d29cf5486fe04031d8b101394476faed",
         "liquidity_num": 721405.9623,
         "outcome_prices": [
@@ -5289,9 +5360,9 @@
       }
     }
   ],
-  "generated_at": 1770963215,
-  "new_alerts": 0,
+  "generated_at": 1770975056,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "21976785952",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21976785952"
+  "workflow_run_id": "21981762768",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/21981762768"
 }
