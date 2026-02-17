@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7d0538882f0131e77b537b6b4c8deb1e5b955e57e37e4e574db9e80d6f18c1d4",
+        "liquidity_num": 69143.4398,
+        "outcome_prices": [
+          0.84,
+          0.16
+        ],
+        "outcomes": [
+          "FURIA",
+          "PARIVISION"
+        ],
+        "question": "Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage",
+        "slug": "cs2-furia-prv-2026-02-17",
+        "volume24hr": 657396.8630900001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6449.999997000001,
+        "price_range_accum_window": 0.15633022386336026,
+        "price_range_fast_window": 0.15633022386336026,
+        "top_net_wallet_accum_window": "0x21ecbb95a15822bbdd4ab71345385a6056d95348",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3350.0,
+        "top_net_wallet_share_of_market_accum_window": 0.5193798452028122,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x21ecbb95a15822bbdd4ab71345385a6056d95348",
+        "top_wallet_notional_accum_window": 3350.0,
+        "top_wallet_share_accum_window": 0.5193798452028122,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6449.999997000001,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "31434485060035987669780886263258933650937380390336514659897941747575956319836",
+        "condition_id": "0x7d0538882f0131e77b537b6b4c8deb1e5b955e57e37e4e574db9e80d6f18c1d4",
+        "event_slug": "cs2-furia-prv-2026-02-17",
+        "name": "0xEb20A9a04E378BcdF54755b6cC8B8650Dd85D0bd-1768730235225",
+        "outcome": "FURIA",
+        "outcome_index": 0,
+        "price": 0.8263302238633603,
+        "proxy_wallet": "0xeb20a9a04e378bcdf54755b6cc8b8650dd85d0bd",
+        "pseudonym": "Amused-Medium",
+        "side": "BUY",
+        "size": 3751.52682,
+        "slug": "cs2-furia-prv-2026-02-17",
+        "timestamp": 1771349515,
+        "title": "Counter-Strike: FURIA vs PARIVISION (BO3) - PGL Cluj-Napoca Group Stage",
+        "trade_id": "9decc2eb7670b3eddc44ecbdb2a38830c95238dd44b38f8ed6684742afcc3b50",
+        "transaction_hash": "0x0f9c3b46e653745b3c95a1ad6004f10e400a03869008e2ce6fbde4523d004e5a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-furia-prv-2026-02-17",
+      "wallet_stats": {
+        "avg_notional_7d": 3099.9999970000003,
+        "first_seen_ts": 1771349515,
+        "proxy_wallet": "0xeb20a9a04e378bcdf54755b6cc8b8650dd85d0bd",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x0b8d965e7bc5a911a99408716dea8cf5d5a8689a8fc4b1f5aa113a34db8f06c2",
         "liquidity_num": 865719.12663,
         "outcome_prices": [
@@ -5505,9 +5576,9 @@
       }
     }
   ],
-  "generated_at": 1771342269,
+  "generated_at": 1771353102,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22104600841",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22104600841"
+  "workflow_run_id": "22110766392",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22110766392"
 }
