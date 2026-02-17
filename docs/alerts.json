@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x0b8d965e7bc5a911a99408716dea8cf5d5a8689a8fc4b1f5aa113a34db8f06c2",
+        "liquidity_num": 865719.12663,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will FC Barcelona win on 2026-02-16?",
+        "slug": "lal-gir-bar-2026-02-16-bar",
+        "volume24hr": 1285227.2207129975
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 13875.92748,
+        "price_range_accum_window": 0.729,
+        "price_range_fast_window": 0.729,
+        "top_net_wallet_accum_window": "0xad6a849b0139699f370d1d467c00503c8fef9dbd",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 8437.97358,
+        "top_net_wallet_share_of_market_accum_window": 0.6081015912026083,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xad6a849b0139699f370d1d467c00503c8fef9dbd",
+        "top_wallet_notional_accum_window": 8437.97358,
+        "top_wallet_share_accum_window": 0.6081015912026083,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 13875.92748,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "88430691074451322390543289922725951601721984719006996795076719989137318547449",
+        "condition_id": "0x0b8d965e7bc5a911a99408716dea8cf5d5a8689a8fc4b1f5aa113a34db8f06c2",
+        "event_slug": "lal-gir-bar-2026-02-16",
+        "name": "brucewayne27",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xad6a849b0139699f370d1d467c00503c8fef9dbd",
+        "pseudonym": "Oddball-Flow",
+        "side": "SELL",
+        "size": 8446.42,
+        "slug": "lal-gir-bar-2026-02-16-bar",
+        "timestamp": 1771286079,
+        "title": "Will FC Barcelona win on 2026-02-16?",
+        "trade_id": "d1d55d22e386f96961a65b5ad0d254f49185a126e2d7477ec628b2ccec548a0a",
+        "transaction_hash": "0xef310a4fdb9dd04b8f08439277a13840f7da67797276df25be9816859a56bdb9"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lal-gir-bar-2026-02-16-bar",
+      "wallet_stats": {
+        "avg_notional_7d": 8437.97358,
+        "first_seen_ts": 1771286079,
+        "proxy_wallet": "0xad6a849b0139699f370d1d467c00503c8fef9dbd",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7131b46beac09b0e2e52083c8b4609df0b95593a8bcaffe7a780842de46cca97",
         "liquidity_num": 506373.7789,
         "outcome_prices": [
@@ -5433,9 +5505,9 @@
       }
     }
   ],
-  "generated_at": 1771277454,
-  "new_alerts": 0,
+  "generated_at": 1771286529,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22078063506",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22078063506"
+  "workflow_run_id": "22081159238",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22081159238"
 }
