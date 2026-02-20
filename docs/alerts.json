@@ -2,6 +2,76 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x8cddb829c511a96b22d304b13ae08da65858b463e840162570c602d1eac48d00",
+        "liquidity_num": 9861.1783,
+        "outcome_prices": [
+          0.105,
+          0.895
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Panathinaik\u00f3s AO win on 2026-02-19?",
+        "slug": "uel-pao2-plz1-2026-02-19-pao2",
+        "volume24hr": 187554.23044700015
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 9651.7,
+        "price_range_accum_window": 0.3,
+        "price_range_fast_window": 0.3,
+        "top_net_wallet_accum_window": "0x94a5e75f6fd0816b3490ba32b8b2b0ad88229838",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 6616.35,
+        "top_net_wallet_share_of_market_accum_window": 0.685511360692935,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x94a5e75f6fd0816b3490ba32b8b2b0ad88229838",
+        "top_wallet_notional_accum_window": 6616.35,
+        "top_wallet_share_accum_window": 0.685511360692935,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 9651.7,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "88342823184863766480527477096977732758600125213895458000971806353012893805157",
+        "condition_id": "0x8cddb829c511a96b22d304b13ae08da65858b463e840162570c602d1eac48d00",
+        "event_slug": "uel-pao2-plz1-2026-02-19",
+        "name": "swisstony",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.85,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 3571.0,
+        "slug": "uel-pao2-plz1-2026-02-19-pao2",
+        "timestamp": 1771537556,
+        "title": "Will Panathinaik\u00f3s AO win on 2026-02-19?",
+        "trade_id": "808122d92c71d5b5874c234aa129a518843298c0a3d32a98bf7188d5e5e1670e",
+        "transaction_hash": "0x6da0ee2f1ac025d729613dd178d6ff67c76d6c10d72c077b1a39ee3ea6c86c62"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/uel-pao2-plz1-2026-02-19-pao2",
+      "wallet_stats": {
+        "avg_notional_7d": 3989.1819958,
+        "first_seen_ts": 1771080627,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 10,
+        "trades_total": 10,
+        "unique_markets_7d": 9,
+        "unique_markets_total": 70
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x7d0538882f0131e77b537b6b4c8deb1e5b955e57e37e4e574db9e80d6f18c1d4",
         "liquidity_num": 69143.4398,
         "outcome_prices": [
@@ -5576,9 +5646,9 @@
       }
     }
   ],
-  "generated_at": 1771535929,
+  "generated_at": 1771548824,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22200521018",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22200521018"
+  "workflow_run_id": "22206695567",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22206695567"
 }
