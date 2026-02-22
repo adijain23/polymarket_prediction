@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xd8db5caf76f14e385ef495176095b2f578c72969a459868f1cdf0f6cf2215b73",
+        "liquidity_num": 42311.247,
+        "outcome_prices": [
+          0.135,
+          0.865
+        ],
+        "outcomes": [
+          "Sri Lanka",
+          "England"
+        ],
+        "question": "T20 World Cup: Sri Lanka vs England",
+        "slug": "crint-lka-gbr-2026-02-22",
+        "volume24hr": 56418.71276999999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6833.668,
+        "price_range_accum_window": 0.25,
+        "price_range_fast_window": 0.25,
+        "top_net_wallet_accum_window": "0x4a3d9401153b513cb6b7391ba74ef5f288704841",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3787.768,
+        "top_net_wallet_share_of_market_accum_window": 0.5542803659762224,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x4a3d9401153b513cb6b7391ba74ef5f288704841",
+        "top_wallet_notional_accum_window": 3787.768,
+        "top_wallet_share_accum_window": 0.5542803659762224,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6833.668,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "104781258307899342692358532521138740453519942051035027049496627003670811942379",
+        "condition_id": "0xd8db5caf76f14e385ef495176095b2f578c72969a459868f1cdf0f6cf2215b73",
+        "event_slug": "crint-lka-gbr-2026-02-22",
+        "name": "BoundaryBets",
+        "outcome": "England",
+        "outcome_index": 1,
+        "price": 0.8,
+        "proxy_wallet": "0x4a3d9401153b513cb6b7391ba74ef5f288704841",
+        "pseudonym": "Leading-Evaluator",
+        "side": "BUY",
+        "size": 4734.71,
+        "slug": "crint-lka-gbr-2026-02-22",
+        "timestamp": 1771761058,
+        "title": "T20 World Cup: Sri Lanka vs England",
+        "trade_id": "6a61afaa81ad78d95d395b4000cb4e73d643a0304b882ebaef5f8e54f6764d6d",
+        "transaction_hash": "0xbe78d5df3d9d58cc2d266344ca44e9dfefdefc8a1a00cc148f1b6408b484b603"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/crint-lka-gbr-2026-02-22",
+      "wallet_stats": {
+        "avg_notional_7d": 3787.768,
+        "first_seen_ts": 1771761058,
+        "proxy_wallet": "0x4a3d9401153b513cb6b7391ba74ef5f288704841",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd28191318521cbeda80d1ac1d406f5492d6dbbdb81e8a2c01730e927bedf7d88",
         "liquidity_num": 20035.3654,
         "outcome_prices": [
@@ -5789,9 +5860,9 @@
       }
     }
   ],
-  "generated_at": 1771751045,
+  "generated_at": 1771765224,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22274151188",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22274151188"
+  "workflow_run_id": "22277634186",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22277634186"
 }
