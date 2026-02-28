@@ -2,6 +2,153 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x3488f31e6449f9803f99a8b5dd232c7ad883637f1c86e6953305a2ef19c77f20",
+        "liquidity_num": 1757749.22953,
+        "outcome_prices": [
+          0.9985,
+          0.0015
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "US strikes Iran by February 28, 2026?",
+        "slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879-189-761",
+        "volume24hr": 33167793.852373887
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6509.2963899999995,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.779,
+        "top_net_wallet_accum_window": "0xd624b366431e9f52d0b5dc44d0315c66dc76a0f8",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 4309.2963899999995,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xd624b366431e9f52d0b5dc44d0315c66dc76a0f8",
+        "top_wallet_notional_accum_window": 4309.2963899999995,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6509.2963899999995,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "110790003121442365126855864076707686014650523258783405996925622264696084778807",
+        "condition_id": "0x3488f31e6449f9803f99a8b5dd232c7ad883637f1c86e6953305a2ef19c77f20",
+        "event_slug": "us-strikes-iran-by",
+        "name": "stony169",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xd624b366431e9f52d0b5dc44d0315c66dc76a0f8",
+        "pseudonym": "Boring-Dusk",
+        "side": "SELL",
+        "size": 4313.61,
+        "slug": "us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879-189-761",
+        "timestamp": 1772268149,
+        "title": "US strikes Iran by February 28, 2026?",
+        "trade_id": "1fdedd6842d8fa9c8004600e3c631db98117a8c9876ec1f8ac9f7f94592ed9a1",
+        "transaction_hash": "0x689c8f9eaefe90ea9ac4b576509e6ea1a8b687cf5939a798330ee3e6191e96f3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/us-strikes-iran-by-february-28-2026-227-967-547-688-589-491-592-418-452-924-384-915-464-672-196-157-993-596-269-535-381-391-471-256-988-997-296-225-762-973-292-827-345-182-558-215-794-879-189-761",
+      "wallet_stats": {
+        "avg_notional_7d": 5595.612119999999,
+        "first_seen_ts": 1772268139,
+        "proxy_wallet": "0xd624b366431e9f52d0b5dc44d0315c66dc76a0f8",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x09cbe3e796661a1d820580145488ad2ccb9ad1e720efcd64b448bb77b97007c1",
+        "liquidity_num": null,
+        "outcome_prices": [
+          0.0,
+          1.0
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "US strikes Iran by February 27, 2026?",
+        "slug": "us-strikes-iran-by-february-27-2026",
+        "volume24hr": 11321214.533125013
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 165315.241193,
+        "price_range_accum_window": 0.0010000000000000009,
+        "price_range_fast_window": 0.0554277964430443,
+        "top_net_wallet_accum_window": "0x84571f1bf97a5c710cbe51daff2dd4556cc887fd",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 122218.235,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 16,
+        "top_wallet_accum_window": "0x84571f1bf97a5c710cbe51daff2dd4556cc887fd",
+        "top_wallet_notional_accum_window": 122218.235,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 16,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 122218.235,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "20294480808593556060521766763233040937161644261106468868449852592476545850621",
+        "condition_id": "0x09cbe3e796661a1d820580145488ad2ccb9ad1e720efcd64b448bb77b97007c1",
+        "event_slug": "us-strikes-iran-by",
+        "name": "ZhangMuZhi..",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x84571f1bf97a5c710cbe51daff2dd4556cc887fd",
+        "pseudonym": "Tattered-Columnist",
+        "side": "BUY",
+        "size": 2492.0,
+        "slug": "us-strikes-iran-by-february-27-2026",
+        "timestamp": 1772262715,
+        "title": "US strikes Iran by February 27, 2026?",
+        "trade_id": "ca056b7780b62cdd3dde1e6a2131f298d8317fc9067ba7c4a7917f3733b1b3d4",
+        "transaction_hash": "0x9c349957f9d898bbf1d2458fe577912595da425f1856eb4a70a8a8225b735eab"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/us-strikes-iran-by-february-27-2026",
+      "wallet_stats": {
+        "avg_notional_7d": 7638.6396875,
+        "first_seen_ts": 1772262709,
+        "proxy_wallet": "0x84571f1bf97a5c710cbe51daff2dd4556cc887fd",
+        "trades_7d": 16,
+        "trades_total": 16,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd8db5caf76f14e385ef495176095b2f578c72969a459868f1cdf0f6cf2215b73",
         "liquidity_num": 42311.247,
         "outcome_prices": [
@@ -5860,9 +6007,9 @@
       }
     }
   ],
-  "generated_at": 1772258400,
+  "generated_at": 1772269339,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22514782329",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22514782329"
+  "workflow_run_id": "22517651262",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22517651262"
 }
