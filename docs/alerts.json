@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x14ab55a6bd4933a3b92dc9daee86a6c68b890871f7fb89b745511c01fbd80fd6",
+        "liquidity_num": 24588.0622,
+        "outcome_prices": [
+          0.915,
+          0.085
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Stade Rennais FC 1901 win on 2026-02-28?",
+        "slug": "fl1-ren-tou-2026-02-28-ren",
+        "volume24hr": 2825592.06919
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 64669.64,
+        "price_range_accum_window": 0.44000000000000006,
+        "price_range_fast_window": 0.44000000000000006,
+        "top_net_wallet_accum_window": "0x019782cab5d844f02bafb71f512758be78579f3c",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 62400.0,
+        "top_net_wallet_share_of_market_accum_window": 0.9649040879151329,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x019782cab5d844f02bafb71f512758be78579f3c",
+        "top_wallet_notional_accum_window": 62400.0,
+        "top_wallet_share_accum_window": 0.9649040879151329,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 64669.64,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "concentrated_activity_7d"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "58821940997409431737389149682476964944384692511581392935422598698969316561403",
+        "condition_id": "0x14ab55a6bd4933a3b92dc9daee86a6c68b890871f7fb89b745511c01fbd80fd6",
+        "event_slug": "fl1-ren-tou-2026-02-28",
+        "name": "swisstony",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.92,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 2467.0,
+        "slug": "fl1-ren-tou-2026-02-28-ren",
+        "timestamp": 1772300811,
+        "title": "Will Stade Rennais FC 1901 win on 2026-02-28?",
+        "trade_id": "1a843c2100e000e779e8a0f4d0d221b69f7223f1525c928d9b19d1533c6b996d",
+        "transaction_hash": "0x36ee8138a70445594ed75d096e1cc9fe06ca1ea0b455a36f55d4f0b8d7426bf3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fl1-ren-tou-2026-02-28-ren",
+      "wallet_stats": {
+        "avg_notional_7d": 3572.3266659999995,
+        "first_seen_ts": 1771697464,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 76
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x70909f0ba8256a89c301da58812ae47203df54957a07c7f8b10235e877ad63c2",
         "liquidity_num": 303623.8838,
         "outcome_prices": [
@@ -6150,9 +6222,9 @@
       }
     }
   ],
-  "generated_at": 1772291956,
+  "generated_at": 1772302529,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22523397315",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22523397315"
+  "workflow_run_id": "22526237580",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22526237580"
 }
