@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7a0d24ecbc97fae74fcdf6479f80eac887dc7098b62a8cd8b07cf3f45752e63e",
+        "liquidity_num": 4124.3414,
+        "outcome_prices": [
+          0.89,
+          0.11
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will AC Milan win on 2026-03-08?",
+        "slug": "sea-mil-int-2026-03-08-mil",
+        "volume24hr": 722366.171433
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8690.389996,
+        "price_range_accum_window": 0.5498158778478819,
+        "price_range_fast_window": 0.5498158778478819,
+        "top_net_wallet_accum_window": "0xb8532690dbc86a879d07cee40f99b9c50a520d33",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4997.989999,
+        "top_net_wallet_share_of_market_accum_window": 0.5751168821307753,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xb8532690dbc86a879d07cee40f99b9c50a520d33",
+        "top_wallet_notional_accum_window": 4997.989999,
+        "top_wallet_share_accum_window": 0.5751168821307753,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8690.389996,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "37213700537211884046346343461171273467116817097526914098623717873226852830259",
+        "condition_id": "0x7a0d24ecbc97fae74fcdf6479f80eac887dc7098b62a8cd8b07cf3f45752e63e",
+        "event_slug": "sea-mil-int-2026-03-08",
+        "name": "swisstony",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.8498158778178698,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 4344.941173,
+        "slug": "sea-mil-int-2026-03-08-mil",
+        "timestamp": 1773005771,
+        "title": "Will AC Milan win on 2026-03-08?",
+        "trade_id": "70c72de05ec63e4d790ec281212aaa0eb24e283f97626b0269df15b75c741524",
+        "transaction_hash": "0x8e97e9fa35c161cef89e086c9f5b9acc45bfe9768ef248d4560cf20d3915109f"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/sea-mil-int-2026-03-08-mil",
+      "wallet_stats": {
+        "avg_notional_7d": 4272.376799000001,
+        "first_seen_ts": 1772489725,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 81
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x6dca85435a839f33128536524f542688881d44bfb7539a55d1361add1cb44e8d",
         "liquidity_num": 13751.9962,
         "outcome_prices": [
@@ -6437,9 +6508,9 @@
       }
     }
   ],
-  "generated_at": 1773004660,
+  "generated_at": 1773024379,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22830074613",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22830074613"
+  "workflow_run_id": "22836225521",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22836225521"
 }
