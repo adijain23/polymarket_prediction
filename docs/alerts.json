@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9020e29eac77bb6e2e790825646a3ff1a313630d589cf687006778c45f456f2b",
+        "liquidity_num": 620592.47612,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Sporting CP win on 2026-03-11?",
+        "slug": "ucl-bog1-spo1-2026-03-11-spo1",
+        "volume24hr": 1044395.7253320022
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 21764.17744,
+        "price_range_accum_window": 0.31899999999999995,
+        "price_range_fast_window": 0.31899999999999995,
+        "top_net_wallet_accum_window": "0x842ac934cfff1467f27c167c42c318001e407422",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 18364.17744,
+        "top_net_wallet_share_of_market_accum_window": 0.8437799907957376,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x842ac934cfff1467f27c167c42c318001e407422",
+        "top_wallet_notional_accum_window": 18364.17744,
+        "top_wallet_share_accum_window": 0.8437799907957376,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 21764.17744,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "109272817187625512243087705056180429175256952385690724161301456209386145212884",
+        "condition_id": "0x9020e29eac77bb6e2e790825646a3ff1a313630d589cf687006778c45f456f2b",
+        "event_slug": "ucl-bog1-spo1-2026-03-11",
+        "name": "ChompChomp888",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x842ac934cfff1467f27c167c42c318001e407422",
+        "pseudonym": "Plaintive-Abundance",
+        "side": "SELL",
+        "size": 18382.56,
+        "slug": "ucl-bog1-spo1-2026-03-11-spo1",
+        "timestamp": 1773268825,
+        "title": "Will Sporting CP win on 2026-03-11?",
+        "trade_id": "0f46614d322630b52f68db6d6ff3962e8c0ff15c6b26659c2a8b42235e7b5314",
+        "transaction_hash": "0xae4d9255be4ba270f7cb821591c22a93f7ca99ac41b44fef596aaec889452bd8"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/ucl-bog1-spo1-2026-03-11-spo1",
+      "wallet_stats": {
+        "avg_notional_7d": 18364.17744,
+        "first_seen_ts": 1773268825,
+        "proxy_wallet": "0x842ac934cfff1467f27c167c42c318001e407422",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xcd026bde94ff7b329c9f8efb645d9113067e9b4c0d1834c3e18844a292466894",
         "liquidity_num": 52043.3848,
         "outcome_prices": [
@@ -6578,9 +6651,9 @@
       }
     }
   ],
-  "generated_at": 1773263906,
+  "generated_at": 1773276483,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "22974942122",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22974942122"
+  "workflow_run_id": "22981518214",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/22981518214"
 }
