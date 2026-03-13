@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xdc745743c9498006f9b3501faa7d21fe7c6897e6b8aef6f09fbdc1a74bf385da",
+        "liquidity_num": 14277.00289,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will RC Celta de Vigo win on 2026-03-12?",
+        "slug": "uel-cel4-lyo1-2026-03-12-cel4",
+        "volume24hr": 5627019.808480014
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 7828.4804,
+        "price_range_accum_window": 0.40304293902835153,
+        "price_range_fast_window": 0.40304293902835153,
+        "top_net_wallet_accum_window": "0x44c58184f89a5c2f699dc8943009cb3d75a08d45",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 5443.6504,
+        "top_net_wallet_share_of_market_accum_window": 0.6953648884399072,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x44c58184f89a5c2f699dc8943009cb3d75a08d45",
+        "top_wallet_notional_accum_window": 5443.6504,
+        "top_wallet_share_accum_window": 0.6953648884399072,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 7828.4804,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "72080006957145462448905190711181188000765010681409810398310581722671859437420",
+        "condition_id": "0xdc745743c9498006f9b3501faa7d21fe7c6897e6b8aef6f09fbdc1a74bf385da",
+        "event_slug": "uel-cel4-lyo1-2026-03-12",
+        "name": "JhonAlexanderHinestroza",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.8930429390283515,
+        "proxy_wallet": "0x44c58184f89a5c2f699dc8943009cb3d75a08d45",
+        "pseudonym": "Plastic-Pet",
+        "side": "SELL",
+        "size": 6095.62,
+        "slug": "uel-cel4-lyo1-2026-03-12-cel4",
+        "timestamp": 1773351999,
+        "title": "Will RC Celta de Vigo win on 2026-03-12?",
+        "trade_id": "e8510e433df0193ffc8500f6d3eb2a122d53a4f10f93e3730cea734b62db702c",
+        "transaction_hash": "0xeb27a876844c5647fc84eaaf812d941d9dda2da1ee4d0d197fa963c384eb589d"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/uel-cel4-lyo1-2026-03-12-cel4",
+      "wallet_stats": {
+        "avg_notional_7d": 5443.6504,
+        "first_seen_ts": 1773351999,
+        "proxy_wallet": "0x44c58184f89a5c2f699dc8943009cb3d75a08d45",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9020e29eac77bb6e2e790825646a3ff1a313630d589cf687006778c45f456f2b",
         "liquidity_num": 620592.47612,
         "outcome_prices": [
@@ -6651,9 +6722,9 @@
       }
     }
   ],
-  "generated_at": 1773350901,
+  "generated_at": 1773368874,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "23024751382",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23024751382"
+  "workflow_run_id": "23033460712",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23033460712"
 }
