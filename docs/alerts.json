@@ -2,6 +2,150 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x27af71087e96b58cddb51303a40caed06e2dfd366dff3733ac8cb7a350e5fc89",
+        "liquidity_num": 29060.73339,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Real Madrid CF win on 2026-03-14?",
+        "slug": "lal-rea-elc-2026-03-14-rea",
+        "volume24hr": 1827053.3511499963
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 18239.918999,
+        "price_range_accum_window": 0.239,
+        "price_range_fast_window": 0.239,
+        "top_net_wallet_accum_window": "0x5da48936d61eb18d66ca5fdd32ba2d2ba19be203",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 10576.046,
+        "top_net_wallet_share_of_market_accum_window": 0.5798296582665652,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5da48936d61eb18d66ca5fdd32ba2d2ba19be203",
+        "top_wallet_notional_accum_window": 10576.046,
+        "top_wallet_share_accum_window": 0.5798296582665652,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 18239.918999,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "47405163348676293834589671705645034857039227776272025575492768248598632198761",
+        "condition_id": "0x27af71087e96b58cddb51303a40caed06e2dfd366dff3733ac8cb7a350e5fc89",
+        "event_slug": "lal-rea-elc-2026-03-14",
+        "name": "neider21",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x852da8d60702c22b9c04f9e72f14670ab209c3df",
+        "pseudonym": "Fluffy-Formation",
+        "side": "SELL",
+        "size": 5127.0,
+        "slug": "lal-rea-elc-2026-03-14-rea",
+        "timestamp": 1773525209,
+        "title": "Will Real Madrid CF win on 2026-03-14?",
+        "trade_id": "a554ca48ebf9a6bd42d764c42e412c08e219b8a3a59e31a85f23e0688801837d",
+        "transaction_hash": "0xfbe4349d3572c933558de3d299de30f5e1232b4ab257ffad7b3a034e8e107f38"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lal-rea-elc-2026-03-14-rea",
+      "wallet_stats": {
+        "avg_notional_7d": 5121.873,
+        "first_seen_ts": 1773525209,
+        "proxy_wallet": "0x852da8d60702c22b9c04f9e72f14670ab209c3df",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x3fe5032148c141e64d7fbe9a8ee13a25a87c57252f69e24d079b39fa9aa5619e",
+        "liquidity_num": 1106543.8151,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Aurora Gaming",
+          "Astralis"
+        ],
+        "question": "Counter-Strike: Aurora Gaming vs Astralis (BO3) - ESL Pro League Playoffs",
+        "slug": "cs2-aur1-ast10-2026-03-14",
+        "volume24hr": 1880941.4740839996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12517.944,
+        "price_range_accum_window": 0.45899999999999996,
+        "price_range_fast_window": 0.45899999999999996,
+        "top_net_wallet_accum_window": "0x70c16d6b1a5a6456928b14c0dc30ba3dda3fdba0",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 7409.583,
+        "top_net_wallet_share_of_market_accum_window": 0.5919169314066272,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x70c16d6b1a5a6456928b14c0dc30ba3dda3fdba0",
+        "top_wallet_notional_accum_window": 7409.583,
+        "top_wallet_share_accum_window": 0.5919169314066272,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 12517.944,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "15402546731783144292360904065903669627779513402764792362298102354232690332321",
+        "condition_id": "0x3fe5032148c141e64d7fbe9a8ee13a25a87c57252f69e24d079b39fa9aa5619e",
+        "event_slug": "cs2-aur1-ast10-2026-03-14",
+        "name": "perevaloww",
+        "outcome": "Aurora Gaming",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x70c16d6b1a5a6456928b14c0dc30ba3dda3fdba0",
+        "pseudonym": "Perfumed-Robot",
+        "side": "SELL",
+        "size": 7417.0,
+        "slug": "cs2-aur1-ast10-2026-03-14",
+        "timestamp": 1773524001,
+        "title": "Counter-Strike: Aurora Gaming vs Astralis (BO3) - ESL Pro League Playoffs",
+        "trade_id": "91dd0692d99bc05021443d2a55fd1298f9019d0d687dfd8bd86a74b3358a0b4f",
+        "transaction_hash": "0x33586ab49a8e6b0a0f2b75821959ac889908968e6071075afc603fe3df7f47eb"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-aur1-ast10-2026-03-14",
+      "wallet_stats": {
+        "avg_notional_7d": 7409.583,
+        "first_seen_ts": 1773524001,
+        "proxy_wallet": "0x70c16d6b1a5a6456928b14c0dc30ba3dda3fdba0",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x3400943a4af3236bd99361f2905026de8c6c7f4b79f5419e95631ff7ff5b3c0a",
         "liquidity_num": 35981.679,
         "outcome_prices": [
@@ -6793,9 +6937,9 @@
       }
     }
   ],
-  "generated_at": 1773522195,
+  "generated_at": 1773540595,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "23096308618",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23096308618"
+  "workflow_run_id": "23101294134",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23101294134"
 }
