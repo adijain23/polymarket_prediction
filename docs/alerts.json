@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x1e1c16b26272fc44cca2a24bc036a8d6701e2039995aac09f37f278851972312",
+        "liquidity_num": 848631.2394,
+        "outcome_prices": [
+          0.345,
+          0.655
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Paris Saint-Germain FC win on 2026-03-17?",
+        "slug": "ucl-cfc1-psg1-2026-03-17-psg1",
+        "volume24hr": 809252.5717439994
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 56010.753000000004,
+        "price_range_accum_window": 5.551115123125783e-17,
+        "price_range_fast_window": 0.020000000000000018,
+        "top_net_wallet_accum_window": "0xb90494d9a5d8f71f1930b2aa4b599f95c344c255",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 35328.2848,
+        "top_net_wallet_share_of_market_accum_window": 0.6540972461539278,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xb90494d9a5d8f71f1930b2aa4b599f95c344c255",
+        "top_wallet_notional_accum_window": 35328.2848,
+        "top_wallet_share_accum_window": 0.6540972461539278,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 56010.753000000004,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "6910416310535395577408336024712601166295550176652088289768845973361802866784",
+        "condition_id": "0x1e1c16b26272fc44cca2a24bc036a8d6701e2039995aac09f37f278851972312",
+        "event_slug": "ucl-cfc1-psg1-2026-03-17",
+        "name": "EF203F2IPFC2ICP20W-CP3",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.66,
+        "proxy_wallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
+        "pseudonym": "Bogus-Fix",
+        "side": "BUY",
+        "size": 3676.47,
+        "slug": "ucl-cfc1-psg1-2026-03-17-psg1",
+        "timestamp": 1773776199,
+        "title": "Will Paris Saint-Germain FC win on 2026-03-17?",
+        "trade_id": "dddd67eb18ba547fecd4dc6bd0d8cb5883eccee76e0b06a99f2f3ae5fb3a8051",
+        "transaction_hash": "0x9532ff49f859cc74b947a4ff7de1074bece1d546a9f50f83555249357865db56"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/ucl-cfc1-psg1-2026-03-17-psg1",
+      "wallet_stats": {
+        "avg_notional_7d": 2801.0110462499997,
+        "first_seen_ts": 1773337881,
+        "proxy_wallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
+        "trades_7d": 4,
+        "trades_total": 4,
+        "unique_markets_7d": 4,
+        "unique_markets_total": 7
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x652611eabb4cb2f3876264d7cda79c26ad26ce5ecce6db40585a51a93cb14096",
         "liquidity_num": 56251.75697,
         "outcome_prices": [
@@ -7009,9 +7080,9 @@
       }
     }
   ],
-  "generated_at": 1773772676,
+  "generated_at": 1773783066,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "23210516012",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23210516012"
+  "workflow_run_id": "23217256485",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23217256485"
 }
