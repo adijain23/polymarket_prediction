@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x79c98c99467097f0a00bf7ad55e4fed572cfe759e5200ef6c6564af307c18407",
+        "liquidity_num": 344581.11491,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Gen.G",
+          "G2 Esports"
+        ],
+        "question": "LoL: Gen.G vs G2 Esports (BO5) - First Stand Playoffs",
+        "slug": "lol-gen-g2-2026-03-21",
+        "volume24hr": 4815628.921861001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 16090.43543,
+        "price_range_accum_window": 0.45159127992091996,
+        "price_range_fast_window": 0.45159127992091996,
+        "top_net_wallet_accum_window": "0x00bf4648a330c8dd0ff1d36e3d25995ee6d03a0e",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 12590.56683,
+        "top_net_wallet_share_of_market_accum_window": 0.7824876389936205,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x00bf4648a330c8dd0ff1d36e3d25995ee6d03a0e",
+        "top_wallet_notional_accum_window": 12590.56683,
+        "top_wallet_share_accum_window": 0.7824876389936205,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 16090.43543,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "770246278943925957149039941575560782207929181877534387948998820400655089938",
+        "condition_id": "0x79c98c99467097f0a00bf7ad55e4fed572cfe759e5200ef6c6564af307c18407",
+        "event_slug": "lol-gen-g2-2026-03-21",
+        "name": "Lasercat3977",
+        "outcome": "G2 Esports",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x00bf4648a330c8dd0ff1d36e3d25995ee6d03a0e",
+        "pseudonym": "Gruesome-Quiet",
+        "side": "SELL",
+        "size": 12603.17,
+        "slug": "lol-gen-g2-2026-03-21",
+        "timestamp": 1774110375,
+        "title": "LoL: Gen.G vs G2 Esports (BO5) - First Stand Playoffs",
+        "trade_id": "544b7b91df22cb427559e0cfbc2c5a15e12f40a1bcf3917383734b1143d2f9e0",
+        "transaction_hash": "0x440227e487dea29c21c644d1c29ee863c07cee807ee530e04632ce78331a9862"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-gen-g2-2026-03-21",
+      "wallet_stats": {
+        "avg_notional_7d": 11295.2834145,
+        "first_seen_ts": 1773855769,
+        "proxy_wallet": "0x00bf4648a330c8dd0ff1d36e3d25995ee6d03a0e",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1e1c16b26272fc44cca2a24bc036a8d6701e2039995aac09f37f278851972312",
         "liquidity_num": 848631.2394,
         "outcome_prices": [
@@ -7080,9 +7151,9 @@
       }
     }
   ],
-  "generated_at": 1774106048,
+  "generated_at": 1774116046,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "23382516356",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23382516356"
+  "workflow_run_id": "23385433444",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23385433444"
 }
