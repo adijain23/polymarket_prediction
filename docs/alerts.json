@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x8ed9118ec508b0d0f493e868eaed3cfdaca151612be861fad0597d844b4cbbbf",
+        "liquidity_num": 31716.9578,
+        "outcome_prices": [
+          0.7215,
+          0.2785
+        ],
+        "outcomes": [
+          "Team Yandex",
+          "Xtreme Gaming"
+        ],
+        "question": "Dota 2: Team Yandex vs Xtreme Gaming - Game 1 Winner",
+        "slug": "dota2-ty-xtreme-2026-03-29-game1",
+        "volume24hr": 571854.1478820003
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 29912.051696,
+        "price_range_accum_window": 0.36012807311869777,
+        "price_range_fast_window": 0.36012807311869777,
+        "top_net_wallet_accum_window": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 19999.999996,
+        "top_net_wallet_share_of_market_accum_window": 0.6686268196933648,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
+        "top_wallet_notional_accum_window": 19999.999996,
+        "top_wallet_share_accum_window": 0.6686268196933648,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 29912.051696,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "51165630821221528602807253705576481765865006783307562406916576257353961434956",
+        "condition_id": "0x8ed9118ec508b0d0f493e868eaed3cfdaca151612be861fad0597d844b4cbbbf",
+        "event_slug": "dota2-ty-xtreme-2026-03-29",
+        "name": "xplot",
+        "outcome": "Team Yandex",
+        "outcome_index": 0,
+        "price": 0.97,
+        "proxy_wallet": "0x491d9291d49322840b1117fd02902326963af42b",
+        "pseudonym": "Unknown-Nurse",
+        "side": "BUY",
+        "size": 10218.61,
+        "slug": "dota2-ty-xtreme-2026-03-29-game1",
+        "timestamp": 1774785220,
+        "title": "Dota 2: Team Yandex vs Xtreme Gaming - Game 1 Winner",
+        "trade_id": "c0d62943172bb661e05ef1bd123aa9a0cede804aeb8cec4a886e5018dc25bbf0",
+        "transaction_hash": "0x4b355e8db2cb005e1f4208ae766708617dd8f8c76e51cc3c301e5d09e1148195"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-ty-xtreme-2026-03-29-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 9912.0517,
+        "first_seen_ts": 1774785220,
+        "proxy_wallet": "0x491d9291d49322840b1117fd02902326963af42b",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x58d77bc749c46ad4b4617b8c8693c62c9e0378ed73407beb113bd8a2d4e13eab",
         "liquidity_num": 976572.99808,
         "outcome_prices": [
@@ -7509,9 +7582,9 @@
       }
     }
   ],
-  "generated_at": 1774776784,
-  "new_alerts": 0,
+  "generated_at": 1774785666,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "23706125977",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23706125977"
+  "workflow_run_id": "23708559581",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/23708559581"
 }
