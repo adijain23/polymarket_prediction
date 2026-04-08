@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9a321de4da33edb83eb1576e01a4aca9eee478779ca8da09d31bfae72c01dc97",
+        "liquidity_num": 53756.4756,
+        "outcome_prices": [
+          0.085,
+          0.915
+        ],
+        "outcomes": [
+          "Delhi Capitals",
+          "Gujarat Titans"
+        ],
+        "question": "Indian Premier League: Delhi Capitals vs Gujarat Titans",
+        "slug": "cricipl-del-guj-2026-04-08",
+        "volume24hr": 1486588.5636510015
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8605.71822747643,
+        "price_range_accum_window": 0.47274820839341913,
+        "price_range_fast_window": 0.47274820839341913,
+        "top_net_wallet_accum_window": "0xa4e2fb05cf791e054063a406010cdb7f762eb8f5",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 5004.481584125903,
+        "top_net_wallet_share_of_market_accum_window": 0.581529798192502,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xa4e2fb05cf791e054063a406010cdb7f762eb8f5",
+        "top_wallet_notional_accum_window": 5004.481584125903,
+        "top_wallet_share_accum_window": 0.581529798192502,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8605.71822747643,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "5323059243772475039402583293448864857618099660053474957529407158803827724882",
+        "condition_id": "0x9a321de4da33edb83eb1576e01a4aca9eee478779ca8da09d31bfae72c01dc97",
+        "event_slug": "cricipl-del-guj-2026-04-08",
+        "name": "Emperorvikky",
+        "outcome": "Gujarat Titans",
+        "outcome_index": 1,
+        "price": 0.942893264588189,
+        "proxy_wallet": "0xa4e2fb05cf791e054063a406010cdb7f762eb8f5",
+        "pseudonym": "Aggravating-Credit",
+        "side": "BUY",
+        "size": 5307.58016,
+        "slug": "cricipl-del-guj-2026-04-08",
+        "timestamp": 1775670215,
+        "title": "Indian Premier League: Delhi Capitals vs Gujarat Titans",
+        "trade_id": "dcac3f2b0b7bde849d40a8e07de7ff203daa16e0182e009dc2a1cbecf4bcd373",
+        "transaction_hash": "0x31bc3ab21323882513d9af77af181f8389534c26e9801392719f092569a07108"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cricipl-del-guj-2026-04-08",
+      "wallet_stats": {
+        "avg_notional_7d": 5004.481584125903,
+        "first_seen_ts": 1775670215,
+        "proxy_wallet": "0xa4e2fb05cf791e054063a406010cdb7f762eb8f5",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x773abaa5fe55e5cde51a261f444b7921652a4e059ead6b3be9fe56499c2d4609",
         "liquidity_num": 116702.2925,
         "outcome_prices": [
@@ -7725,9 +7796,9 @@
       }
     }
   ],
-  "generated_at": 1775663316,
+  "generated_at": 1775674529,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24144623308",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24144623308"
+  "workflow_run_id": "24152871227",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24152871227"
 }
