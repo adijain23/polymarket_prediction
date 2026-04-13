@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "liquidity_num": 1026562.52669,
+        "outcome_prices": [
+          0.1625,
+          0.8375
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will France win the 2026 FIFA World Cup?",
+        "slug": "will-france-win-the-2026-fifa-world-cup-924",
+        "volume24hr": 1258964.3750790015
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 169890.20862,
+        "price_range_accum_window": 0.001449012951663553,
+        "price_range_fast_window": 0.001449012951663553,
+        "top_net_wallet_accum_window": "0xbddf61af533ff524d27154e589d2d7a81510c684",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 150118.77039,
+        "top_net_wallet_share_of_market_accum_window": 0.8836222617500956,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xbddf61af533ff524d27154e589d2d7a81510c684",
+        "top_wallet_notional_accum_window": 150118.77039,
+        "top_wallet_share_accum_window": 0.8836222617500956,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 169890.20862,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "32270411694523539495262303868629477861017829722282576458031815333486368239544",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "event_slug": "2026-fifa-world-cup-winner-595",
+        "name": null,
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.837,
+        "proxy_wallet": "0xfb512d428db90455c9507d2578cc306b2701082d",
+        "pseudonym": null,
+        "side": "SELL",
+        "size": 2953.4,
+        "slug": "will-france-win-the-2026-fifa-world-cup-924",
+        "timestamp": 1776084189,
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "trade_id": "d3e6bb6ee2965a5b5460b4ea3c6b835d61f4d3604ce00ab42c48f857761496b1",
+        "transaction_hash": "0x3bf6a91d28cd8fc10ce08e5007d0cfe82dfe0c658d0a67a0bec54e4ccad1353b"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-france-win-the-2026-fifa-world-cup-924",
+      "wallet_stats": {
+        "avg_notional_7d": 2471.9958,
+        "first_seen_ts": 1776084189,
+        "proxy_wallet": "0xfb512d428db90455c9507d2578cc306b2701082d",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1480b819d03d4b6388d70e848b0384adf38c38d955cb783cdbcf6d4a436dee14",
         "liquidity_num": 457103.45206,
         "outcome_prices": [
@@ -7868,9 +7940,9 @@
       }
     }
   ],
-  "generated_at": 1776075427,
-  "new_alerts": 0,
+  "generated_at": 1776084435,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24338092714",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24338092714"
+  "workflow_run_id": "24344130389",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24344130389"
 }
