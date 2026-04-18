@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
+        "liquidity_num": 349121.9101,
+        "outcome_prices": [
+          0.305,
+          0.695
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Strait of Hormuz traffic returns to normal by end of April?",
+        "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+        "volume24hr": 4655733.609243021
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 13759.1716,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.21999999999999997,
+        "top_net_wallet_accum_window": "0x3c593aeb73ebdadbc9ce76d4264a6a2af4011766",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 7598.6732999999995,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x3c593aeb73ebdadbc9ce76d4264a6a2af4011766",
+        "top_wallet_notional_accum_window": 7598.6732999999995,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 13759.1716,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "56231474151770057648855426299021396541474371449092934400587810748856711049761",
+        "condition_id": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
+        "event_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+        "name": "eightpenguins",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.69,
+        "proxy_wallet": "0x3c593aeb73ebdadbc9ce76d4264a6a2af4011766",
+        "pseudonym": "Complete-Referendum",
+        "side": "SELL",
+        "size": 11012.57,
+        "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+        "timestamp": 1776511726,
+        "title": "Strait of Hormuz traffic returns to normal by end of April?",
+        "trade_id": "dbff6f23c2dad94881621fe7de6a59f00afdf5e9066bb3e8d5607c52410c1164",
+        "transaction_hash": "0x24cacd73df8c4b5be4e021cd55be99b39913d47e3dec1f5f6ddae686762029fb"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/strait-of-hormuz-traffic-returns-to-normal-by-april-30",
+      "wallet_stats": {
+        "avg_notional_7d": 7598.6732999999995,
+        "first_seen_ts": 1776511726,
+        "proxy_wallet": "0x3c593aeb73ebdadbc9ce76d4264a6a2af4011766",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
         "liquidity_num": 1026562.52669,
         "outcome_prices": [
@@ -7940,9 +8011,9 @@
       }
     }
   ],
-  "generated_at": 1776504318,
+  "generated_at": 1776513681,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24601703444",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24601703444"
+  "workflow_run_id": "24604225008",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24604225008"
 }
