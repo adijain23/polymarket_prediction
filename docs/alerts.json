@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xcb5c7a711ddbf3af60c3dd349d50460d8d27bee46c0cd6cd507690eb5d7646fc",
+        "liquidity_num": 155455.17145,
+        "outcome_prices": [
+          0.0055,
+          0.9945
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Bitcoin reach $100,000 in April?",
+        "slug": "will-bitcoin-reach-100k-in-april-2026",
+        "volume24hr": 29782.212910000006
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 32503.657279707393,
+        "price_range_accum_window": 0.0009973087116882384,
+        "price_range_fast_window": 0.0009973087116882384,
+        "top_net_wallet_accum_window": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 32503.657279707393,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "top_wallet_notional_accum_window": 32503.657279707393,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 32503.657279707393,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "extreme_price"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "80713175054230576290548180605628595266810095404947259513800441532945749053141",
+        "condition_id": "0xcb5c7a711ddbf3af60c3dd349d50460d8d27bee46c0cd6cd507690eb5d7646fc",
+        "event_slug": "what-price-will-bitcoin-hit-in-april-2026",
+        "name": "pwnatorul",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.996,
+        "proxy_wallet": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "pseudonym": "Musty-Hops",
+        "side": "BUY",
+        "size": 17739.699500000002,
+        "slug": "will-bitcoin-reach-100k-in-april-2026",
+        "timestamp": 1776581328,
+        "title": "Will Bitcoin reach $100,000 in April?",
+        "trade_id": "1fcd43ffe8a4aeb8be884b64d4d96b3472d47ae69d2e1061c48fd1bb67c0129d",
+        "transaction_hash": "0x45816d1b1e0f926c7ab75631a409ebd6dcc181a26149966104040ef0e0116999"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-bitcoin-reach-100k-in-april-2026",
+      "wallet_stats": {
+        "avg_notional_7d": 16251.828639853697,
+        "first_seen_ts": 1776581328,
+        "proxy_wallet": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
         "liquidity_num": 349121.9101,
         "outcome_prices": [
@@ -8011,9 +8085,9 @@
       }
     }
   ],
-  "generated_at": 1776575615,
-  "new_alerts": 0,
+  "generated_at": 1776581612,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24621624625",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24621624625"
+  "workflow_run_id": "24623228685",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24623228685"
 }
