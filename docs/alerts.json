@@ -2,6 +2,81 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xe6ca9df9502600d4f652a725babeff09cd2947974d18351c18a3ba86cc985c50",
+        "liquidity_num": 137992.21822,
+        "outcome_prices": [
+          0.0145,
+          0.9855
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Bitcoin reach $90,000 in April?",
+        "slug": "will-bitcoin-reach-90k-in-april-2026",
+        "volume24hr": 52169.275733999995
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 32844.328338451465,
+        "price_range_accum_window": 0.0013838511171949675,
+        "price_range_fast_window": 0.0013838511171949675,
+        "top_net_wallet_accum_window": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 32844.328338451465,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "top_wallet_notional_accum_window": 32844.328338451465,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 32844.328338451465,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "11674877283182395311878029890298737455444742113537051671807978956347823025159",
+        "condition_id": "0xe6ca9df9502600d4f652a725babeff09cd2947974d18351c18a3ba86cc985c50",
+        "event_slug": "what-price-will-bitcoin-hit-in-april-2026",
+        "name": "pwnatorul",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.989,
+        "proxy_wallet": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "pseudonym": "Musty-Hops",
+        "side": "BUY",
+        "size": 17910.8034,
+        "slug": "will-bitcoin-reach-90k-in-april-2026",
+        "timestamp": 1777011522,
+        "title": "Will Bitcoin reach $90,000 in April?",
+        "trade_id": "e19bdb465e98397aed539cb39274a39df6084cd7d497b423b45e2b38a42df9e2",
+        "transaction_hash": "0xb7dd7c732ba1cf9abb7def9f73cf8cbce1f0f1b94d539900ea743ac0ef31816d"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-bitcoin-reach-90k-in-april-2026",
+      "wallet_stats": {
+        "avg_notional_7d": 16336.996404539717,
+        "first_seen_ts": 1776581328,
+        "proxy_wallet": "0x3eba55f41f4064bc4b070d06a00fec7c2dd5849a",
+        "trades_7d": 4,
+        "trades_total": 4,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xcb5c7a711ddbf3af60c3dd349d50460d8d27bee46c0cd6cd507690eb5d7646fc",
         "liquidity_num": 155455.17145,
         "outcome_prices": [
@@ -8085,9 +8160,9 @@
       }
     }
   ],
-  "generated_at": 1777004747,
-  "new_alerts": 0,
+  "generated_at": 1777011850,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24872147092",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24872147092"
+  "workflow_run_id": "24875545839",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24875545839"
 }
