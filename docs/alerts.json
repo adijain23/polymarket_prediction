@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbff9bdf0acd10029fb1f477777cd9210fbb29a6052367fa3ed50fe8b9e184f25",
+        "liquidity_num": 508342.75037,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Aurora",
+          "Team Falcons"
+        ],
+        "question": "Dota 2: Aurora vs Team Falcons - Game 1 Winner",
+        "slug": "dota2-aur1-flc-2026-04-26-game1",
+        "volume24hr": 1293520.6847839996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8358.192021494406,
+        "price_range_accum_window": 0.44881370406074594,
+        "price_range_fast_window": 0.44881370406074594,
+        "top_net_wallet_accum_window": "0x124e49a2e25eb900e9c8d056e557ff74a7126802",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 5193.360021494405,
+        "top_net_wallet_share_of_market_accum_window": 0.6213496899974137,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x124e49a2e25eb900e9c8d056e557ff74a7126802",
+        "top_wallet_notional_accum_window": 5193.360021494405,
+        "top_wallet_share_accum_window": 0.6213496899974137,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8358.192021494406,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "16975705901040273379595188005327318599588127221294665111038216092601198373250",
+        "condition_id": "0xbff9bdf0acd10029fb1f477777cd9210fbb29a6052367fa3ed50fe8b9e184f25",
+        "event_slug": "dota2-aur1-flc-2026-04-26",
+        "name": "KING7777777",
+        "outcome": "Aurora",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xad72ffe37df00548959c2f86f0333e7c958e4f5e",
+        "pseudonym": "Troubled-Transparency",
+        "side": "SELL",
+        "size": 3168.0,
+        "slug": "dota2-aur1-flc-2026-04-26-game1",
+        "timestamp": 1777196050,
+        "title": "Dota 2: Aurora vs Team Falcons - Game 1 Winner",
+        "trade_id": "c06cb28cd5b29f5fe1889ec8be5d564a80a16444f2966d589593ed411b3440e7",
+        "transaction_hash": "0x0a06ced4a838a153b9b0c3d74f62dc7818c2119e6c845c1081523b5499ed0f31"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-aur1-flc-2026-04-26-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 3164.832,
+        "first_seen_ts": 1777196050,
+        "proxy_wallet": "0xad72ffe37df00548959c2f86f0333e7c958e4f5e",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x3215edabe07eb718f73be8012d7ccd183a2186335c1a38feaadab25e2b8cee52",
         "liquidity_num": 157007.7251,
         "outcome_prices": [
@@ -8232,9 +8304,9 @@
       }
     }
   ],
-  "generated_at": 1777189387,
-  "new_alerts": 0,
+  "generated_at": 1777196286,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "24951438025",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24951438025"
+  "workflow_run_id": "24953496993",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/24953496993"
 }
