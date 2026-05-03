@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x3f544b936a187310951b7220fc7a6f3694da0070cc843ecd9ccbc3b4379615c6",
+        "liquidity_num": 669337.40127,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will AC Milan win on 2026-05-03?",
+        "slug": "sea-sas-mil-2026-05-03-mil",
+        "volume24hr": 3270432.620714999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 37087.903999999995,
+        "price_range_accum_window": 0.579,
+        "price_range_fast_window": 0.579,
+        "top_net_wallet_accum_window": "0xbee54d90051720e27921dc6874f02d646ffca636",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 28999.999999999996,
+        "top_net_wallet_share_of_market_accum_window": 0.7819260964437355,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xbee54d90051720e27921dc6874f02d646ffca636",
+        "top_wallet_notional_accum_window": 28999.999999999996,
+        "top_wallet_share_accum_window": 0.7819260964437355,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 37087.903999999995,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "60122440498792660847436184142904036136395043160492538517912514776976128273039",
+        "condition_id": "0x3f544b936a187310951b7220fc7a6f3694da0070cc843ecd9ccbc3b4379615c6",
+        "event_slug": "sea-sas-mil-2026-05-03",
+        "name": "HeyitsmeZizz",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x22ed3d438a22d7f036dc35403b26ebab61ed002b",
+        "pseudonym": "Jagged-Public",
+        "side": "SELL",
+        "size": 8096.0,
+        "slug": "sea-sas-mil-2026-05-03-mil",
+        "timestamp": 1777820010,
+        "title": "Will AC Milan win on 2026-05-03?",
+        "trade_id": "af0649cfd64139962468eb736d477926c8b1670460bf93b22beb6641327e22a5",
+        "transaction_hash": "0x946e0d73fea034f641979eac2a5e4fb22ce80ee39126fffd52f8085005cbd8b8"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/sea-sas-mil-2026-05-03-mil",
+      "wallet_stats": {
+        "avg_notional_7d": 8087.9039999999995,
+        "first_seen_ts": 1777820010,
+        "proxy_wallet": "0x22ed3d438a22d7f036dc35403b26ebab61ed002b",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc952aa669d93cedeb575e7e82637c553983978c2617b9f45d4e0d7f50013ecf6",
         "liquidity_num": 14753.48288,
         "outcome_prices": [
@@ -8447,9 +8520,9 @@
       }
     }
   ],
-  "generated_at": 1777812157,
+  "generated_at": 1777823378,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "25279472515",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25279472515"
+  "workflow_run_id": "25283646338",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25283646338"
 }
