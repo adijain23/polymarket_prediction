@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xc6fd1706a9214393b2bb53bb45f23ff00e5fb04e62ed99a005d42f90f7d55f82",
+        "liquidity_num": 23165.0862,
+        "outcome_prices": [
+          0.9,
+          0.1
+        ],
+        "outcomes": [
+          "Movistar KOI",
+          "G2 Esports"
+        ],
+        "question": "LoL: Movistar KOI vs G2 Esports (BO3) - LEC Regular Season",
+        "slug": "lol-mkoi-g2-2026-05-10",
+        "volume24hr": 1146532.97573
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8455.932594,
+        "price_range_accum_window": 0.17024052606757223,
+        "price_range_fast_window": 0.17024052606757223,
+        "top_net_wallet_accum_window": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4999.999994,
+        "top_net_wallet_share_of_market_accum_window": 0.5913008338722809,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "top_wallet_notional_accum_window": 4999.999994,
+        "top_wallet_share_accum_window": 0.5913008338722809,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8455.932594,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "68321805948412015205008638932009695645776242468316503692808156436301005502721",
+        "condition_id": "0xc6fd1706a9214393b2bb53bb45f23ff00e5fb04e62ed99a005d42f90f7d55f82",
+        "event_slug": "lol-mkoi-g2-2026-05-10",
+        "name": "retroactivesource",
+        "outcome": "Movistar KOI",
+        "outcome_index": 0,
+        "price": 0.9071650004975428,
+        "proxy_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "pseudonym": "Black-And-White-Catalogue",
+        "side": "BUY",
+        "size": 5511.676477,
+        "slug": "lol-mkoi-g2-2026-05-10",
+        "timestamp": 1778440464,
+        "title": "LoL: Movistar KOI vs G2 Esports (BO3) - LEC Regular Season",
+        "trade_id": "91ddc62a5abfe5a2e1a62b4a08c54fcc8454481652df16bcf03c5a97d179ce3a",
+        "transaction_hash": "0xdf568df9cfde1ca11e42b1b42f61250e7896f617c8b2393b190c7a0c1124bf80"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-mkoi-g2-2026-05-10",
+      "wallet_stats": {
+        "avg_notional_7d": 4999.999994,
+        "first_seen_ts": 1778440464,
+        "proxy_wallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 4
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x3f544b936a187310951b7220fc7a6f3694da0070cc843ecd9ccbc3b4379615c6",
         "liquidity_num": 669337.40127,
         "outcome_prices": [
@@ -8520,9 +8591,9 @@
       }
     }
   ],
-  "generated_at": 1778436257,
+  "generated_at": 1778446882,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "25635882057",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25635882057"
+  "workflow_run_id": "25639674841",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25639674841"
 }
