@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xfbabd4e4a2afae776e4ec95b6b5924ca97673a86fa7dd89c3a48dc357c37d318",
+        "liquidity_num": 40648.5097,
+        "outcome_prices": [
+          0.675,
+          0.325
+        ],
+        "outcomes": [
+          "Natus Vincere",
+          "GamerLegion"
+        ],
+        "question": "Counter-Strike: Natus Vincere vs GamerLegion (BO3) - IEM Atlanta Group B",
+        "slug": "cs2-navi-gl1-2026-05-12",
+        "volume24hr": 515720.166367
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5604.4231,
+        "price_range_accum_window": 0.15323584639554988,
+        "price_range_fast_window": 0.15323584639554988,
+        "top_net_wallet_accum_window": "0x4567d243eee554389abddebc7897749c01b16300",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 2844.4231,
+        "top_net_wallet_share_of_market_accum_window": 0.5075318278521834,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x4567d243eee554389abddebc7897749c01b16300",
+        "top_wallet_notional_accum_window": 2844.4231,
+        "top_wallet_share_accum_window": 0.5075318278521834,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5604.4231,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "94191832235493691759427535566453183488476476757511800081688010592901688302737",
+        "condition_id": "0xfbabd4e4a2afae776e4ec95b6b5924ca97673a86fa7dd89c3a48dc357c37d318",
+        "event_slug": "cs2-navi-gl1-2026-05-12",
+        "name": "1t4l",
+        "outcome": "GamerLegion",
+        "outcome_index": 1,
+        "price": 0.23323584639554984,
+        "proxy_wallet": "0x4567d243eee554389abddebc7897749c01b16300",
+        "pseudonym": "Noted-Plug",
+        "side": "BUY",
+        "size": 12195.48,
+        "slug": "cs2-navi-gl1-2026-05-12",
+        "timestamp": 1778626561,
+        "title": "Counter-Strike: Natus Vincere vs GamerLegion (BO3) - IEM Atlanta Group B",
+        "trade_id": "6dbde1e5bcc6aefba9cbb19702953edf91bd0888610ec686258109e2031f51a9",
+        "transaction_hash": "0x7d93b848d809ad9a1f2090974a6242fa26ab5a2c98f48697550106b5406fc884"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-navi-gl1-2026-05-12",
+      "wallet_stats": {
+        "avg_notional_7d": 2844.4231,
+        "first_seen_ts": 1778626561,
+        "proxy_wallet": "0x4567d243eee554389abddebc7897749c01b16300",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc6fd1706a9214393b2bb53bb45f23ff00e5fb04e62ed99a005d42f90f7d55f82",
         "liquidity_num": 23165.0862,
         "outcome_prices": [
@@ -8591,9 +8662,9 @@
       }
     }
   ],
-  "generated_at": 1778623056,
+  "generated_at": 1778631040,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "25764616035",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25764616035"
+  "workflow_run_id": "25769806915",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25769806915"
 }
