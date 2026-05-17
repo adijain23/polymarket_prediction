@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9562655a13bfd6179211737302289ae38a3d0e597c65ec11780a092f6c865e10",
+        "liquidity_num": 228619.8394,
+        "outcome_prices": [
+          0.615,
+          0.385
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Olympique Lyonnais win on 2026-05-17?",
+        "slug": "fl1-lyo-rcl-2026-05-17-lyo",
+        "volume24hr": 80157.96809000001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 81657.1541,
+        "price_range_accum_window": 0.020000000000000018,
+        "price_range_fast_window": 0.020000000000000018,
+        "top_net_wallet_accum_window": "0x0eb568f307e9a48af2c3e688ad6074236712c494",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 76618.4141,
+        "top_net_wallet_share_of_market_accum_window": 0.9382939553118714,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 3,
+        "top_wallet_accum_window": "0x0eb568f307e9a48af2c3e688ad6074236712c494",
+        "top_wallet_notional_accum_window": 76618.4141,
+        "top_wallet_share_accum_window": 0.9382939553118714,
+        "top_wallet_trades_accum_window": 3,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 76618.4141,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "97033520640903491500373260073479586035313397000762442736730772958399843034326",
+        "condition_id": "0x9562655a13bfd6179211737302289ae38a3d0e597c65ec11780a092f6c865e10",
+        "event_slug": "fl1-lyo-rcl-2026-05-17",
+        "name": "asdfjh",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.65,
+        "proxy_wallet": "0x0eb568f307e9a48af2c3e688ad6074236712c494",
+        "pseudonym": "Constant-Fit",
+        "side": "BUY",
+        "size": 108554.15,
+        "slug": "fl1-lyo-rcl-2026-05-17-lyo",
+        "timestamp": 1779041304,
+        "title": "Will Olympique Lyonnais win on 2026-05-17?",
+        "trade_id": "24dd584d839e3d506476ee2412077f7c2586a42c3bfa49cb147b0ed7531d5dbf",
+        "transaction_hash": "0x59f32a7554d98135999432f89e1f8e4eabadf9b11d7c9678c89d41fd17aa9dbc"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fl1-lyo-rcl-2026-05-17-lyo",
+      "wallet_stats": {
+        "avg_notional_7d": 25539.471366666665,
+        "first_seen_ts": 1779041293,
+        "proxy_wallet": "0x0eb568f307e9a48af2c3e688ad6074236712c494",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xfbabd4e4a2afae776e4ec95b6b5924ca97673a86fa7dd89c3a48dc357c37d318",
         "liquidity_num": 40648.5097,
         "outcome_prices": [
@@ -8662,9 +8736,9 @@
       }
     }
   ],
-  "generated_at": 1779030980,
-  "new_alerts": 0,
+  "generated_at": 1779041525,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "25994659264",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25994659264"
+  "workflow_run_id": "25998736146",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/25998736146"
 }
