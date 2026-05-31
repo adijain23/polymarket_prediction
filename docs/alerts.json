@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xa521761a1800e67219c5982c2017ee4d179f901f9b623b7f974a66197c89397b",
+        "liquidity_num": 79348.6597,
+        "outcome_prices": [
+          0.955,
+          0.045
+        ],
+        "outcomes": [
+          "Mirra Andreeva",
+          "Jil Teichmann"
+        ],
+        "question": "Roland Garros WTA: Mirra Andreeva vs Jil Teichmann",
+        "slug": "wta-andreev-teichma-2026-05-31",
+        "volume24hr": 1708328.8697390014
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 89006.04,
+        "price_range_accum_window": 0.09999999999999998,
+        "price_range_fast_window": 0.09999999999999998,
+        "top_net_wallet_accum_window": "0x3d6ac5150675a83e2090234414222e968888c2b5",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 86115.04,
+        "top_net_wallet_share_of_market_accum_window": 0.96751905825717,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x3d6ac5150675a83e2090234414222e968888c2b5",
+        "top_wallet_notional_accum_window": 86115.04,
+        "top_wallet_share_accum_window": 0.96751905825717,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 89006.04,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "92599972320224127371191363824651325578424436569725102813563220699879911648776",
+        "condition_id": "0xa521761a1800e67219c5982c2017ee4d179f901f9b623b7f974a66197c89397b",
+        "event_slug": "wta-andreev-teichma-2026-05-31",
+        "name": "swisstony",
+        "outcome": "Mirra Andreeva",
+        "outcome_index": 0,
+        "price": 0.98,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 2950.0,
+        "slug": "wta-andreev-teichma-2026-05-31",
+        "timestamp": 1780245458,
+        "title": "Roland Garros WTA: Mirra Andreeva vs Jil Teichmann",
+        "trade_id": "6d87c2bc9f7fcafec0bc64080105d31578382d730e8d36204d1e33a16d12164e",
+        "transaction_hash": "0x6c115e4ccedb8d10ee19a731592b8b500a0c796939f5437b983c15e1a5e7c0c6"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-andreev-teichma-2026-05-31",
+      "wallet_stats": {
+        "avg_notional_7d": 7521.610466666666,
+        "first_seen_ts": 1780229488,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 115
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd7540d64e03b1894ececcbb54c02b88d9c5c0e854ba66ec4e1ece20477994ac5",
         "liquidity_num": 45132.5271,
         "outcome_prices": [
@@ -8807,9 +8880,9 @@
       }
     }
   ],
-  "generated_at": 1780242056,
+  "generated_at": 1780253685,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "26716953807",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/26716953807"
+  "workflow_run_id": "26721453909",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/26721453909"
 }
