@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
+        "liquidity_num": 385215.3779,
+        "outcome_prices": [
+          0.035,
+          0.965
+        ],
+        "outcomes": [
+          "Flavio Cobolli",
+          "Alexander Zverev"
+        ],
+        "question": "Roland Garros ATP: Flavio Cobolli vs Alexander Zverev",
+        "slug": "atp-cobolli-zverev-2026-06-07",
+        "volume24hr": 17113527.554256152
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6040.0,
+        "price_range_accum_window": 0.17999999999999997,
+        "price_range_fast_window": 0.17999999999999997,
+        "top_net_wallet_accum_window": "0x46992d0e547e3822a9c28723f51bfa804ae4e03c",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3840.0,
+        "top_net_wallet_share_of_market_accum_window": 0.6357615894039735,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x46992d0e547e3822a9c28723f51bfa804ae4e03c",
+        "top_wallet_notional_accum_window": 3840.0,
+        "top_wallet_share_accum_window": 0.6357615894039735,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6040.0,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "32113956590504382638811631788145724904940827912112275742691865237227049243037",
+        "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
+        "event_slug": "atp-cobolli-zverev-2026-06-07",
+        "name": "anon.1980.123",
+        "outcome": "Alexander Zverev",
+        "outcome_index": 1,
+        "price": 0.96,
+        "proxy_wallet": "0x46992d0e547e3822a9c28723f51bfa804ae4e03c",
+        "pseudonym": "Happy-Default",
+        "side": "BUY",
+        "size": 4000.0,
+        "slug": "atp-cobolli-zverev-2026-06-07",
+        "timestamp": 1780853754,
+        "title": "Roland Garros ATP: Flavio Cobolli vs Alexander Zverev",
+        "trade_id": "60d2d87820afa5dd5f3f251b4f5dd4704e96fcf1d2454f810715d8e9a76c2809",
+        "transaction_hash": "0xa1d59c4220a278baa898e418afd066781045b8770f83a5808f8abcb44eef06c7"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-cobolli-zverev-2026-06-07",
+      "wallet_stats": {
+        "avg_notional_7d": 3840.0,
+        "first_seen_ts": 1780853754,
+        "proxy_wallet": "0x46992d0e547e3822a9c28723f51bfa804ae4e03c",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xa521761a1800e67219c5982c2017ee4d179f901f9b623b7f974a66197c89397b",
         "liquidity_num": 79348.6597,
         "outcome_prices": [
@@ -8880,9 +8952,9 @@
       }
     }
   ],
-  "generated_at": 1780849025,
+  "generated_at": 1780858597,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27097962236",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27097962236"
+  "workflow_run_id": "27101719548",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27101719548"
 }
