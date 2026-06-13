@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x48880e3355f031da13b5ed1142d209396bdec61acf6c0945234ff6e5edab9ebf",
+        "liquidity_num": 504275.3138,
+        "outcome_prices": [
+          0.565,
+          0.435
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will T\u00fcrkiye win on 2026-06-14?",
+        "slug": "fifwc-aus-tur-2026-06-14-tur",
+        "volume24hr": 205100.77475200006
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 32399.0084,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 32399.0084,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 3,
+        "top_wallet_accum_window": "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+        "top_wallet_notional_accum_window": 32399.0084,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 3,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 32399.0084,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "32181580374231980531833258220199034827857344173479780527253573416724110321095",
+        "condition_id": "0x48880e3355f031da13b5ed1142d209396bdec61acf6c0945234ff6e5edab9ebf",
+        "event_slug": "fifwc-aus-tur-2026-06-14",
+        "name": "athelstan",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.44,
+        "proxy_wallet": "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+        "pseudonym": "Aching-Frustration-Victim",
+        "side": "BUY",
+        "size": 23634.11,
+        "slug": "fifwc-aus-tur-2026-06-14-tur",
+        "timestamp": 1781325627,
+        "title": "Will T\u00fcrkiye win on 2026-06-14?",
+        "trade_id": "7b343df69e61a3f09067a201afba5fd4842f2817a24366ae5e9bc40e3d972fa9",
+        "transaction_hash": "0xb12075212dc6576e52ff1a121bd24bc4b6725403f9e958c1b78843ad3ec3c6b5"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-aus-tur-2026-06-14-tur",
+      "wallet_stats": {
+        "avg_notional_7d": 9037.2521,
+        "first_seen_ts": 1780837170,
+        "proxy_wallet": "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+        "trades_7d": 4,
+        "trades_total": 4,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
         "liquidity_num": 385215.3779,
         "outcome_prices": [
@@ -8952,9 +9026,9 @@
       }
     }
   ],
-  "generated_at": 1781309310,
-  "new_alerts": 0,
+  "generated_at": 1781326031,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27450272705",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27450272705"
+  "workflow_run_id": "27456940428",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27456940428"
 }
