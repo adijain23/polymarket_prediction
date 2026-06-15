@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423",
+        "liquidity_num": 742241.58467,
+        "outcome_prices": [
+          0.733,
+          0.267
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "US x Iran permanent peace deal by June 15, 2026?",
+        "slug": "us-x-iran-permanent-peace-deal-by-june-15-2026-734-856-129",
+        "volume24hr": 14240560.03629297
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 13018.71102,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.5688897322743738,
+        "top_net_wallet_accum_window": "0x9e7e57fbc4dd03dc7b0eea98f1f01bc100083e1d",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 10933.4374,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x9e7e57fbc4dd03dc7b0eea98f1f01bc100083e1d",
+        "top_wallet_notional_accum_window": 10933.4374,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 13018.71102,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "5904694069529905826680225678119990013628860098514322777023141327768111791078",
+        "condition_id": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423",
+        "event_slug": "us-x-iran-permanent-peace-deal-by",
+        "name": "mcorleone",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.7332080677155913,
+        "proxy_wallet": "0x9e7e57fbc4dd03dc7b0eea98f1f01bc100083e1d",
+        "pseudonym": "Scarce-Nexus",
+        "side": "SELL",
+        "size": 14911.78,
+        "slug": "us-x-iran-permanent-peace-deal-by-june-15-2026-734-856-129",
+        "timestamp": 1781477241,
+        "title": "US x Iran permanent peace deal by June 15, 2026?",
+        "trade_id": "3ef90f0ab9c2bf6bc8f0034c0df9ba8beb027767e676ccea855c557f3c647d10",
+        "transaction_hash": "0xc3121f62397588d8156401271031bac29832b8603cf2f41287a8d1ae8be94476"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/us-x-iran-permanent-peace-deal-by-june-15-2026-734-856-129",
+      "wallet_stats": {
+        "avg_notional_7d": 10933.4374,
+        "first_seen_ts": 1781477241,
+        "proxy_wallet": "0x9e7e57fbc4dd03dc7b0eea98f1f01bc100083e1d",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xa75053ffa630e41fdc08a0885fe0614716ecb13061ac460914bfe498038d5364",
         "liquidity_num": 78473.4494,
         "outcome_prices": [
@@ -9167,9 +9238,9 @@
       }
     }
   ],
-  "generated_at": 1781473515,
+  "generated_at": 1781498899,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27512994700",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27512994700"
+  "workflow_run_id": "27524679156",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27524679156"
 }
