@@ -2,6 +2,76 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xb361c29b5481164886627cb175ed76792df30902e66ec329c0a3853f807fe8e9",
+        "liquidity_num": 141831.8556,
+        "outcome_prices": [
+          0.825,
+          0.175
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will England win on 2026-06-17?",
+        "slug": "fifwc-eng-hrv-2026-06-17-eng",
+        "volume24hr": 13779057.133143095
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 16311.042299,
+        "price_range_accum_window": 0.24000000001875055,
+        "price_range_fast_window": 0.24000000001875055,
+        "top_net_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 13164.472300000001,
+        "top_net_wallet_share_of_market_accum_window": 0.8070895813204464,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_wallet_notional_accum_window": 13164.472300000001,
+        "top_wallet_share_accum_window": 0.8070895813204464,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 16311.042299,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "45513813860398961340723481590130352932611791552209098368268600222240572304551",
+        "condition_id": "0xb361c29b5481164886627cb175ed76792df30902e66ec329c0a3853f807fe8e9",
+        "event_slug": "fifwc-eng-hrv-2026-06-17",
+        "name": "swisstony",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.83,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 4714.81,
+        "slug": "fifwc-eng-hrv-2026-06-17-eng",
+        "timestamp": 1781731400,
+        "title": "Will England win on 2026-06-17?",
+        "trade_id": "3046fdc4039094f7f57996e53f6047d47d7c79da4cf5c97a60c759c4910fbfe2",
+        "transaction_hash": "0x634e92fe683ed8579fa33175de7d09e4894cbf8bc8ca22a295a8b40282f7c6bc"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-eng-hrv-2026-06-17-eng",
+      "wallet_stats": {
+        "avg_notional_7d": 4024.033885714286,
+        "first_seen_ts": 1781394063,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 7,
+        "trades_total": 7,
+        "unique_markets_7d": 4,
+        "unique_markets_total": 120
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423",
         "liquidity_num": 742241.58467,
         "outcome_prices": [
@@ -9238,9 +9308,9 @@
       }
     }
   ],
-  "generated_at": 1781725087,
-  "new_alerts": 0,
+  "generated_at": 1781731959,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27714808921",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27714808921"
+  "workflow_run_id": "27721126901",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27721126901"
 }
