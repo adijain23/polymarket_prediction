@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbc28e92d1fa999e842caf926cff56a580fb477f26d8c44c99aa29beb78062241",
+        "liquidity_num": 3018798.7208,
+        "outcome_prices": [
+          0.575,
+          0.425
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Morocco win on 2026-06-19?",
+        "slug": "fifwc-sco-mar-2026-06-19-mar",
+        "volume24hr": 5405023.244720873
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 295077.1148,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 295077.1148,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 4,
+        "top_wallet_accum_window": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "top_wallet_notional_accum_window": 295077.1148,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 4,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 295077.1148,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "105841884314396846414531734536970681251811353464950581734224734008794382787864",
+        "condition_id": "0xbc28e92d1fa999e842caf926cff56a580fb477f26d8c44c99aa29beb78062241",
+        "event_slug": "fifwc-sco-mar-2026-06-19",
+        "name": "supersob",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.41,
+        "proxy_wallet": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "pseudonym": "Sad-Incident",
+        "side": "BUY",
+        "size": 559409.41,
+        "slug": "fifwc-sco-mar-2026-06-19-mar",
+        "timestamp": 1781903455,
+        "title": "Will Morocco win on 2026-06-19?",
+        "trade_id": "843d7c08ce51e5880c79ed4f33e8d23bd8736fecc9c88dd073bd051c784cebd4",
+        "transaction_hash": "0xf08a7ac02fcdb85499f3ce027106517641b63ea7c7c34acb864388266fa717be"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-sco-mar-2026-06-19-mar",
+      "wallet_stats": {
+        "avg_notional_7d": 73769.2787,
+        "first_seen_ts": 1781903453,
+        "proxy_wallet": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "trades_7d": 4,
+        "trades_total": 4,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xb361c29b5481164886627cb175ed76792df30902e66ec329c0a3853f807fe8e9",
         "liquidity_num": 141831.8556,
         "outcome_prices": [
@@ -9308,9 +9382,9 @@
       }
     }
   ],
-  "generated_at": 1781893332,
-  "new_alerts": 0,
+  "generated_at": 1781903996,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27842035230",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27842035230"
+  "workflow_run_id": "27848934424",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27848934424"
 }
