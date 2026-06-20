@@ -2,6 +2,223 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x8b9176d24ac65c3ec55f5113c290b7ce97dc026dc506db9f1444879ffcdadd6d",
+        "liquidity_num": 1874197.6884,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Vitality",
+          "Team Falcons"
+        ],
+        "question": "Counter-Strike: Vitality vs Team Falcons (BO3) - IEM Cologne Major Playoffs",
+        "slug": "cs2-vit-fal2-2026-06-19",
+        "volume24hr": 4714834.646003008
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 90661.749248,
+        "price_range_accum_window": 0.6189999999434832,
+        "price_range_fast_window": 0.6189999999434832,
+        "top_net_wallet_accum_window": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 64222.4133,
+        "top_net_wallet_share_of_market_accum_window": 0.7083738603401892,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+        "top_wallet_notional_accum_window": 64222.4133,
+        "top_wallet_share_accum_window": 0.7083738603401892,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 90661.749248,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "24800977638609423047599101990505393925485570455483784385495361632782214662019",
+        "condition_id": "0x8b9176d24ac65c3ec55f5113c290b7ce97dc026dc506db9f1444879ffcdadd6d",
+        "event_slug": "cs2-vit-fal2-2026-06-19",
+        "name": "Donghui",
+        "outcome": "Team Falcons",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x58776759ee5c70a915138706a1308add8bc5d894",
+        "pseudonym": "Criminal-Meatball",
+        "side": "SELL",
+        "size": 21524.05,
+        "slug": "cs2-vit-fal2-2026-06-19",
+        "timestamp": 1781910677,
+        "title": "Counter-Strike: Vitality vs Team Falcons (BO3) - IEM Cologne Major Playoffs",
+        "trade_id": "b86383865347d56c24a856ee722c177004f192e42b23b6523baf0cf11401e90d",
+        "transaction_hash": "0xf043e31eeed4fb23b7959aa7d8962f63b5c9152eb7846974f6f3006493de6db5"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-vit-fal2-2026-06-19",
+      "wallet_stats": {
+        "avg_notional_7d": 21502.52595,
+        "first_seen_ts": 1781910677,
+        "proxy_wallet": "0x58776759ee5c70a915138706a1308add8bc5d894",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x6fa13f31cceaf10ed3190df6e2aca0a93ab0d6fb46fd279003f17d4cdccee164",
+        "liquidity_num": 60600.08329,
+        "outcome_prices": [
+          0.8165,
+          0.1835
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "US x Iran diplomatic meeting by June 30, 2026?",
+        "slug": "us-x-iran-diplomatic-meeting-by-june-30-2026-983-259-948-431-294-182-296-883-134-598-264",
+        "volume24hr": 460989.1480660004
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 4705.187119,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.3812000874687336,
+        "top_net_wallet_accum_window": "0x8a98109fb0f1d87d9bfcb4486ba3587b95c51b92",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 2208.67712,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x8a98109fb0f1d87d9bfcb4486ba3587b95c51b92",
+        "top_wallet_notional_accum_window": 2208.67712,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 4705.187119,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "42651487770072584399780567111092653963782174358340706174105521278109948131465",
+        "condition_id": "0x6fa13f31cceaf10ed3190df6e2aca0a93ab0d6fb46fd279003f17d4cdccee164",
+        "event_slug": "us-x-iran-diplomatic-meeting-by-329",
+        "name": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA9604",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.832,
+        "proxy_wallet": "0x8a98109fb0f1d87d9bfcb4486ba3587b95c51b92",
+        "pseudonym": "Blaring-Backdrop",
+        "side": "SELL",
+        "size": 2654.66,
+        "slug": "us-x-iran-diplomatic-meeting-by-june-30-2026-983-259-948-431-294-182-296-883-134-598-264",
+        "timestamp": 1781910670,
+        "title": "US x Iran diplomatic meeting by June 30, 2026?",
+        "trade_id": "e941f973720a4d42530d2a203a6784a11523c0b9fe6a935e0c15a030c1daeda7",
+        "transaction_hash": "0x46ca410a20e541787e0498213d45b24c7e8f3d13f7a7e667cd1be6b67cede48f"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/us-x-iran-diplomatic-meeting-by-june-30-2026-983-259-948-431-294-182-296-883-134-598-264",
+      "wallet_stats": {
+        "avg_notional_7d": 2208.67712,
+        "first_seen_ts": 1781910670,
+        "proxy_wallet": "0x8a98109fb0f1d87d9bfcb4486ba3587b95c51b92",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xbc28e92d1fa999e842caf926cff56a580fb477f26d8c44c99aa29beb78062241",
+        "liquidity_num": 3018798.7208,
+        "outcome_prices": [
+          0.575,
+          0.425
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Morocco win on 2026-06-19?",
+        "slug": "fifwc-sco-mar-2026-06-19-mar",
+        "volume24hr": 5405023.244720873
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 301057.23479899997,
+        "price_range_accum_window": 0.20000000002212326,
+        "price_range_fast_window": 0.20000000002212326,
+        "top_net_wallet_accum_window": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 295077.1148,
+        "top_net_wallet_share_of_market_accum_window": 0.9801362687630059,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 4,
+        "top_wallet_accum_window": "0x9d36d18057ac9a61308b22128839e903bea30e68",
+        "top_wallet_notional_accum_window": 295077.1148,
+        "top_wallet_share_accum_window": 0.9801362687630059,
+        "top_wallet_trades_accum_window": 4,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 301057.23479899997,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h"
+      ],
+      "score": 18,
+      "trade": {
+        "asset": "105841884314396846414531734536970681251811353464950581734224734008794382787864",
+        "condition_id": "0xbc28e92d1fa999e842caf926cff56a580fb477f26d8c44c99aa29beb78062241",
+        "event_slug": "fifwc-sco-mar-2026-06-19",
+        "name": null,
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.2099999999778767,
+        "proxy_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+        "pseudonym": null,
+        "side": "BUY",
+        "size": 28476.761903,
+        "slug": "fifwc-sco-mar-2026-06-19-mar",
+        "timestamp": 1781907073,
+        "title": "Will Morocco win on 2026-06-19?",
+        "trade_id": "c9fb3a71af36d3edec7b672bd2f783718fda0f2c702e71c34d30ddc245c36208",
+        "transaction_hash": "0x85e132ef99b97963e9aba18561976f800440fab25027aff88f5a5c2e5c5a6e96"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-sco-mar-2026-06-19-mar",
+      "wallet_stats": {
+        "avg_notional_7d": 4563.0549985,
+        "first_seen_ts": 1781899252,
+        "proxy_wallet": "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xbc28e92d1fa999e842caf926cff56a580fb477f26d8c44c99aa29beb78062241",
         "liquidity_num": 3018798.7208,
         "outcome_prices": [
@@ -9382,9 +9599,9 @@
       }
     }
   ],
-  "generated_at": 1781903996,
-  "new_alerts": 1,
+  "generated_at": 1781919107,
+  "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27848934424",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27848934424"
+  "workflow_run_id": "27856163116",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27856163116"
 }
