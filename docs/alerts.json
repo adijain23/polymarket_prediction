@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x91bc2d5c57d20851caa4bbf821e9d7d3b488e041f21f00d256bc43caa9e1c4c9",
+        "liquidity_num": 119055.08691,
+        "outcome_prices": [
+          0.009,
+          0.991
+        ],
+        "outcomes": [
+          "Belgium",
+          "IR Iran"
+        ],
+        "question": "Spread: Belgium (-1.5)",
+        "slug": "fifwc-bel-irn-2026-06-21-spread-home-1pt5",
+        "volume24hr": 6998827.637473017
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 21853.886,
+        "price_range_accum_window": 0.41900000000000004,
+        "price_range_fast_window": 0.41900000000000004,
+        "top_net_wallet_accum_window": "0x1eaf5d5f822dc5211c25b5839e5b7aa70f319bf0",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 11399.999999999998,
+        "top_net_wallet_share_of_market_accum_window": 0.5216463561675027,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x1eaf5d5f822dc5211c25b5839e5b7aa70f319bf0",
+        "top_wallet_notional_accum_window": 11399.999999999998,
+        "top_wallet_share_accum_window": 0.5216463561675027,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 21853.886,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "110860645859910417738819350896183708470893483535940597854075298886487043839042",
+        "condition_id": "0x91bc2d5c57d20851caa4bbf821e9d7d3b488e041f21f00d256bc43caa9e1c4c9",
+        "event_slug": "fifwc-bel-irn-2026-06-21-more-markets",
+        "name": "katie26",
+        "outcome": "IR Iran",
+        "outcome_index": 1,
+        "price": 0.989,
+        "proxy_wallet": "0xa37d459ac3d0632c3e77dec5dd43ff857ce50c67",
+        "pseudonym": "Thin-Corruption",
+        "side": "BUY",
+        "size": 2974.0,
+        "slug": "fifwc-bel-irn-2026-06-21-spread-home-1pt5",
+        "timestamp": 1782074929,
+        "title": "Spread: Belgium (-1.5)",
+        "trade_id": "96ce98a099203cc6b2476393d16698aa6d29f2a0dc5cc42945f3135ebb13e8c6",
+        "transaction_hash": "0x5618659c21ad5c5f506f88ee9cfb952ea98ba85125971b08265f7a94b030406b"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-bel-irn-2026-06-21-spread-home-1pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 2941.286,
+        "first_seen_ts": 1782074929,
+        "proxy_wallet": "0xa37d459ac3d0632c3e77dec5dd43ff857ce50c67",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x8b9176d24ac65c3ec55f5113c290b7ce97dc026dc506db9f1444879ffcdadd6d",
         "liquidity_num": 1874197.6884,
         "outcome_prices": [
@@ -9599,9 +9672,9 @@
       }
     }
   ],
-  "generated_at": 1782070071,
+  "generated_at": 1782079538,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "27915012466",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27915012466"
+  "workflow_run_id": "27918931083",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/27918931083"
 }
