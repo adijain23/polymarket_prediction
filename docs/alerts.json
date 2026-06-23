@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xff1ec56e0e47033727e33deab740896fbf1c6bb8a2b0068efdba3d900c7ba7a2",
+        "liquidity_num": 1212207.7969,
+        "outcome_prices": [
+          0.665,
+          0.335
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will England win on 2026-06-23?",
+        "slug": "fifwc-eng-gha-2026-06-23-eng",
+        "volume24hr": 9772400.859571097
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 64687.97999,
+        "price_range_accum_window": 0.170000000049768,
+        "price_range_fast_window": 0.170000000049768,
+        "top_net_wallet_accum_window": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 53600.0,
+        "top_net_wallet_share_of_market_accum_window": 0.8285928855451342,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+        "top_wallet_notional_accum_window": 53600.0,
+        "top_wallet_share_accum_window": 0.8285928855451342,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 64687.97999,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "63611572432092712507452794046269856873324193737948513078896856667745770559698",
+        "condition_id": "0xff1ec56e0e47033727e33deab740896fbf1c6bb8a2b0068efdba3d900c7ba7a2",
+        "event_slug": "fifwc-eng-gha-2026-06-23",
+        "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.669999999939032,
+        "proxy_wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+        "pseudonym": "Faithful-Jazz",
+        "side": "BUY",
+        "size": 3116.388057,
+        "slug": "fifwc-eng-gha-2026-06-23-eng",
+        "timestamp": 1782248767,
+        "title": "Will England win on 2026-06-23?",
+        "trade_id": "05a1bcee807afd9fba209603dd5ba3402fa1356c38a2b2da0ba0d883aa16e286",
+        "transaction_hash": "0x9492e61e78e4911d36308c1fb7e12851aa4c473a0ab49d40acd5a9b3fe531c5d"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-eng-gha-2026-06-23-eng",
+      "wallet_stats": {
+        "avg_notional_7d": 2087.9799980000003,
+        "first_seen_ts": 1782248767,
+        "proxy_wallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x91bc2d5c57d20851caa4bbf821e9d7d3b488e041f21f00d256bc43caa9e1c4c9",
         "liquidity_num": 119055.08691,
         "outcome_prices": [
@@ -9672,9 +9744,9 @@
       }
     }
   ],
-  "generated_at": 1782242617,
-  "new_alerts": 0,
+  "generated_at": 1782249022,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28051151674",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28051151674"
+  "workflow_run_id": "28057307613",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28057307613"
 }
