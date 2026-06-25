@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x44e25f753ae47dbdf2705d35e0a45db24d3a1b2996b82a1350ade2c7e92c4f93",
+        "liquidity_num": 3354587.98565,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Ecuador win on 2026-06-25?",
+        "slug": "fifwc-ecu-ger-2026-06-25-ecu",
+        "volume24hr": 10405155.82850204
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 9773.954,
+        "price_range_accum_window": 0.7579833333333333,
+        "price_range_fast_window": 0.7579833333333333,
+        "top_net_wallet_accum_window": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 7230.5,
+        "top_net_wallet_share_of_market_accum_window": 0.7397722559365432,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+        "top_wallet_notional_accum_window": 7230.5,
+        "top_wallet_share_accum_window": 0.7397722559365432,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 9773.954,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "14621976022388339155866443939403907158807725281606484508612016632018100973573",
+        "condition_id": "0x44e25f753ae47dbdf2705d35e0a45db24d3a1b2996b82a1350ade2c7e92c4f93",
+        "event_slug": "fifwc-ecu-ger-2026-06-25",
+        "name": "0xE6D11E1bb148F95a5C56d7730973b708363CB590-1768854788783",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xe6d11e1bb148f95a5c56d7730973b708363cb590",
+        "pseudonym": "Handmade-Mama",
+        "side": "SELL",
+        "size": 2546.0,
+        "slug": "fifwc-ecu-ger-2026-06-25-ecu",
+        "timestamp": 1782424721,
+        "title": "Will Ecuador win on 2026-06-25?",
+        "trade_id": "097c9d0bdd84767883a0939480af3421e2ceae6a6bd09a7dfe5fd34b79d2d4c7",
+        "transaction_hash": "0xe28d71254672a916ee191bd76360dbc561d05ab30caea4d59eb53f352db9b858"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-ecu-ger-2026-06-25-ecu",
+      "wallet_stats": {
+        "avg_notional_7d": 2543.454,
+        "first_seen_ts": 1782424721,
+        "proxy_wallet": "0xe6d11e1bb148f95a5c56d7730973b708363cb590",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xb0a72abdd625f7db31770fd42a5cbe483b45b305ba8ce1f0cc5e88509747abb2",
         "liquidity_num": 42604.728,
         "outcome_prices": [
@@ -9886,9 +9958,9 @@
       }
     }
   ],
-  "generated_at": 1782411929,
-  "new_alerts": 0,
+  "generated_at": 1782425100,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28191591040",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28191591040"
+  "workflow_run_id": "28203418812",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28203418812"
 }
