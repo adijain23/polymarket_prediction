@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355",
+        "liquidity_num": 1445725.6973,
+        "outcome_prices": [
+          0.345,
+          0.655
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Cabo Verde win on 2026-06-26?",
+        "slug": "fifwc-cvi-ksa-2026-06-26-cvi",
+        "volume24hr": 2516601.8744539903
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 267058.4896,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xd6505aab3c6bef32ae6c96dbd8023d7c4df114fb",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 267058.4896,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xd6505aab3c6bef32ae6c96dbd8023d7c4df114fb",
+        "top_wallet_notional_accum_window": 267058.4896,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 267058.4896,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "39662214773735711566370319737685983290515337105069671456019343540130198547872",
+        "condition_id": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355",
+        "event_slug": "fifwc-cvi-ksa-2026-06-26",
+        "name": "BAREFLUX",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.64,
+        "proxy_wallet": "0xd6505aab3c6bef32ae6c96dbd8023d7c4df114fb",
+        "pseudonym": "Assured-Applewood",
+        "side": "BUY",
+        "size": 210962.87,
+        "slug": "fifwc-cvi-ksa-2026-06-26-cvi",
+        "timestamp": 1782509374,
+        "title": "Will Cabo Verde win on 2026-06-26?",
+        "trade_id": "9c981508edf9a049bc00d81e69940ebc514458c20a13584ff2f41938f30ada90",
+        "transaction_hash": "0x386ef592ca60729f1b910cd258e27ac0dc44350124a01aaa79d98787bf2145c2"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-cvi-ksa-2026-06-26-cvi",
+      "wallet_stats": {
+        "avg_notional_7d": 133529.2448,
+        "first_seen_ts": 1782509374,
+        "proxy_wallet": "0xd6505aab3c6bef32ae6c96dbd8023d7c4df114fb",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x44e25f753ae47dbdf2705d35e0a45db24d3a1b2996b82a1350ade2c7e92c4f93",
         "liquidity_num": 3354587.98565,
         "outcome_prices": [
@@ -9958,9 +10031,9 @@
       }
     }
   ],
-  "generated_at": 1782497517,
-  "new_alerts": 0,
+  "generated_at": 1782509921,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28256643571",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28256643571"
+  "workflow_run_id": "28266733902",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28266733902"
 }
