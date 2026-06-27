@@ -2,6 +2,222 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbaf4b42efa22e7a782a3c57621e8483e2bb61155f3de647edca1f7272ab2a937",
+        "liquidity_num": 85339.0103,
+        "outcome_prices": [
+          0.465,
+          0.535
+        ],
+        "outcomes": [
+          "England",
+          "Panama"
+        ],
+        "question": "Spread: England (-1.5)",
+        "slug": "fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+        "volume24hr": 1501272.789746001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 94394.5099,
+        "price_range_accum_window": 0.011650995284822274,
+        "price_range_fast_window": 0.011650995284822274,
+        "top_net_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 53717.28,
+        "top_net_wallet_share_of_market_accum_window": 0.5690720790531908,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 3,
+        "top_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_wallet_notional_accum_window": 53717.28,
+        "top_wallet_share_accum_window": 0.5690720790531908,
+        "top_wallet_trades_accum_window": 3,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 53717.28,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "whale_accumulation_6h",
+        "quiet_price_6h"
+      ],
+      "score": 12,
+      "trade": {
+        "asset": "46217085165775334382473862541667036494417524288654643916980790663524042323059",
+        "condition_id": "0xbaf4b42efa22e7a782a3c57621e8483e2bb61155f3de647edca1f7272ab2a937",
+        "event_slug": "fifwc-pan-eng-2026-06-27-more-markets",
+        "name": "swisstony",
+        "outcome": "Panama",
+        "outcome_index": 1,
+        "price": 0.48,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 35302.0,
+        "slug": "fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+        "timestamp": 1782596159,
+        "title": "Spread: England (-1.5)",
+        "trade_id": "89e3a8eb5a698bde24d5ce2dea358ce52e721c15d1d25ea932ff7000cdf7a553",
+        "transaction_hash": "0x7eeff149a20d5725fcc98c0a79cce8ed700e887999ace03858344c234efcce22"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 5611.020919999999,
+        "first_seen_ts": 1782150440,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 25,
+        "trades_total": 25,
+        "unique_markets_7d": 17,
+        "unique_markets_total": 142
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xa73bd5add4d188bfd6b35c9f998acc2b86b213561516709e7eac65dad146d9a9",
+        "liquidity_num": 134740.872,
+        "outcome_prices": [
+          0.665,
+          0.335
+        ],
+        "outcomes": [
+          "Over",
+          "Under"
+        ],
+        "question": "Panama vs. England: O/U 1.5",
+        "slug": "fifwc-pan-eng-2026-06-27-total-1pt5",
+        "volume24hr": 285144.90688399976
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 7291.132999175217,
+        "price_range_accum_window": 0.16000595540000007,
+        "price_range_fast_window": 0.16000595540000007,
+        "top_net_wallet_accum_window": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 4971.759999175218,
+        "top_net_wallet_share_of_market_accum_window": 0.6818912780410986,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x361b16e3ddfe1d415d41008daac2631d94ab74fe",
+        "top_wallet_notional_accum_window": 4971.759999175218,
+        "top_wallet_share_accum_window": 0.6818912780410986,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 7291.132999175217,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "8993829187711654277379511018201439899859239905139079100917229522645177017308",
+        "condition_id": "0xa73bd5add4d188bfd6b35c9f998acc2b86b213561516709e7eac65dad146d9a9",
+        "event_slug": "fifwc-pan-eng-2026-06-27-more-markets",
+        "name": "swisstony",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "price": 0.7,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 3313.39,
+        "slug": "fifwc-pan-eng-2026-06-27-total-1pt5",
+        "timestamp": 1782596159,
+        "title": "Panama vs. England: O/U 1.5",
+        "trade_id": "8e7cfb1f28b8e9588f0ac38781625600db1eb2ebc703af94ae98e664e7b8c899",
+        "transaction_hash": "0x6a432c2eaeffe1b10ea0c917eaff0af02037170d6bcec65a3f083d9837cc217a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-pan-eng-2026-06-27-total-1pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 5611.020919999999,
+        "first_seen_ts": 1782150440,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 25,
+        "trades_total": 25,
+        "unique_markets_7d": 17,
+        "unique_markets_total": 142
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x7a582647d279d70223a8cfce98451ef6ecbe2e574f24b7dda17be7f65b387c20",
+        "liquidity_num": 1679445.501,
+        "outcome_prices": [
+          0.855,
+          0.145
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will England win on 2026-06-27?",
+        "slug": "fifwc-pan-eng-2026-06-27-eng",
+        "volume24hr": 3088165.2461560247
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 99050.5,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 99050.5,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+        "top_wallet_notional_accum_window": 99050.5,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 99050.5,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "93320332124999747203356838766183249400983580913731153318561555477528481141967",
+        "condition_id": "0x7a582647d279d70223a8cfce98451ef6ecbe2e574f24b7dda17be7f65b387c20",
+        "event_slug": "fifwc-pan-eng-2026-06-27",
+        "name": "purplegatto",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.86,
+        "proxy_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+        "pseudonym": "Silky-Geometry",
+        "side": "BUY",
+        "size": 65831.0,
+        "slug": "fifwc-pan-eng-2026-06-27-eng",
+        "timestamp": 1782592597,
+        "title": "Will England win on 2026-06-27?",
+        "trade_id": "ec7ca36ff0a5a12a79b4ff461c610bb1427be8c23b4d07d152a1c6af2399fe20",
+        "transaction_hash": "0x7493470b8b6bfd1be319ae34d3936c2b1990395ee3ef4fe2e13c44f737539146"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-pan-eng-2026-06-27-eng",
+      "wallet_stats": {
+        "avg_notional_7d": 49525.25,
+        "first_seen_ts": 1782592597,
+        "proxy_wallet": "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355",
         "liquidity_num": 1445725.6973,
         "outcome_prices": [
@@ -10031,9 +10247,9 @@
       }
     }
   ],
-  "generated_at": 1782583903,
-  "new_alerts": 0,
+  "generated_at": 1782596666,
+  "new_alerts": 2,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28297555582",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28297555582"
+  "workflow_run_id": "28302694009",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28302694009"
 }
