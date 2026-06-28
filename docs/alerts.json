@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
+        "liquidity_num": 2568254.8191,
+        "outcome_prices": [
+          0.275,
+          0.725
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will South Africa vs. Canada end in a draw?",
+        "slug": "fifwc-rsa-can-2026-06-28-draw",
+        "volume24hr": 1530625.184960995
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 127546.37340000001,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 124046.75340000002,
+        "top_net_wallet_share_of_market_accum_window": 0.9725619795631132,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "top_wallet_notional_accum_window": 124046.75340000002,
+        "top_wallet_share_accum_window": 0.9725619795631132,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 124046.75340000002,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "88168782492845289495931894123636898423732610611621478464750983403983457679764",
+        "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
+        "event_slug": "fifwc-rsa-can-2026-06-28",
+        "name": "0x2c335066FE58fe9237c3d3Dc7b275C2a034a0563-1759935795465",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.27,
+        "proxy_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "pseudonym": "Substantial-Service",
+        "side": "BUY",
+        "size": 253879.42,
+        "slug": "fifwc-rsa-can-2026-06-28-draw",
+        "timestamp": 1782665203,
+        "title": "Will South Africa vs. Canada end in a draw?",
+        "trade_id": "4c993a786a43bf410ecfd9540da319212dc951a50d2d46bc3192d18fc6499130",
+        "transaction_hash": "0x9ce41a179d75e0854984e6f21c15cdc77a14b4818ae50f9566b378a0449319d5"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-rsa-can-2026-06-28-draw",
+      "wallet_stats": {
+        "avg_notional_7d": 48671.6042,
+        "first_seen_ts": 1782596161,
+        "proxy_wallet": "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xbaf4b42efa22e7a782a3c57621e8483e2bb61155f3de647edca1f7272ab2a937",
         "liquidity_num": 85339.0103,
         "outcome_prices": [
@@ -10320,9 +10394,9 @@
       }
     }
   ],
-  "generated_at": 1782661802,
+  "generated_at": 1782673603,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28327590229",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28327590229"
+  "workflow_run_id": "28332846110",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28332846110"
 }
