@@ -18,6 +18,79 @@
       },
       "metrics": {
         "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 97827.7739,
+        "price_range_accum_window": 0.38165099528482227,
+        "price_range_fast_window": 0.38165099528482227,
+        "top_net_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 50284.015999999996,
+        "top_net_wallet_share_of_market_accum_window": 0.5140055221066417,
+        "top_net_wallet_share_of_wallet_accum_window": 0.8798519223194095,
+        "top_net_wallet_trades_accum_window": 3,
+        "top_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_wallet_notional_accum_window": 57150.544,
+        "top_wallet_share_accum_window": 0.5841954868401641,
+        "top_wallet_trades_accum_window": 4,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 97827.7739,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "market_participation_24h",
+        "whale_accumulation_6h"
+      ],
+      "score": 17,
+      "trade": {
+        "asset": "59079504472431710755905931542356036299420508367323375687846868220727782978977",
+        "condition_id": "0xbaf4b42efa22e7a782a3c57621e8483e2bb61155f3de647edca1f7272ab2a937",
+        "event_slug": "fifwc-pan-eng-2026-06-27-more-markets",
+        "name": "swisstony",
+        "outcome": "England",
+        "outcome_index": 0,
+        "price": 0.89,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 3857.6,
+        "slug": "fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+        "timestamp": 1782599768,
+        "title": "Spread: England (-1.5)",
+        "trade_id": "3f40d28e9ceb96ad6e1a3bc7e00f57e526401d05cf0cb92a73fadd2350bf614e",
+        "transaction_hash": "0x749d124856442f5c35bd35de81a100067db4cb7d70041be6d25309bc95b77fe9"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 5527.261038461538,
+        "first_seen_ts": 1782150440,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 26,
+        "trades_total": 26,
+        "unique_markets_7d": 17,
+        "unique_markets_total": 142
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xbaf4b42efa22e7a782a3c57621e8483e2bb61155f3de647edca1f7272ab2a937",
+        "liquidity_num": 85339.0103,
+        "outcome_prices": [
+          0.465,
+          0.535
+        ],
+        "outcomes": [
+          "England",
+          "Panama"
+        ],
+        "question": "Spread: England (-1.5)",
+        "slug": "fifwc-pan-eng-2026-06-27-spread-away-1pt5",
+        "volume24hr": 1501272.789746001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
         "event_type": "accumulation",
         "fast_window_s": 86400,
         "notional_fast_window": 94394.5099,
@@ -10247,9 +10320,9 @@
       }
     }
   ],
-  "generated_at": 1782596666,
-  "new_alerts": 2,
+  "generated_at": 1782611536,
+  "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28302694009",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28302694009"
+  "workflow_run_id": "28308088264",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28308088264"
 }
