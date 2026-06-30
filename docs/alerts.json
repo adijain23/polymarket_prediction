@@ -2,6 +2,76 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9ce04dc3705208f3a0d99ecc661c910b6cd4a882332caf341f99804d54711f68",
+        "liquidity_num": 92365.3559,
+        "outcome_prices": [
+          0.205,
+          0.795
+        ],
+        "outcomes": [
+          "Serena Williams",
+          "Maya Joint"
+        ],
+        "question": "Wimbledon WTA: Serena Williams vs Maya Joint",
+        "slug": "wta-willia-joint-2026-06-29",
+        "volume24hr": 1115942.8704490005
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 7811.269999189999,
+        "price_range_accum_window": 0.26,
+        "price_range_fast_window": 0.26,
+        "top_net_wallet_accum_window": "0x88d17ad6bf91ca0935f6e70b37ebe3db92b618da",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4999.9999991899995,
+        "top_net_wallet_share_of_market_accum_window": 0.6401007774290841,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x88d17ad6bf91ca0935f6e70b37ebe3db92b618da",
+        "top_wallet_notional_accum_window": 4999.9999991899995,
+        "top_wallet_share_accum_window": 0.6401007774290841,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 7811.269999189999,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "101929115119784875265788854171628562854353444100956208234036803420601483411221",
+        "condition_id": "0x9ce04dc3705208f3a0d99ecc661c910b6cd4a882332caf341f99804d54711f68",
+        "event_slug": "wta-willia-joint-2026-06-29",
+        "name": "swisstony",
+        "outcome": "Maya Joint",
+        "outcome_index": 1,
+        "price": 0.77,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 3651.0,
+        "slug": "wta-willia-joint-2026-06-29",
+        "timestamp": 1782850235,
+        "title": "Wimbledon WTA: Serena Williams vs Maya Joint",
+        "trade_id": "34036bd09af1d776424d5b96016ecbc91ec8b5b048c518a9eaef1c5f1b2f84d9",
+        "transaction_hash": "0xc208418ec8e25592bbca27bdc0ec463392dc7c39f497af6e9a2d77826364ba2a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-willia-joint-2026-06-29",
+      "wallet_stats": {
+        "avg_notional_7d": 5347.093821428569,
+        "first_seen_ts": 1782323519,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 28,
+        "trades_total": 28,
+        "unique_markets_7d": 20,
+        "unique_markets_total": 147
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x84466f679694048db91acf068a3c1757aa5c5e44e4409e97b32ee214f2a8940b",
         "liquidity_num": 2568254.8191,
         "outcome_prices": [
@@ -10394,9 +10464,9 @@
       }
     }
   ],
-  "generated_at": 1782842807,
+  "generated_at": 1782856042,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28465713802",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28465713802"
+  "workflow_run_id": "28477994007",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28477994007"
 }
