@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xc9c405407d5351e9bb14dd826cdb033864c8377cbb171446abad330d4ed7473a",
+        "liquidity_num": 2844119.10098,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Belgium",
+          "Senegal"
+        ],
+        "question": "Belgium vs. Senegal: Team to Advance",
+        "slug": "fifwc-bel-sen-2026-07-01-team-to-advance",
+        "volume24hr": 12727581.063435948
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12995.932619876763,
+        "price_range_accum_window": 0.982,
+        "price_range_fast_window": 0.982,
+        "top_net_wallet_accum_window": "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 5418.67937,
+        "top_net_wallet_share_of_market_accum_window": 0.4169519440037989,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
+        "top_wallet_notional_accum_window": 5418.67937,
+        "top_wallet_share_accum_window": 0.4169519440037989,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 12995.932619876763,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "61298001203512070227735644544685904672516731416139291569745519509860590666622",
+        "condition_id": "0xc9c405407d5351e9bb14dd826cdb033864c8377cbb171446abad330d4ed7473a",
+        "event_slug": "fifwc-bel-sen-2026-07-01-more-markets",
+        "name": null,
+        "outcome": "Belgium",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xb1b35d793f8c3ca889a98d687d6f9e28599d2a80",
+        "pseudonym": null,
+        "side": "SELL",
+        "size": 2286.84,
+        "slug": "fifwc-bel-sen-2026-07-01-team-to-advance",
+        "timestamp": 1782946283,
+        "title": "Belgium vs. Senegal: Team to Advance",
+        "trade_id": "b3c1f277dce5e792149aa36bbd5cb7447f57dbbaf43fa010c23c07ddd1faa538",
+        "transaction_hash": "0x5da3e2dea48ccea736740707f5e707d866d928f03cb6687e0eee535e74a919b0"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-bel-sen-2026-07-01-team-to-advance",
+      "wallet_stats": {
+        "avg_notional_7d": 2284.55316,
+        "first_seen_ts": 1782946283,
+        "proxy_wallet": "0xb1b35d793f8c3ca889a98d687d6f9e28599d2a80",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9ce04dc3705208f3a0d99ecc661c910b6cd4a882332caf341f99804d54711f68",
         "liquidity_num": 92365.3559,
         "outcome_prices": [
@@ -10464,9 +10536,9 @@
       }
     }
   ],
-  "generated_at": 1782942710,
+  "generated_at": 1782950843,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28550118235",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28550118235"
+  "workflow_run_id": "28556119253",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28556119253"
 }
