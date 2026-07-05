@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xe81ec0ca7357d9e91e9b95e1ecf60606f8b1686290464758b9a3595aeae11a1a",
+        "liquidity_num": 37796.1118,
+        "outcome_prices": [
+          0.405,
+          0.595
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Brazil vs. Norway: Both Teams to Score",
+        "slug": "fifwc-bra-nor-2026-07-05-btts",
+        "volume24hr": 3919900.32036806
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5721.762999999999,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.22999999999999998,
+        "top_net_wallet_accum_window": "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3584.9329999999995,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6",
+        "top_wallet_notional_accum_window": 3584.9329999999995,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5721.762999999999,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "71238358250240314409924134389553003870423277776927068887835142428177346758501",
+        "condition_id": "0xe81ec0ca7357d9e91e9b95e1ecf60606f8b1686290464758b9a3595aeae11a1a",
+        "event_slug": "fifwc-bra-nor-2026-07-05-more-markets",
+        "name": "PleaseWinPlease",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.62,
+        "proxy_wallet": "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6",
+        "pseudonym": "Genuine-Leveret",
+        "side": "BUY",
+        "size": 5782.15,
+        "slug": "fifwc-bra-nor-2026-07-05-btts",
+        "timestamp": 1783284503,
+        "title": "Brazil vs. Norway: Both Teams to Score",
+        "trade_id": "7bd82319aa74691c0da3ac0295225eadd61feb032d651012491aae5f178e952b",
+        "transaction_hash": "0xd2cd6307802f3fc3e7e049a85227471fe29c1ecbadb5b9dcabfad14ef26513f9"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-bra-nor-2026-07-05-btts",
+      "wallet_stats": {
+        "avg_notional_7d": 3584.9329999999995,
+        "first_seen_ts": 1783284503,
+        "proxy_wallet": "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x94e50623d3cfdc1256e16ff372062d42c282bec8af620bb732a19fb4b0dce580",
         "liquidity_num": 4114781.5216,
         "outcome_prices": [
@@ -10756,9 +10827,9 @@
       }
     }
   ],
-  "generated_at": 1783276774,
+  "generated_at": 1783288020,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28750919564",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28750919564"
+  "workflow_run_id": "28755957766",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28755957766"
 }
