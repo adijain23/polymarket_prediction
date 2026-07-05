@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x9ce3c4653c7740cd29d36e92fc433786c3658ab690099eba8957dc07bec04695",
+        "liquidity_num": 53092.4491,
+        "outcome_prices": [
+          0.125,
+          0.875
+        ],
+        "outcomes": [
+          "France",
+          "Paraguay"
+        ],
+        "question": "Spread: France (-2.5)",
+        "slug": "fifwc-par-fra-2026-07-04-spread-away-2pt5",
+        "volume24hr": 2231698.7096569976
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 40965.369982079996,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 40965.369982079996,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "top_wallet_notional_accum_window": 40965.369982079996,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 40965.369982079996,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "26080870624122259633890510176077042795008150807691589226821582617783978723079",
+        "condition_id": "0x9ce3c4653c7740cd29d36e92fc433786c3658ab690099eba8957dc07bec04695",
+        "event_slug": "fifwc-par-fra-2026-07-04-more-markets",
+        "name": "swisstony",
+        "outcome": "Paraguay",
+        "outcome_index": 1,
+        "price": 0.94,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "pseudonym": "Frail-Possible",
+        "side": "BUY",
+        "size": 5247.340416,
+        "slug": "fifwc-par-fra-2026-07-04-spread-away-2pt5",
+        "timestamp": 1783204058,
+        "title": "Spread: France (-2.5)",
+        "trade_id": "eca061cd50256703056372d7aee812f9c712ac566220944be495b15dd9df8514",
+        "transaction_hash": "0xb9f17af322b8b8d99749b5b67befe9db367c6cfc6b596b80c5cc4131bba30cf3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-par-fra-2026-07-04-spread-away-2pt5",
+      "wallet_stats": {
+        "avg_notional_7d": 6883.047008949412,
+        "first_seen_ts": 1782599768,
+        "proxy_wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+        "trades_7d": 28,
+        "trades_total": 28,
+        "unique_markets_7d": 22,
+        "unique_markets_total": 163
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc5943cca27ce657f519619520b1664829b1209f9a5ef9266be7f2954be1b0260",
         "liquidity_num": 280004.4153,
         "outcome_prices": [
@@ -10610,9 +10683,9 @@
       }
     }
   ],
-  "generated_at": 1783201008,
+  "generated_at": 1783214546,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28720401364",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28720401364"
+  "workflow_run_id": "28725545856",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28725545856"
 }
