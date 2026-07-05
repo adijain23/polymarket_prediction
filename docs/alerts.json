@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x94e50623d3cfdc1256e16ff372062d42c282bec8af620bb732a19fb4b0dce580",
+        "liquidity_num": 4114781.5216,
+        "outcome_prices": [
+          0.465,
+          0.535
+        ],
+        "outcomes": [
+          "Mexico",
+          "England"
+        ],
+        "question": "Mexico vs. England: Team to Advance",
+        "slug": "fifwc-mex-eng-2026-07-05-team-to-advance",
+        "volume24hr": 1986297.2403529978
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 37588.595400000006,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0xa6a872ded6039c17a9e5c81b706c04e76fbeba32",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 37588.595400000006,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xa6a872ded6039c17a9e5c81b706c04e76fbeba32",
+        "top_wallet_notional_accum_window": 37588.595400000006,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 37588.595400000006,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "2291750774192576197344440913463596564881206145267152350886975296763990714853",
+        "condition_id": "0x94e50623d3cfdc1256e16ff372062d42c282bec8af620bb732a19fb4b0dce580",
+        "event_slug": "fifwc-mex-eng-2026-07-05-more-markets",
+        "name": "eyeseethefuture",
+        "outcome": "England",
+        "outcome_index": 1,
+        "price": 0.54,
+        "proxy_wallet": "0xa6a872ded6039c17a9e5c81b706c04e76fbeba32",
+        "pseudonym": "Adept-Comeback",
+        "side": "BUY",
+        "size": 22999.5,
+        "slug": "fifwc-mex-eng-2026-07-05-team-to-advance",
+        "timestamp": 1783246990,
+        "title": "Mexico vs. England: Team to Advance",
+        "trade_id": "c3ce03df2b70f002b1f0de194962a8cefba69f84b40487b93b08b8e80ceb9a3e",
+        "transaction_hash": "0xddeef3027ed0720f5e1e8205e723f8db018520504be2beea67e902604250dedf"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-mex-eng-2026-07-05-team-to-advance",
+      "wallet_stats": {
+        "avg_notional_7d": 18794.297700000003,
+        "first_seen_ts": 1783246990,
+        "proxy_wallet": "0xa6a872ded6039c17a9e5c81b706c04e76fbeba32",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x9ce3c4653c7740cd29d36e92fc433786c3658ab690099eba8957dc07bec04695",
         "liquidity_num": 53092.4491,
         "outcome_prices": [
@@ -10683,9 +10756,9 @@
       }
     }
   ],
-  "generated_at": 1783239459,
-  "new_alerts": 0,
+  "generated_at": 1783247408,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28734512808",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28734512808"
+  "workflow_run_id": "28737759780",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28737759780"
 }
