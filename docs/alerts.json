@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x86f5b0f1934bb39421651ad2ba0f04494700ba9e95663a5c141a8674c4978c15",
+        "liquidity_num": 130844.4084,
+        "outcome_prices": [
+          0.145,
+          0.855
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Ronaldo Cry at the World Cup?",
+        "slug": "will-ronaldo-cry-at-the-world-cup-20260604013616610",
+        "volume24hr": 2637780.1403600047
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6986.150000115176,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.5393424872,
+        "top_net_wallet_accum_window": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4708.7698,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+        "top_wallet_notional_accum_window": 4708.7698,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6986.150000115176,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "70563299267515386481251787764905458483722161674933642786238649081287869119194",
+        "condition_id": "0x86f5b0f1934bb39421651ad2ba0f04494700ba9e95663a5c141a8674c4978c15",
+        "event_slug": "will-ronaldo-cry-at-the-world-cup-20260604013616610",
+        "name": "Bertapotamous",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.14,
+        "proxy_wallet": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+        "pseudonym": "Witty-Conviction",
+        "side": "BUY",
+        "size": 33634.07,
+        "slug": "will-ronaldo-cry-at-the-world-cup-20260604013616610",
+        "timestamp": 1783378472,
+        "title": "Will Ronaldo Cry at the World Cup?",
+        "trade_id": "51467dac934ad66155a60fe5067acba415a8233fbea87efa6d3dc97e6d13f9c5",
+        "transaction_hash": "0x823ea9786db0510eb28374f63535457716d6c865b6e12369bace68dedd41090d"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-ronaldo-cry-at-the-world-cup-20260604013616610",
+      "wallet_stats": {
+        "avg_notional_7d": 4708.7698,
+        "first_seen_ts": 1783378472,
+        "proxy_wallet": "0x134a63b764ac7b008356e8db1857db94e6b09e42",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xe81ec0ca7357d9e91e9b95e1ecf60606f8b1686290464758b9a3595aeae11a1a",
         "liquidity_num": 37796.1118,
         "outcome_prices": [
@@ -10827,9 +10898,9 @@
       }
     }
   ],
-  "generated_at": 1783374890,
+  "generated_at": 1783383338,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "28825893827",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28825893827"
+  "workflow_run_id": "28832271238",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/28832271238"
 }
