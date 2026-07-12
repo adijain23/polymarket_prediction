@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xccc07a8317079457585bc88e387b58d2bb94576ee2c9cea63b2f2adb7ed1a836",
+        "liquidity_num": 358959.092475,
+        "outcome_prices": [
+          0.41125,
+          0.58875
+        ],
+        "outcomes": [
+          "Norway",
+          "England"
+        ],
+        "question": "Norway vs. England: Team to Advance",
+        "slug": "fifwc-nor-eng-2026-07-11-team-to-advance",
+        "volume24hr": 13819784.153147062
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 87701.45760205339,
+        "price_range_accum_window": null,
+        "price_range_fast_window": null,
+        "top_net_wallet_accum_window": null,
+        "top_net_wallet_direction_accum_window": null,
+        "top_net_wallet_notional_accum_window": 0.0,
+        "top_net_wallet_share_of_market_accum_window": null,
+        "top_net_wallet_share_of_wallet_accum_window": null,
+        "top_net_wallet_trades_accum_window": 0,
+        "top_wallet_accum_window": "0xee96d3758c108427f3f333afce20e4eb2d550634",
+        "top_wallet_notional_accum_window": 32342.726853665605,
+        "top_wallet_share_accum_window": 0.3687820902637809,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 5
+      },
+      "notional": 87701.45760205339,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "5248636361245905070296995648418847837867415261685374894522766385951464601031",
+        "condition_id": "0xccc07a8317079457585bc88e387b58d2bb94576ee2c9cea63b2f2adb7ed1a836",
+        "event_slug": "",
+        "name": "xerard",
+        "outcome": "Norway",
+        "outcome_index": 999,
+        "price": 0.3989526323,
+        "proxy_wallet": "0xee96d3758c108427f3f333afce20e4eb2d550634",
+        "pseudonym": "Indolent-Efficacy",
+        "side": "SELL",
+        "size": 81069.09,
+        "slug": "fifwc-nor-eng-2026-07-11-team-to-advance",
+        "timestamp": 1783810664,
+        "title": "Norway vs. England: Team to Advance",
+        "trade_id": "1a7c747174e9bdb61e8535da1a96f47b1512b7f6d992c9f79dbb9833f6a4d07a",
+        "transaction_hash": "0x6a9ccccd7afef2943fdc4c4f55ed10f4a80dfa724dd225432eb49b241613da26"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-nor-eng-2026-07-11-team-to-advance",
+      "wallet_stats": {
+        "avg_notional_7d": 32342.726853665605,
+        "first_seen_ts": 1783810664,
+        "proxy_wallet": "0xee96d3758c108427f3f333afce20e4eb2d550634",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc09537a0976d0927901432859fbb6dfe5d23d1d69bb4e8355253e7b142a44e83",
         "liquidity_num": 434826.328425,
         "outcome_prices": [
@@ -10972,9 +11044,9 @@
       }
     }
   ],
-  "generated_at": 1783804020,
+  "generated_at": 1783814590,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "29168230338",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29168230338"
+  "workflow_run_id": "29173088861",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29173088861"
 }
