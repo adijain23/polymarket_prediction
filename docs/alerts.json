@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xecba7b1db1c698ab73b3572abfcde327a02b5112676144e049edcc1e1e0f5b0b",
+        "liquidity_num": 572061.0223,
+        "outcome_prices": [
+          0.37375,
+          0.62625
+        ],
+        "outcomes": [
+          "France",
+          "Spain"
+        ],
+        "question": "France vs. Spain: Team to Advance",
+        "slug": "fifwc-fra-esp-2026-07-14-team-to-advance",
+        "volume24hr": 26210259.126161095
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 155253.50579899998,
+        "price_range_accum_window": 0.1875,
+        "price_range_fast_window": 0.1875,
+        "top_net_wallet_accum_window": "0xf836034ff89835a6bcc84898bb8c1af28c5043fa",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 96990.8808,
+        "top_net_wallet_share_of_market_accum_window": 0.6247258656147187,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xf836034ff89835a6bcc84898bb8c1af28c5043fa",
+        "top_wallet_notional_accum_window": 96990.8808,
+        "top_wallet_share_accum_window": 0.6247258656147187,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 155253.50579899998,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 10,
+      "trade": {
+        "asset": "46421815574359643620514688756609814860051932583278915389775335554413697029363",
+        "condition_id": "0xecba7b1db1c698ab73b3572abfcde327a02b5112676144e049edcc1e1e0f5b0b",
+        "event_slug": "fifwc-fra-esp-2026-07-14-more-markets",
+        "name": "Eddd1x",
+        "outcome": "Spain",
+        "outcome_index": 1,
+        "price": 0.6125,
+        "proxy_wallet": "0xe6a9d2301ed7e1222002d04e9463c5f521d9e35a",
+        "pseudonym": "Bumpy-Burden",
+        "side": "BUY",
+        "size": 3430.20408,
+        "slug": "fifwc-fra-esp-2026-07-14-team-to-advance",
+        "timestamp": 1784057384,
+        "title": "France vs. Spain: Team to Advance",
+        "trade_id": "c3c6fcb5a6986c58681eca33c0b014e216f843e5213ebd2acec7814a0e23757c",
+        "transaction_hash": "0xd6e58210accda382d066c2bdf7ff7dcce609440f2feb2b3e554f1fd2fc630d6c"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fifwc-fra-esp-2026-07-14-team-to-advance",
+      "wallet_stats": {
+        "avg_notional_7d": 2100.999999,
+        "first_seen_ts": 1784057384,
+        "proxy_wallet": "0xe6a9d2301ed7e1222002d04e9463c5f521d9e35a",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xccc07a8317079457585bc88e387b58d2bb94576ee2c9cea63b2f2adb7ed1a836",
         "liquidity_num": 358959.092475,
         "outcome_prices": [
@@ -11044,9 +11116,9 @@
       }
     }
   ],
-  "generated_at": 1784052028,
+  "generated_at": 1784065009,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "29356083684",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29356083684"
+  "workflow_run_id": "29370145705",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29370145705"
 }
