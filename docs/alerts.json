@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97",
+        "liquidity_num": 745305.857,
+        "outcome_prices": [
+          0.0725,
+          0.9275
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+        "slug": "will-lionel-messi-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+        "volume24hr": 3242069.2178979977
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 25590.549997261012,
+        "price_range_accum_window": 0.006193370300000001,
+        "price_range_fast_window": 0.006193370300000001,
+        "top_net_wallet_accum_window": "0x18e619f8113986b93e8b23ee8de25bad919ed83d",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 25590.549997261012,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x18e619f8113986b93e8b23ee8de25bad919ed83d",
+        "top_wallet_notional_accum_window": 25590.549997261012,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 25590.549997261012,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "19214394437683566921750936876376421489271269944393354497977881791256347396217",
+        "condition_id": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97",
+        "event_slug": "world-cup-golden-boot-winner",
+        "name": "couillefraisemax",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.0827789216,
+        "proxy_wallet": "0x18e619f8113986b93e8b23ee8de25bad919ed83d",
+        "pseudonym": "Adventurous-Avenue-Porthole",
+        "side": "BUY",
+        "size": 53883.795179,
+        "slug": "will-lionel-messi-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+        "timestamp": 1784482369,
+        "title": "Will Lionel Messi be the top goalscorer at the 2026 FIFA World Cup?",
+        "trade_id": "9b4a33f442bc71ab82947766a997685e87f9f16dca80ca6416824bb2290ff9c8",
+        "transaction_hash": "0xa0aca17d9b7e8b99c0f742d04d090a638052d3b905f80c5584fc00250205ee2e"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-lionel-messi-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+      "wallet_stats": {
+        "avg_notional_7d": 12795.274998630506,
+        "first_seen_ts": 1784482369,
+        "proxy_wallet": "0x18e619f8113986b93e8b23ee8de25bad919ed83d",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xecba7b1db1c698ab73b3572abfcde327a02b5112676144e049edcc1e1e0f5b0b",
         "liquidity_num": 572061.0223,
         "outcome_prices": [
@@ -11116,9 +11189,9 @@
       }
     }
   ],
-  "generated_at": 1784475589,
+  "generated_at": 1784485992,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "29693285522",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29693285522"
+  "workflow_run_id": "29698902510",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29698902510"
 }
