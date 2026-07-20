@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "liquidity_num": 6013256.18718,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Spain win the 2026 FIFA World Cup?",
+        "slug": "will-spain-win-the-2026-fifa-world-cup-963",
+        "volume24hr": 20095843.250534225
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5231.933680075385,
+        "price_range_accum_window": 0.3159927199,
+        "price_range_fast_window": 0.3159927199,
+        "top_net_wallet_accum_window": "0x71814cb4e3ee35d72c40b091fb8ada0d745b8dc7",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3055.6721200753855,
+        "top_net_wallet_share_of_market_accum_window": 0.5840425943685428,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x71814cb4e3ee35d72c40b091fb8ada0d745b8dc7",
+        "top_wallet_notional_accum_window": 3055.6721200753855,
+        "top_wallet_share_accum_window": 0.5840425943685428,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5231.933680075385,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "4394372887385518214471608448209527405727552777602031099972143344338178308080",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "event_slug": "world-cup-winner",
+        "name": "baba45",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xf9781c72ba8a9f37ac85b60d0be70fe4def39d31",
+        "pseudonym": "Misty-Initialize",
+        "side": "SELL",
+        "size": 2178.44,
+        "slug": "will-spain-win-the-2026-fifa-world-cup-963",
+        "timestamp": 1784499483,
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "trade_id": "75b3810001b40ec816c0b048a619b7c259e48fc79956d95a189b604a27475d21",
+        "transaction_hash": "0xadfc0011f380e958841b8126e17b411bc9dc97e3a1c675443a924bd7df0da59c"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-spain-win-the-2026-fifa-world-cup-963",
+      "wallet_stats": {
+        "avg_notional_7d": 2176.26156,
+        "first_seen_ts": 1784499483,
+        "proxy_wallet": "0xf9781c72ba8a9f37ac85b60d0be70fe4def39d31",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97",
         "liquidity_num": 745305.857,
         "outcome_prices": [
@@ -11189,9 +11261,9 @@
       }
     }
   ],
-  "generated_at": 1784496431,
+  "generated_at": 1784516696,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "29704372990",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29704372990"
+  "workflow_run_id": "29710340879",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/29710340879"
 }
