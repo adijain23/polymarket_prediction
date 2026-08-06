@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x4409d54e1d1cca2b327ebf663e10ffdb4be77f591c55f62c028e69ddd37ede5a",
+        "liquidity_num": 334354.50922,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Carol Young Suh Lee",
+          "Weronika Falkowska"
+        ],
+        "question": "Warsaw: Carol Young Suh Lee vs Weronika Falkowska",
+        "slug": "wta-lee-falkows-2026-08-06",
+        "volume24hr": 478803.8231890003
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6804.33999915,
+        "price_range_accum_window": 0.30900000000000005,
+        "price_range_fast_window": 0.30900000000000005,
+        "top_net_wallet_accum_window": "0x6b8f18b7af10316b2b57aa6dac2c923986f2449b",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 4395.6,
+        "top_net_wallet_share_of_market_accum_window": 0.6459994651280065,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x6b8f18b7af10316b2b57aa6dac2c923986f2449b",
+        "top_wallet_notional_accum_window": 4395.6,
+        "top_wallet_share_accum_window": 0.6459994651280065,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6804.33999915,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "8633371909726117979562447541540955418736912255435435822725900042775753551246",
+        "condition_id": "0x4409d54e1d1cca2b327ebf663e10ffdb4be77f591c55f62c028e69ddd37ede5a",
+        "event_slug": "wta-lee-falkows-2026-08-06",
+        "name": "ColetheDollarScholar",
+        "outcome": "Carol Young Suh Lee",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x6b8f18b7af10316b2b57aa6dac2c923986f2449b",
+        "pseudonym": "Improbable-Injunction-Carpet",
+        "side": "SELL",
+        "size": 4400.0,
+        "slug": "wta-lee-falkows-2026-08-06",
+        "timestamp": 1786022393,
+        "title": "Warsaw: Carol Young Suh Lee vs Weronika Falkowska",
+        "trade_id": "d45a8d37200754fdc860901020ddb9bf5192e26d66ae389008215ba6f15dad92",
+        "transaction_hash": "0xb0974b144aacff3d8e5dea9a1de8c1198ed2a104eb943eeeb128b6d651d36fdc"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-lee-falkows-2026-08-06",
+      "wallet_stats": {
+        "avg_notional_7d": 4395.6,
+        "first_seen_ts": 1786022393,
+        "proxy_wallet": "0x6b8f18b7af10316b2b57aa6dac2c923986f2449b",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x2b1f7b75aa1bda0ec4c8ec9657940b9074098be3d56a35967f3677c166e05f9b",
         "liquidity_num": 897630.00308,
         "outcome_prices": [
@@ -11477,9 +11549,9 @@
       }
     }
   ],
-  "generated_at": 1786009630,
-  "new_alerts": 0,
+  "generated_at": 1786022669,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31090528941",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31090528941"
+  "workflow_run_id": "31105726343",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31105726343"
 }
