@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "liquidity_num": 190126.982,
+        "outcome_prices": [
+          0.495,
+          0.505
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Fed rate hike in 2026?",
+        "slug": "fed-rate-hike-in-2026",
+        "volume24hr": 103414.10637499999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 103808.0192008503,
+        "price_range_accum_window": 0.01996098200000007,
+        "price_range_fast_window": 0.01996098200000007,
+        "top_net_wallet_accum_window": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 103808.0192008503,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+        "top_wallet_notional_accum_window": 103808.0192008503,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 103808.0192008503,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "75028752776148090296091099469912621384650554615761384992997579209329182670110",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "event_slug": "fed-rate-hike-in-2026",
+        "name": "pada",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.5215095927,
+        "proxy_wallet": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+        "pseudonym": "Writhing-Photo",
+        "side": "SELL",
+        "size": 154813.15,
+        "slug": "fed-rate-hike-in-2026",
+        "timestamp": 1786119633,
+        "title": "Fed rate hike in 2026?",
+        "trade_id": "d3f5708e9fd0648a558842c02f11b597e6b5406e5fca6b663aad17e45e32cc37",
+        "transaction_hash": "0xeeb1643c4697a82ff2680e750d20bf15a072bcdb2864d7a1d5ac47f66e829951"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/fed-rate-hike-in-2026",
+      "wallet_stats": {
+        "avg_notional_7d": 51904.00960042515,
+        "first_seen_ts": 1786119631,
+        "proxy_wallet": "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xef170b8d9258e0c9a11eb9f93c7e9e99bdec3bd5552af72b882216ab26fba44a",
         "liquidity_num": 224186.9997,
         "outcome_prices": [
@@ -11621,9 +11694,9 @@
       }
     }
   ],
-  "generated_at": 1786116529,
+  "generated_at": 1786125758,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31192771647",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31192771647"
+  "workflow_run_id": "31205085114",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31205085114"
 }
