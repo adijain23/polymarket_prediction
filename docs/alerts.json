@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xda2aebddd009258023701cf83cb0ad0bb8d0047430ec9255b6bb85e7050711c5",
+        "liquidity_num": 1621928.36991,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Movistar KOI",
+          "GIANTX"
+        ],
+        "question": "LoL: Movistar KOI vs GIANTX - Game 2 Winner",
+        "slug": "lol-mkoi-gx-2026-08-08-game2",
+        "volume24hr": 543383.7921179996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12407.37734,
+        "price_range_accum_window": 0.609,
+        "price_range_fast_window": 0.609,
+        "top_net_wallet_accum_window": "0x528635df9791d3dcebf9b82ad4b83e8570440d47",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 10272.37734,
+        "top_net_wallet_share_of_market_accum_window": 0.8279249561374266,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x528635df9791d3dcebf9b82ad4b83e8570440d47",
+        "top_wallet_notional_accum_window": 10272.37734,
+        "top_wallet_share_accum_window": 0.8279249561374266,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 12407.37734,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "104335307569879478740398747317722281278188831863347705916318571373605317840414",
+        "condition_id": "0xda2aebddd009258023701cf83cb0ad0bb8d0047430ec9255b6bb85e7050711c5",
+        "event_slug": "lol-mkoi-gx-2026-08-08",
+        "name": "verifly",
+        "outcome": "GIANTX",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0x528635df9791d3dcebf9b82ad4b83e8570440d47",
+        "pseudonym": "Angry-Notebook",
+        "side": "SELL",
+        "size": 10282.66,
+        "slug": "lol-mkoi-gx-2026-08-08-game2",
+        "timestamp": 1786217457,
+        "title": "LoL: Movistar KOI vs GIANTX - Game 2 Winner",
+        "trade_id": "efd9e8c2364e209def596c2459f7b6d51ba4fac240e8a4423a032f5c645e6656",
+        "transaction_hash": "0x8a43dd9eafc88fea043ac8aaa0a1544ba9a41bf805a1cd81d5027e2aaac88fda"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-mkoi-gx-2026-08-08-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 10272.37734,
+        "first_seen_ts": 1786217457,
+        "proxy_wallet": "0x528635df9791d3dcebf9b82ad4b83e8570440d47",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0",
         "liquidity_num": 208450.3092,
         "outcome_prices": [
@@ -11766,9 +11838,9 @@
       }
     }
   ],
-  "generated_at": 1786212912,
-  "new_alerts": 1,
+  "generated_at": 1786222905,
+  "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31271446856",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31271446856"
+  "workflow_run_id": "31278310910",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31278310910"
 }
