@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x110655c3a2be0c0831983b1d1e1f4ab884bb1c9e06cf21b3bb9944c71b6f11fc",
+        "liquidity_num": 149029.0464,
+        "outcome_prices": [
+          0.315,
+          0.685
+        ],
+        "outcomes": [
+          "Dplus KIA",
+          "KT Rolster"
+        ],
+        "question": "LoL: Dplus KIA vs KT Rolster (BO3) - LCK Round 3-4 Legend Group",
+        "slug": "lol-dk-kt-2026-08-09",
+        "volume24hr": 383802.8078479999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 19066.2606,
+        "price_range_accum_window": 0.29000000000000004,
+        "price_range_fast_window": 0.29000000000000004,
+        "top_net_wallet_accum_window": "0xe548376f231af12b4d56aff55a7503a88892a9fe",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 13400.0,
+        "top_net_wallet_share_of_market_accum_window": 0.8522161537648264,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe548376f231af12b4d56aff55a7503a88892a9fe",
+        "top_wallet_notional_accum_window": 13400.0,
+        "top_wallet_share_accum_window": 0.8522161537648264,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 19066.2606,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "76827418119969205673693530819381375012618066744632162243218151845989530039956",
+        "condition_id": "0x110655c3a2be0c0831983b1d1e1f4ab884bb1c9e06cf21b3bb9944c71b6f11fc",
+        "event_slug": "lol-dk-kt-2026-08-09",
+        "name": "Uniform123",
+        "outcome": "KT Rolster",
+        "outcome_index": 1,
+        "price": 0.67,
+        "proxy_wallet": "0xe548376f231af12b4d56aff55a7503a88892a9fe",
+        "pseudonym": "Weekly-Service",
+        "side": "BUY",
+        "size": 20000.0,
+        "slug": "lol-dk-kt-2026-08-09",
+        "timestamp": 1786265772,
+        "title": "LoL: Dplus KIA vs KT Rolster (BO3) - LCK Round 3-4 Legend Group",
+        "trade_id": "943ade74bfc6187384b79d031525f541bd1949bbd3bd7bdaa57c0dddb7519ac6",
+        "transaction_hash": "0xd1fa96df6321053ac3e58f2b06fd7ef08d4b773bb39654ae8612e84f99c84c26"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-dk-kt-2026-08-09",
+      "wallet_stats": {
+        "avg_notional_7d": 13400.0,
+        "first_seen_ts": 1786265772,
+        "proxy_wallet": "0xe548376f231af12b4d56aff55a7503a88892a9fe",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xda2aebddd009258023701cf83cb0ad0bb8d0047430ec9255b6bb85e7050711c5",
         "liquidity_num": 1621928.36991,
         "outcome_prices": [
@@ -11838,9 +11909,9 @@
       }
     }
   ],
-  "generated_at": 1786256766,
-  "new_alerts": 0,
+  "generated_at": 1786266008,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31298855817",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31298855817"
+  "workflow_run_id": "31304833695",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31304833695"
 }
