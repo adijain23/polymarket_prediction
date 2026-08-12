@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a",
+        "liquidity_num": 345245.0625,
+        "outcome_prices": [
+          0.005,
+          0.995
+        ],
+        "outcomes": [
+          "Naomi Osaka",
+          "Elena Rybakina"
+        ],
+        "question": "National Bank Open: Naomi Osaka vs Elena Rybakina",
+        "slug": "wta-osaka-rybakin-2026-08-11",
+        "volume24hr": 1527469.342406999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 19449.99999806,
+        "price_range_accum_window": 0.52,
+        "price_range_fast_window": 0.52,
+        "top_net_wallet_accum_window": "0x0c4cac5130a8ca260ee99441b95210876edcd70d",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 9999.99999806,
+        "top_net_wallet_share_of_market_accum_window": 0.5141388174322586,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x0c4cac5130a8ca260ee99441b95210876edcd70d",
+        "top_wallet_notional_accum_window": 9999.99999806,
+        "top_wallet_share_accum_window": 0.5141388174322586,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 19449.99999806,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "51790853288241629069272082535472178234538446162285701269598474667261881308787",
+        "condition_id": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a",
+        "event_slug": "wta-osaka-rybakin-2026-08-11",
+        "name": "raihanhyder",
+        "outcome": "Elena Rybakina",
+        "outcome_index": 1,
+        "price": 0.89,
+        "proxy_wallet": "0x0c4cac5130a8ca260ee99441b95210876edcd70d",
+        "pseudonym": "Horrible-Enthusiasm",
+        "side": "BUY",
+        "size": 11235.955054,
+        "slug": "wta-osaka-rybakin-2026-08-11",
+        "timestamp": 1786500546,
+        "title": "National Bank Open: Naomi Osaka vs Elena Rybakina",
+        "trade_id": "1e795a72d3cb25feb9e32397606141087cdbd81466214c6ca42971fd3fb52cb6",
+        "transaction_hash": "0x8bc2a0e1a3f590eed099a339b7be657c9e85f445bd27b94e0183f74ef0c593cd"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-osaka-rybakin-2026-08-11",
+      "wallet_stats": {
+        "avg_notional_7d": 9999.99999806,
+        "first_seen_ts": 1786500546,
+        "proxy_wallet": "0x0c4cac5130a8ca260ee99441b95210876edcd70d",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x110655c3a2be0c0831983b1d1e1f4ab884bb1c9e06cf21b3bb9944c71b6f11fc",
         "liquidity_num": 149029.0464,
         "outcome_prices": [
@@ -11909,9 +11980,9 @@
       }
     }
   ],
-  "generated_at": 1786485095,
-  "new_alerts": 0,
+  "generated_at": 1786500821,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31539797985",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31539797985"
+  "workflow_run_id": "31556176662",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31556176662"
 }
