@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x3eb1ca97d5972f58605da403a7bb48fb37c973fdd848a95cd892e3131756e5e5",
+        "liquidity_num": 674878.65122,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "Nigma Galaxy",
+          "OG"
+        ],
+        "question": "Dota 2: Nigma Galaxy vs OG - Game 1 Winner",
+        "slug": "dota2-ngx-og-2026-08-13-game1",
+        "volume24hr": 275158.547013
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 21419.84633794176,
+        "price_range_accum_window": 0.499,
+        "price_range_fast_window": 0.499,
+        "top_net_wallet_accum_window": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 9999.999999118996,
+        "top_net_wallet_share_of_market_accum_window": 0.46685675710967306,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
+        "top_wallet_notional_accum_window": 9999.999999118996,
+        "top_wallet_share_accum_window": 0.46685675710967306,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 21419.84633794176,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "86392152614584312683991449032478842344580752854793168830021594741136275034038",
+        "condition_id": "0x3eb1ca97d5972f58605da403a7bb48fb37c973fdd848a95cd892e3131756e5e5",
+        "event_slug": "dota2-ngx-og-2026-08-13",
+        "name": "Miaoracle",
+        "outcome": "Nigma Galaxy",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x818be2b363af6d1b3f74cbd020550aeda633c5eb",
+        "pseudonym": "Rectangular-Geometry-Hanger",
+        "side": "SELL",
+        "size": 4483.66,
+        "slug": "dota2-ngx-og-2026-08-13-game1",
+        "timestamp": 1786617874,
+        "title": "Dota 2: Nigma Galaxy vs OG - Game 1 Winner",
+        "trade_id": "6c2647ac8865f559b32322a8ea352c9f32591e95fd1ed5ec8908d023bf27635d",
+        "transaction_hash": "0x96c9de5451ef9ffe72b970dacad4efd6d55a6bb2a4d786e786189850f292bbe0"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-ngx-og-2026-08-13-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 4109.341545,
+        "first_seen_ts": 1786617874,
+        "proxy_wallet": "0x818be2b363af6d1b3f74cbd020550aeda633c5eb",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a",
         "liquidity_num": 345245.0625,
         "outcome_prices": [
@@ -11980,9 +12052,9 @@
       }
     }
   ],
-  "generated_at": 1786614670,
+  "generated_at": 1786624076,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31688431408",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31688431408"
+  "workflow_run_id": "31700118072",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31700118072"
 }
