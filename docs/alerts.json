@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x7df3c670378fced5d92fc48039452d501901a0a4b748c761b86722b878cdb412",
+        "liquidity_num": 620844.48046,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "BoomBoys",
+          "Team Falcons"
+        ],
+        "question": "Dota 2: BoomBoys vs Team Falcons (BO3) - The International Group Stage",
+        "slug": "dota2-boombo-flc-2026-08-15",
+        "volume24hr": 651486.5139649998
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12470.598750790374,
+        "price_range_accum_window": 0.4383249681,
+        "price_range_fast_window": 0.4383249681,
+        "top_net_wallet_accum_window": "0x38337de21ff0bb0a11a40761507d51e318d633d1",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 9660.461700790374,
+        "top_net_wallet_share_of_market_accum_window": 0.774659011475139,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x38337de21ff0bb0a11a40761507d51e318d633d1",
+        "top_wallet_notional_accum_window": 9660.461700790374,
+        "top_wallet_share_accum_window": 0.774659011475139,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 12470.598750790374,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "70998992984849042170991791290121926150141374224884667527274802479998979571184",
+        "condition_id": "0x7df3c670378fced5d92fc48039452d501901a0a4b748c761b86722b878cdb412",
+        "event_slug": "dota2-boombo-flc-2026-08-15",
+        "name": "mqww",
+        "outcome": "Team Falcons",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xdc3fcad6dd903e59c211c24e54520143f50b5e0d",
+        "pseudonym": "Insistent-Catalogue",
+        "side": "SELL",
+        "size": 2812.95,
+        "slug": "dota2-boombo-flc-2026-08-15",
+        "timestamp": 1786803375,
+        "title": "Dota 2: BoomBoys vs Team Falcons (BO3) - The International Group Stage",
+        "trade_id": "5433198410648d526f3a3c8d421a0857737398f1eb75ce5d7140fbaa4b67ee6f",
+        "transaction_hash": "0xd7a48eb7dc2474b3e665bd65c14dfff2193dbcfe092872c45a8ee100c0c0815c"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-boombo-flc-2026-08-15",
+      "wallet_stats": {
+        "avg_notional_7d": 3045.86109,
+        "first_seen_ts": 1786696527,
+        "proxy_wallet": "0xdc3fcad6dd903e59c211c24e54520143f50b5e0d",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x5aaa89e96732b703718a696abb444fbb8a77d55e5d5b12c2a69e9f08b2277b1b",
         "liquidity_num": 786261.53568,
         "outcome_prices": [
@@ -12196,9 +12267,9 @@
       }
     }
   ],
-  "generated_at": 1786796703,
-  "new_alerts": 1,
+  "generated_at": 1786807486,
+  "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31884528191",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31884528191"
+  "workflow_run_id": "31892619584",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31892619584"
 }
