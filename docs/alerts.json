@@ -2,6 +2,150 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x5aaa89e96732b703718a696abb444fbb8a77d55e5d5b12c2a69e9f08b2277b1b",
+        "liquidity_num": 786261.53568,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "LGD Gaming",
+          "Vici Gaming"
+        ],
+        "question": "Dota 2: LGD Gaming vs Vici Gaming - Game 2 Winner",
+        "slug": "dota2-lgd-vg-2026-08-15-game2",
+        "volume24hr": 587269.8550980001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 24990.805209755483,
+        "price_range_accum_window": 0.4205722795,
+        "price_range_fast_window": 0.4205722795,
+        "top_net_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 8013.4400000000005,
+        "top_net_wallet_share_of_market_accum_window": 0.3206555344151877,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_wallet_notional_accum_window": 8013.4400000000005,
+        "top_wallet_share_accum_window": 0.3206555344151877,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 24990.805209755483,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "market_participation_24h",
+        "extreme_price"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "74795145297160098651358345361911224195785646098466934208748066568121144258334",
+        "condition_id": "0x5aaa89e96732b703718a696abb444fbb8a77d55e5d5b12c2a69e9f08b2277b1b",
+        "event_slug": "dota2-lgd-vg-2026-08-15",
+        "name": "GOBLIN1337",
+        "outcome": "LGD Gaming",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xf0f0840cdc0eafef011c0173544b1fde710d26ed",
+        "pseudonym": "Fat-Diaper",
+        "side": "SELL",
+        "size": 2761.56,
+        "slug": "dota2-lgd-vg-2026-08-15-game2",
+        "timestamp": 1786796482,
+        "title": "Dota 2: LGD Gaming vs Vici Gaming - Game 2 Winner",
+        "trade_id": "1f2ff6fa31fff8661e3d5e63473ff32484e9614b558c108a9037402e03615375",
+        "transaction_hash": "0xd325cf93408e777325d17ce0de9ed51a8d6cf4e287b70d7963a77ab59197c7ce"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-lgd-vg-2026-08-15-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 3189.871935,
+        "first_seen_ts": 1786696533,
+        "proxy_wallet": "0xf0f0840cdc0eafef011c0173544b1fde710d26ed",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x0b19141ed80dc3e3bd3a8c74fbbdc9702fe19271baa9adeca8303e6d0d1dbd94",
+        "liquidity_num": 226129.3379,
+        "outcome_prices": [
+          0.275,
+          0.725
+        ],
+        "outcomes": [
+          "ThunderTalk Gaming",
+          "Anyone's Legend"
+        ],
+        "question": "LoL: ThunderTalk Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "slug": "lol-tt-al-2026-08-15",
+        "volume24hr": 489862.47781999985
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 15744.631198813466,
+        "price_range_accum_window": 0.18000000009999995,
+        "price_range_fast_window": 0.18000000009999995,
+        "top_net_wallet_accum_window": "0x633e96a4b7ae543522358282eafa023fe61bd305",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 13333.331200000002,
+        "top_net_wallet_share_of_market_accum_window": 0.8468493819661408,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x633e96a4b7ae543522358282eafa023fe61bd305",
+        "top_wallet_notional_accum_window": 13333.331200000002,
+        "top_wallet_share_accum_window": 0.8468493819661408,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 15744.631198813466,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "55853552264795866802358206496529503829494390029798748235151460115174138945076",
+        "condition_id": "0x0b19141ed80dc3e3bd3a8c74fbbdc9702fe19271baa9adeca8303e6d0d1dbd94",
+        "event_slug": "lol-tt-al-2026-08-15",
+        "name": "0x633e96a4b7ae543522358282eafa023fe61bd305-1783406206089",
+        "outcome": "ThunderTalk Gaming",
+        "outcome_index": 0,
+        "price": 0.28,
+        "proxy_wallet": "0x633e96a4b7ae543522358282eafa023fe61bd305",
+        "pseudonym": "Grateful-Graphic",
+        "side": "BUY",
+        "size": 47619.04,
+        "slug": "lol-tt-al-2026-08-15",
+        "timestamp": 1786794657,
+        "title": "LoL: ThunderTalk Gaming vs Anyone's Legend (BO3) - LPL Group Ascend",
+        "trade_id": "085f030aebd2d347944809ae2c86d22bb173988bdce2b31721f9195a0ca501f0",
+        "transaction_hash": "0xaab1c80ae09de0a485d0135bdbf00eccd6be649e44d27178478b533070dc613a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-tt-al-2026-08-15",
+      "wallet_stats": {
+        "avg_notional_7d": 13333.331200000002,
+        "first_seen_ts": 1786794657,
+        "proxy_wallet": "0x633e96a4b7ae543522358282eafa023fe61bd305",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x3eb1ca97d5972f58605da403a7bb48fb37c973fdd848a95cd892e3131756e5e5",
         "liquidity_num": 674878.65122,
         "outcome_prices": [
@@ -12052,9 +12196,9 @@
       }
     }
   ],
-  "generated_at": 1786785102,
-  "new_alerts": 0,
+  "generated_at": 1786796703,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31876357668",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31876357668"
+  "workflow_run_id": "31884528191",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31884528191"
 }
