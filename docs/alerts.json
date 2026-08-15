@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x04fd5482769c8b3bf10bd30a1e34f5bc4a50a508af10edb30877138a333d03f9",
+        "liquidity_num": 114345.4484,
+        "outcome_prices": [
+          0.675,
+          0.325
+        ],
+        "outcomes": [
+          "BIG",
+          "Spirit"
+        ],
+        "question": "Counter-Strike: BIG vs Spirit - Map 2 Winner",
+        "slug": "cs2-big5-ts7-2026-08-15-game2",
+        "volume24hr": 296271.8348590001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8168.000000129545,
+        "price_range_accum_window": 0.335845834,
+        "price_range_fast_window": 0.335845834,
+        "top_net_wallet_accum_window": "0x5257aa84944804bbb0c718814ebebeeafaca3e2a",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4968.0,
+        "top_net_wallet_share_of_market_accum_window": 0.608227228197993,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5257aa84944804bbb0c718814ebebeeafaca3e2a",
+        "top_wallet_notional_accum_window": 4968.0,
+        "top_wallet_share_accum_window": 0.608227228197993,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8168.000000129545,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "103642840181470644219320392285297436821929402812282640197971659758491970703201",
+        "condition_id": "0x04fd5482769c8b3bf10bd30a1e34f5bc4a50a508af10edb30877138a333d03f9",
+        "event_slug": "cs2-big5-ts7-2026-08-15",
+        "name": "NO-GOD-PLEASE-NO",
+        "outcome": "BIG",
+        "outcome_index": 0,
+        "price": 0.54,
+        "proxy_wallet": "0x5257aa84944804bbb0c718814ebebeeafaca3e2a",
+        "pseudonym": "Vigilant-Vibrissae",
+        "side": "BUY",
+        "size": 9200.0,
+        "slug": "cs2-big5-ts7-2026-08-15-game2",
+        "timestamp": 1786823496,
+        "title": "Counter-Strike: BIG vs Spirit - Map 2 Winner",
+        "trade_id": "8c9a7b09d570e83b7f713da97d760b78184662cf80e01b947aea2c34fae57feb",
+        "transaction_hash": "0xd6007bd9296f30cd5acc80a8e2292874cebc9d67995a640d25202ce87b03ebe3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-big5-ts7-2026-08-15-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 4968.0,
+        "first_seen_ts": 1786823496,
+        "proxy_wallet": "0x5257aa84944804bbb0c718814ebebeeafaca3e2a",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1acd92f5aec41db1661c63b2d5dde097066629fb790e783b6085eb198a160441",
         "liquidity_num": 906246.50549,
         "outcome_prices": [
@@ -12412,9 +12483,9 @@
       }
     }
   ],
-  "generated_at": 1786818894,
+  "generated_at": 1786828921,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31901496777",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31901496777"
+  "workflow_run_id": "31909215211",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31909215211"
 }
