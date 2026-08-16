@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x5fa8a03a32f8ee1a263fd9bcce82143a86df8af3eb45ee4bbf0599d019a47836",
+        "liquidity_num": 107436.9109,
+        "outcome_prices": [
+          0.045,
+          0.955
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Rayo Vallecano de Madrid win on 2026-08-15?",
+        "slug": "lal-sev-ray-2026-08-15-ray",
+        "volume24hr": 457486.1794079996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5656.540899891601,
+        "price_range_accum_window": 0.5093106078,
+        "price_range_fast_window": 0.5093106078,
+        "top_net_wallet_accum_window": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3248.5408998916,
+        "top_net_wallet_share_of_market_accum_window": 0.574298136862027,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
+        "top_wallet_notional_accum_window": 3248.5408998916,
+        "top_wallet_share_accum_window": 0.574298136862027,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5656.540899891601,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "103739879467773466806834739048360464123284500846432602157775657485179927124145",
+        "condition_id": "0x5fa8a03a32f8ee1a263fd9bcce82143a86df8af3eb45ee4bbf0599d019a47836",
+        "event_slug": "lal-sev-ray-2026-08-15",
+        "name": "ZaiZoiBele",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.9493106078,
+        "proxy_wallet": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
+        "pseudonym": "Silky-Subroutine",
+        "side": "BUY",
+        "size": 3422.0,
+        "slug": "lal-sev-ray-2026-08-15-ray",
+        "timestamp": 1786829785,
+        "title": "Will Rayo Vallecano de Madrid win on 2026-08-15?",
+        "trade_id": "ecc9c34ade43de1f261ebc72242a0e3f8fdd69bb0d36a0cf55eafa36a6dec217",
+        "transaction_hash": "0xdabd459be47285c21ece0737e36cab1493211fcd713619ca8aab4c4ba2edf9d7"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lal-sev-ray-2026-08-15-ray",
+      "wallet_stats": {
+        "avg_notional_7d": 2942.3663666278953,
+        "first_seen_ts": 1786492446,
+        "proxy_wallet": "0xc23dc0eca9e1c2e293de8911b9ac254f0bcd82c8",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x04fd5482769c8b3bf10bd30a1e34f5bc4a50a508af10edb30877138a333d03f9",
         "liquidity_num": 114345.4484,
         "outcome_prices": [
@@ -12483,9 +12554,9 @@
       }
     }
   ],
-  "generated_at": 1786828921,
+  "generated_at": 1786838471,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31909215211",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31909215211"
+  "workflow_run_id": "31916184242",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31916184242"
 }
