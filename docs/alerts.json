@@ -2,6 +2,221 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xb869da0d183b01d27db63a0c612eca29364de5b1de9e259e5d90e2fbf1377f1c",
+        "liquidity_num": 873327.37803,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "T1",
+          "Gen.G"
+        ],
+        "question": "LoL: T1 vs Gen.G - Game 1 Winner",
+        "slug": "lol-t1-gen-2026-08-16-game1",
+        "volume24hr": 1138631.0169720005
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5017.256310000001,
+        "price_range_accum_window": 0.399,
+        "price_range_fast_window": 0.399,
+        "top_net_wallet_accum_window": "0xa45ab8711d4c3793e7b713fd84b57192e74b02e5",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 2990.6963100000003,
+        "top_net_wallet_share_of_market_accum_window": 0.5960820267521871,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xa45ab8711d4c3793e7b713fd84b57192e74b02e5",
+        "top_wallet_notional_accum_window": 2990.6963100000003,
+        "top_wallet_share_accum_window": 0.5960820267521871,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5017.256310000001,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "1864978920486951502996890322102642823936097645781503342096005348891264026685",
+        "condition_id": "0xb869da0d183b01d27db63a0c612eca29364de5b1de9e259e5d90e2fbf1377f1c",
+        "event_slug": "lol-t1-gen-2026-08-16",
+        "name": "lucifertech123",
+        "outcome": "Gen.G",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xa45ab8711d4c3793e7b713fd84b57192e74b02e5",
+        "pseudonym": "Breakable-Lobotomy",
+        "side": "SELL",
+        "size": 2993.69,
+        "slug": "lol-t1-gen-2026-08-16-game1",
+        "timestamp": 1786871206,
+        "title": "LoL: T1 vs Gen.G - Game 1 Winner",
+        "trade_id": "cce8cc1cea4f6f1b060ef2c9de1472c333cc5e5892bb4626c57b2a73e1bbbc0f",
+        "transaction_hash": "0x3662f41a1bf22eb58704a2d2157b5112d209f971460c310be53a28e3a1893f64"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-t1-gen-2026-08-16-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 2990.6963100000003,
+        "first_seen_ts": 1786871206,
+        "proxy_wallet": "0xa45ab8711d4c3793e7b713fd84b57192e74b02e5",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x66b7c275ddc4f9372e69f33753f1067dfaa452a03b7b236d24c5a41cad4aa07f",
+        "liquidity_num": 165406.4593,
+        "outcome_prices": [
+          0.28,
+          0.72
+        ],
+        "outcomes": [
+          "LGD Gaming",
+          "JD Gaming"
+        ],
+        "question": "LoL: LGD Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "slug": "lol-lgd-jdg-2026-08-16",
+        "volume24hr": 325040.420012
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 36016.06700025794,
+        "price_range_accum_window": 0.21999999999999997,
+        "price_range_fast_window": 0.21999999999999997,
+        "top_net_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 19302.836499927445,
+        "top_net_wallet_share_of_market_accum_window": 0.5359507049947791,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_wallet_notional_accum_window": 19302.836499927445,
+        "top_wallet_share_accum_window": 0.5359507049947791,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 36016.06700025794,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "31707656722465422977190920295558941573063633834949721176855024182888171884798",
+        "condition_id": "0x66b7c275ddc4f9372e69f33753f1067dfaa452a03b7b236d24c5a41cad4aa07f",
+        "event_slug": "lol-lgd-jdg-2026-08-16",
+        "name": "trgparking",
+        "outcome": "JD Gaming",
+        "outcome_index": 1,
+        "price": 0.5450403243,
+        "proxy_wallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "pseudonym": "Productive-Vertigo",
+        "side": "BUY",
+        "size": 8635.0,
+        "slug": "lol-lgd-jdg-2026-08-16",
+        "timestamp": 1786871199,
+        "title": "LoL: LGD Gaming vs JD Gaming (BO3) - LPL Group Ascend",
+        "trade_id": "b3b586044eba4e7ea62b8d6fe983952d02b3f4e86e8116bda5448ccb4c430541",
+        "transaction_hash": "0x5f927984bd9472af5e9f4a464f88a0db2bbd0f085bfa03d98ec787f4adb0ab55"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-lgd-jdg-2026-08-16",
+      "wallet_stats": {
+        "avg_notional_7d": 4706.423200330501,
+        "first_seen_ts": 1786871199,
+        "proxy_wallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0x6784a43288e863d6308d263c86b39c643ac160cc34556c2b1bf36f1556b5033d",
+        "liquidity_num": 167101.1446,
+        "outcome_prices": [
+          0.13,
+          0.87
+        ],
+        "outcomes": [
+          "LGD Gaming",
+          "JD Gaming"
+        ],
+        "question": "LoL: LGD Gaming vs JD Gaming - Game 1 Winner",
+        "slug": "lol-lgd-jdg-2026-08-16-game1",
+        "volume24hr": 277597.03323899984
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5630.446794951298,
+        "price_range_accum_window": 0.17221458349999996,
+        "price_range_fast_window": 0.17221458349999996,
+        "top_net_wallet_accum_window": "0xf2f23d470f2ede0a31a71326b310e8113ce40550",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3451.0068000000006,
+        "top_net_wallet_share_of_market_accum_window": 0.6129188189993101,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xf2f23d470f2ede0a31a71326b310e8113ce40550",
+        "top_wallet_notional_accum_window": 3451.0068000000006,
+        "top_wallet_share_accum_window": 0.6129188189993101,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5630.446794951298,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "5610842165726021683555265943500609425926260191866810595505563492143684632795",
+        "condition_id": "0x6784a43288e863d6308d263c86b39c643ac160cc34556c2b1bf36f1556b5033d",
+        "event_slug": "lol-lgd-jdg-2026-08-16",
+        "name": "0x3EB3ACfabB3efB4a68cC5D61E495e1C9D3f24D75-1761113946705",
+        "outcome": "JD Gaming",
+        "outcome_index": 1,
+        "price": 0.8522145835,
+        "proxy_wallet": "0x3eb3acfabb3efb4a68cc5d61e495e1c9d3f24d75",
+        "pseudonym": "Total-Temporary",
+        "side": "BUY",
+        "size": 2557.384064,
+        "slug": "lol-lgd-jdg-2026-08-16-game1",
+        "timestamp": 1786866417,
+        "title": "LoL: LGD Gaming vs JD Gaming - Game 1 Winner",
+        "trade_id": "12590dafa0a2ed42020951e8a6f3cf628f7e851bdb0819ed365c6f41fee991d7",
+        "transaction_hash": "0xffb01cf3a3b824b0dab80dadac3cbca46730c658d1eff196aee89c9eeff2987c"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-lgd-jdg-2026-08-16-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 2179.439994951297,
+        "first_seen_ts": 1786866417,
+        "proxy_wallet": "0x3eb3acfabb3efb4a68cc5d61e495e1c9d3f24d75",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x5fa8a03a32f8ee1a263fd9bcce82143a86df8af3eb45ee4bbf0599d019a47836",
         "liquidity_num": 107436.9109,
         "outcome_prices": [
@@ -12554,9 +12769,9 @@
       }
     }
   ],
-  "generated_at": 1786860195,
-  "new_alerts": 0,
+  "generated_at": 1786871430,
+  "new_alerts": 2,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "31930457184",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31930457184"
+  "workflow_run_id": "31938324825",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/31938324825"
 }
