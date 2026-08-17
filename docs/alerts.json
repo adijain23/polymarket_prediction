@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x4309301a91299029ad86c47a79f96580e4082eaae05562829e2939439b49c00b",
+        "liquidity_num": 179312.7074,
+        "outcome_prices": [
+          0.385,
+          0.615
+        ],
+        "outcomes": [
+          "T1",
+          "DN SOOPers"
+        ],
+        "question": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "slug": "lol-t1-dnf-2026-08-17",
+        "volume24hr": 522386.2776220001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 34010.47950193306,
+        "price_range_accum_window": 0.041140711399999974,
+        "price_range_fast_window": 0.041140711399999974,
+        "top_net_wallet_accum_window": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 31111.226001933064,
+        "top_net_wallet_share_of_market_accum_window": 0.9147541127776451,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+        "top_wallet_notional_accum_window": 31111.226001933064,
+        "top_wallet_share_accum_window": 0.9147541127776451,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 31111.226001933064,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h",
+        "concentrated_activity_7d"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "43603120704420191020785306569580731207593296012031542418830653682282927543163",
+        "condition_id": "0x4309301a91299029ad86c47a79f96580e4082eaae05562829e2939439b49c00b",
+        "event_slug": "lol-t1-dnf-2026-08-17",
+        "name": "TAIWANNUMBERONE",
+        "outcome": "DN SOOPers",
+        "outcome_index": 1,
+        "price": 0.6911407114,
+        "proxy_wallet": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+        "pseudonym": null,
+        "side": "BUY",
+        "size": 13380.51,
+        "slug": "lol-t1-dnf-2026-08-17",
+        "timestamp": 1786958557,
+        "title": "LoL: T1 vs DN SOOPers (BO5) - KeSPA Cup Playoffs",
+        "trade_id": "91c73bad512fab784a5cf600990244379d19e7a15ebd213b4b797c88c63bb676",
+        "transaction_hash": "0xd446cb81c0b0e8cfd1c4efe484812ad9233a8889ccfcbd7d7f94ca421ca7c313"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-t1-dnf-2026-08-17",
+      "wallet_stats": {
+        "avg_notional_7d": 12620.082133977688,
+        "first_seen_ts": 1786706431,
+        "proxy_wallet": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x8f6e3bc77cacdb7112dc476a356e2ff815ac81ac7ebaefd139c5d488037ca1d5",
         "liquidity_num": 144082.8763,
         "outcome_prices": [
@@ -13341,9 +13415,9 @@
       }
     }
   ],
-  "generated_at": 1786946707,
-  "new_alerts": 0,
+  "generated_at": 1786958729,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32000184499",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32000184499"
+  "workflow_run_id": "32015104196",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32015104196"
 }
