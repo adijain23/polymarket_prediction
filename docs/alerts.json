@@ -2,6 +2,149 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x8d2430ca1bcc5394f9fdfadc6d0b6321ba8cfb046e84795b9190d8ffc7958879",
+        "liquidity_num": 848044.03443,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Nongshim Red Force",
+          "DN SOOPers"
+        ],
+        "question": "LoL: Nongshim Red Force vs DN SOOPers - Game 1 Winner",
+        "slug": "lol-ns-dnf-2026-08-18-game1",
+        "volume24hr": 652741.6940629996
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 10694.243059651208,
+        "price_range_accum_window": 0.5248082577,
+        "price_range_fast_window": 0.5248082577,
+        "top_net_wallet_accum_window": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 7999.999999651207,
+        "top_net_wallet_share_of_market_accum_window": 0.7480660346906428,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
+        "top_wallet_notional_accum_window": 7999.999999651207,
+        "top_wallet_share_accum_window": 0.7480660346906428,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 10694.243059651208,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "13494652820336163185169195226010272607639699831968887945234543186167129448649",
+        "condition_id": "0x8d2430ca1bcc5394f9fdfadc6d0b6321ba8cfb046e84795b9190d8ffc7958879",
+        "event_slug": "lol-ns-dnf-2026-08-18",
+        "name": "swy01",
+        "outcome": "DN SOOPers",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
+        "pseudonym": "Illustrious-Pinecone",
+        "side": "SELL",
+        "size": 2696.94,
+        "slug": "lol-ns-dnf-2026-08-18-game1",
+        "timestamp": 1787049796,
+        "title": "LoL: Nongshim Red Force vs DN SOOPers - Game 1 Winner",
+        "trade_id": "69ba85b98ebe33a8e46010c7c342328a589f12b45b05ddbd28b1566b9078422c",
+        "transaction_hash": "0x02c026ad85e2f32620db84b2c3c8c654b62b0245edbc3e57e2b664eaf9fde57f"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-ns-dnf-2026-08-18-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 5171.9209200000005,
+        "first_seen_ts": 1786896114,
+        "proxy_wallet": "0xe3d4dee2427b98042822543f8e1e8ab7bafb2bac",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 3
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xfdf7ce6641582c2cb06e2100b6bc193925aec139921db25d9329a82d45c87528",
+        "liquidity_num": 1099411.60415,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Nongshim Red Force",
+          "DN SOOPers"
+        ],
+        "question": "LoL: Nongshim Red Force vs DN SOOPers - Game 2 Winner",
+        "slug": "lol-ns-dnf-2026-08-18-game2",
+        "volume24hr": 855097.6515709999
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 11150.2639,
+        "price_range_accum_window": 0.39428673999999997,
+        "price_range_fast_window": 0.39428673999999997,
+        "top_net_wallet_accum_window": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 4629.4974,
+        "top_net_wallet_share_of_market_accum_window": 0.4151917337131366,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "top_wallet_notional_accum_window": 4629.4974,
+        "top_wallet_share_accum_window": 0.4151917337131366,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 11150.2639,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "81232239209431312841617853284168242627882007909563964374674078208354985065555",
+        "condition_id": "0xfdf7ce6641582c2cb06e2100b6bc193925aec139921db25d9329a82d45c87528",
+        "event_slug": "lol-ns-dnf-2026-08-18",
+        "name": "trgparking",
+        "outcome": "DN SOOPers",
+        "outcome_index": 1,
+        "price": 0.99,
+        "proxy_wallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "pseudonym": "Productive-Vertigo",
+        "side": "SELL",
+        "size": 4676.26,
+        "slug": "lol-ns-dnf-2026-08-18-game2",
+        "timestamp": 1787049778,
+        "title": "LoL: Nongshim Red Force vs DN SOOPers - Game 2 Winner",
+        "trade_id": "4173ec4a6769111e3f8c8636dd59f7c52de8ef5f3b3568ea2f1141909e00a8a1",
+        "transaction_hash": "0x4d995ad81c94b3808fff4331ef712645b0bca9e58709ce407b7b5955dc279dfc"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-ns-dnf-2026-08-18-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 4667.96030016525,
+        "first_seen_ts": 1786871199,
+        "proxy_wallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x4309301a91299029ad86c47a79f96580e4082eaae05562829e2939439b49c00b",
         "liquidity_num": 179312.7074,
         "outcome_prices": [
@@ -13415,9 +13558,9 @@
       }
     }
   ],
-  "generated_at": 1787044581,
+  "generated_at": 1787056935,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32120684591",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32120684591"
+  "workflow_run_id": "32138203147",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32138203147"
 }
