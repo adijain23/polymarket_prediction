@@ -2,6 +2,147 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x1c7543ac5896aca635be394f125ba82cfd9ff6aaf0562b1b3bd1a4f32ba5c1b7",
+        "liquidity_num": 509162.95099,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Solary",
+          "TLN Pirates"
+        ],
+        "question": "LoL: Solary vs TLN Pirates (BO3) - LFL Playoffs",
+        "slug": "lol-sly-tlnpir-2026-08-18",
+        "volume24hr": 100308.06209700002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 9335.538018932866,
+        "price_range_accum_window": 0.3942999251,
+        "price_range_fast_window": 0.3942999251,
+        "top_net_wallet_accum_window": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3535.5380210671337,
+        "top_net_wallet_share_of_market_accum_window": 0.3787181857003756,
+        "top_net_wallet_share_of_wallet_accum_window": 0.3787181857003756,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
+        "top_wallet_notional_accum_window": 9335.538018932866,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 9335.538018932866,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "35544211490055073515868090602017992901224774779015914565391718377536665607208",
+        "condition_id": "0x1c7543ac5896aca635be394f125ba82cfd9ff6aaf0562b1b3bd1a4f32ba5c1b7",
+        "event_slug": "lol-sly-tlnpir-2026-08-18",
+        "name": "Nootpengu",
+        "outcome": "TLN Pirates",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
+        "pseudonym": "Snappy-Fold-Stepson",
+        "side": "SELL",
+        "size": 6441.98,
+        "slug": "lol-sly-tlnpir-2026-08-18",
+        "timestamp": 1787074711,
+        "title": "LoL: Solary vs TLN Pirates (BO3) - LFL Playoffs",
+        "trade_id": "5504dcb13b0f43eb1172c34e92a135af944c687a5c99ef5d2d354a007c8f2e03",
+        "transaction_hash": "0x31f6d30d52d2ce50946e0c2cd4effca2e5902f89815e3a34324284e2cfd27465"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-sly-tlnpir-2026-08-18",
+      "wallet_stats": {
+        "avg_notional_7d": 4667.769009466433,
+        "first_seen_ts": 1787072914,
+        "proxy_wallet": "0xb035c5b61f2efeaa0b6ff34346cf7ed18165ff78",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+        "liquidity_num": 442522.4431,
+        "outcome_prices": [
+          0.185,
+          0.815
+        ],
+        "outcomes": [
+          "Andrey Rublev",
+          "Nuno Borges"
+        ],
+        "question": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+        "slug": "atp-rublev-borges-2026-08-18",
+        "volume24hr": 930733.7852150023
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 7086.931000011928,
+        "price_range_accum_window": 0.04621175239999997,
+        "price_range_fast_window": 0.4003672547,
+        "top_net_wallet_accum_window": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 2638.2537998611474,
+        "top_net_wallet_share_of_market_accum_window": 0.518715267037943,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "top_wallet_notional_accum_window": 2638.2537998611474,
+        "top_wallet_share_accum_window": 0.518715267037943,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 7086.931000011928,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "59113536276279146071302289588614260628213804285859449377296892731297856637567",
+        "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+        "event_slug": "atp-rublev-borges-2026-08-18",
+        "name": "tradecraft",
+        "outcome": "Nuno Borges",
+        "outcome_index": 1,
+        "price": 0.7903672547,
+        "proxy_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "pseudonym": "Slow-Escape",
+        "side": "BUY",
+        "size": 3338.01,
+        "slug": "atp-rublev-borges-2026-08-18",
+        "timestamp": 1787069311,
+        "title": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+        "trade_id": "1717b1f4bb959a756368cf727d5b46d8e8240b1d87f5e06d774337677da09242",
+        "transaction_hash": "0x53eeee30b5415bb5950b07ea0c62b0d7e705c62a8836cee6e4d70159a72085f5"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-rublev-borges-2026-08-18",
+      "wallet_stats": {
+        "avg_notional_7d": 6119.126899930574,
+        "first_seen_ts": 1786809090,
+        "proxy_wallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 8
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x8d2430ca1bcc5394f9fdfadc6d0b6321ba8cfb046e84795b9190d8ffc7958879",
         "liquidity_num": 848044.03443,
         "outcome_prices": [
@@ -13558,9 +13699,9 @@
       }
     }
   ],
-  "generated_at": 1787066114,
+  "generated_at": 1787076158,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32153276997",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32153276997"
+  "workflow_run_id": "32168753534",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32168753534"
 }
