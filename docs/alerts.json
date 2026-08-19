@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x8f748301723926ffa894a25b8735fe338cad1ef426b7063110443cced53a5ebe",
+        "liquidity_num": 227022.0117,
+        "outcome_prices": [
+          0.995,
+          0.005
+        ],
+        "outcomes": [
+          "Anyone's Legend",
+          "Top Esports"
+        ],
+        "question": "LoL: Anyone's Legend vs Top Esports - Game 2 Winner",
+        "slug": "lol-al-tes-2026-08-19-game2",
+        "volume24hr": 451343.455312
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 31683.4809,
+        "price_range_accum_window": 0.45999999999999996,
+        "price_range_fast_window": 0.45999999999999996,
+        "top_net_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 21963.4332,
+        "top_net_wallet_share_of_market_accum_window": 0.6932140211904557,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316",
+        "top_wallet_notional_accum_window": 21963.4332,
+        "top_wallet_share_accum_window": 0.6932140211904557,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 31683.4809,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "94959845056396432542272320285611638135093313156529351198029094009816337037726",
+        "condition_id": "0x8f748301723926ffa894a25b8735fe338cad1ef426b7063110443cced53a5ebe",
+        "event_slug": "lol-al-tes-2026-08-19",
+        "name": "IMAREALPERSON",
+        "outcome": "Anyones Legend",
+        "outcome_index": 0,
+        "price": 0.99,
+        "proxy_wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+        "pseudonym": "Self-Reliant-Camp",
+        "side": "BUY",
+        "size": 9818.23,
+        "slug": "lol-al-tes-2026-08-19-game2",
+        "timestamp": 1787140111,
+        "title": "LoL: Anyone's Legend vs Top Esports - Game 2 Winner",
+        "trade_id": "1561ef5cbe4346011c0eed2190a13238482cbd0f33d66034f3c1539545a74445",
+        "transaction_hash": "0x84b5a1ebf2522e12e8abd183325994a28ee63d93a3be7484bb540a737f383578"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-al-tes-2026-08-19-game2",
+      "wallet_stats": {
+        "avg_notional_7d": 9720.0477,
+        "first_seen_ts": 1787140111,
+        "proxy_wallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1c7543ac5896aca635be394f125ba82cfd9ff6aaf0562b1b3bd1a4f32ba5c1b7",
         "liquidity_num": 509162.95099,
         "outcome_prices": [
@@ -13699,9 +13772,9 @@
       }
     }
   ],
-  "generated_at": 1787132120,
+  "generated_at": 1787141718,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32238327095",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32238327095"
+  "workflow_run_id": "32251662362",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32251662362"
 }
