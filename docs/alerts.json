@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x4432df49b36c20c1a27a604fa8a1e8bc133c0f9d5e0850fc911277ae3c6afc1c",
+        "liquidity_num": 825425.4126,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "FURIA",
+          "Aurora Gaming"
+        ],
+        "question": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Esports World Cup Playoffs",
+        "slug": "cs2-furia-aur1-2026-08-19",
+        "volume24hr": 1720901.255816
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6148.017680000001,
+        "price_range_accum_window": 0.369,
+        "price_range_fast_window": 0.369,
+        "top_net_wallet_accum_window": "0x6304679c4bee05e560ebb637758a617086d4e570",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3848.0,
+        "top_net_wallet_share_of_market_accum_window": 0.6258927999699571,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x6304679c4bee05e560ebb637758a617086d4e570",
+        "top_wallet_notional_accum_window": 3848.0,
+        "top_wallet_share_accum_window": 0.6258927999699571,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6148.017680000001,
+      "reasons": [
+        "market_price_move_24h",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "57365870645311161625476847082772227369075778390189794046785296687285105052799",
+        "condition_id": "0x4432df49b36c20c1a27a604fa8a1e8bc133c0f9d5e0850fc911277ae3c6afc1c",
+        "event_slug": "cs2-furia-aur1-2026-08-19",
+        "name": null,
+        "outcome": "FURIA",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x8a2cfd16e0ee75fe9b6e41042b5e67faf5ad3c32",
+        "pseudonym": null,
+        "side": "SELL",
+        "size": 2302.32,
+        "slug": "cs2-furia-aur1-2026-08-19",
+        "timestamp": 1787174466,
+        "title": "Counter-Strike: FURIA vs Aurora Gaming (BO3) - Esports World Cup Playoffs",
+        "trade_id": "6c5057622719d923f0705b81ec999defe60b49e5f2daa10f6bc962f69c5c1265",
+        "transaction_hash": "0x2f7dd2f7e03ca152591d4180e40d5e60d227da6f535f066726f2bed7ac2bdaaf"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-furia-aur1-2026-08-19",
+      "wallet_stats": {
+        "avg_notional_7d": 2200.702095,
+        "first_seen_ts": 1787158749,
+        "proxy_wallet": "0x8a2cfd16e0ee75fe9b6e41042b5e67faf5ad3c32",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 2,
+        "unique_markets_total": 2
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70",
         "liquidity_num": 1255982.75073,
         "outcome_prices": [
@@ -13915,9 +13986,9 @@
       }
     }
   ],
-  "generated_at": 1787163487,
-  "new_alerts": 0,
+  "generated_at": 1787174791,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32286516072",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32286516072"
+  "workflow_run_id": "32303851083",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32303851083"
 }
