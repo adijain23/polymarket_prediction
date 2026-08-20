@@ -2,6 +2,79 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbee7d58b8a5ca59c228423923d1025e808e1d91d1c1d126cc1c575234cd517aa",
+        "liquidity_num": 1537572.3549,
+        "outcome_prices": [
+          0.395,
+          0.605
+        ],
+        "outcomes": [
+          "Iron Wing",
+          "BoomBoys"
+        ],
+        "question": "Dota 2: Iron Wing vs BoomBoys (BO3) - The International Playoffs",
+        "slug": "dota2-ironwi-boombo-2026-08-20",
+        "volume24hr": 625162.8954560001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 167717.5096,
+        "price_range_accum_window": 0.0,
+        "price_range_fast_window": 0.0,
+        "top_net_wallet_accum_window": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 167717.5096,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+        "top_wallet_notional_accum_window": 167717.5096,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 167717.5096,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h",
+        "quiet_price_6h"
+      ],
+      "score": 13,
+      "trade": {
+        "asset": "88793555644366666925157877539002860675745588033494725398157455746608545796217",
+        "condition_id": "0xbee7d58b8a5ca59c228423923d1025e808e1d91d1c1d126cc1c575234cd517aa",
+        "event_slug": "dota2-ironwi-boombo-2026-08-20",
+        "name": "Djdjdjekekek",
+        "outcome": "BoomBoys",
+        "outcome_index": 1,
+        "price": 0.58,
+        "proxy_wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+        "pseudonym": "Webbed-Myth",
+        "side": "BUY",
+        "size": 280418.12,
+        "slug": "dota2-ironwi-boombo-2026-08-20",
+        "timestamp": 1787255532,
+        "title": "Dota 2: Iron Wing vs BoomBoys (BO3) - The International Playoffs",
+        "trade_id": "ce204a43b47e27a2dd2a8a6d26fac8bae39abc8204910f23a643fa6b7ccfbd9e",
+        "transaction_hash": "0x87567073dd5e265f11c56bfb5ece87b6fe702e1ee8a14ceb62c3b7e8e7110e40"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-ironwi-boombo-2026-08-20",
+      "wallet_stats": {
+        "avg_notional_7d": 83858.7548,
+        "first_seen_ts": 1787255530,
+        "proxy_wallet": "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xbfa5522abf1fdf7f209f18fb5979cb1147a75035a905f043986093a1136177d4",
         "liquidity_num": 381640.66026,
         "outcome_prices": [
@@ -14060,9 +14133,9 @@
       }
     }
   ],
-  "generated_at": 1787249607,
+  "generated_at": 1787261320,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32401953140",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32401953140"
+  "workflow_run_id": "32419555064",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32419555064"
 }
