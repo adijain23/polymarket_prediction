@@ -2,6 +2,80 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbfa5522abf1fdf7f209f18fb5979cb1147a75035a905f043986093a1136177d4",
+        "liquidity_num": 381640.66026,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "TEAM VISION",
+          "BoomBoys"
+        ],
+        "question": "Dota 2: TEAM VISION vs BoomBoys (BO3) - The International Playoffs",
+        "slug": "dota2-vsn2-boombo-2026-08-20",
+        "volume24hr": 3706468.055183998
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 25869.661516949327,
+        "price_range_accum_window": 0.2590000001,
+        "price_range_fast_window": 0.2590000001,
+        "top_net_wallet_accum_window": "0x381b9294c1b95b61d018ff56312fbcc4897c4d74",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 7621.9038,
+        "top_net_wallet_share_of_market_accum_window": 0.29462711736704666,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x381b9294c1b95b61d018ff56312fbcc4897c4d74",
+        "top_wallet_notional_accum_window": 7621.9038,
+        "top_wallet_share_accum_window": 0.29462711736704666,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 6
+      },
+      "notional": 25869.661516949327,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 9,
+      "trade": {
+        "asset": "101028650168194677069630427574598819381546668487248022828323675030946075448144",
+        "condition_id": "0xbfa5522abf1fdf7f209f18fb5979cb1147a75035a905f043986093a1136177d4",
+        "event_slug": "dota2-vsn2-boombo-2026-08-20",
+        "name": "Bettong",
+        "outcome": "TEAM VISION",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
+        "pseudonym": "Mediocre-Emitter",
+        "side": "SELL",
+        "size": 5299.08,
+        "slug": "dota2-vsn2-boombo-2026-08-20",
+        "timestamp": 1787222490,
+        "title": "Dota 2: TEAM VISION vs BoomBoys (BO3) - The International Playoffs",
+        "trade_id": "8067f22a792df0556e6549a4b4d9da5260b384a289310b7090d22a692ced501d",
+        "transaction_hash": "0xde97601e4cf4fa5b75f30ccb91b906b01bb038ce61733796967b6837363136bd"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-vsn2-boombo-2026-08-20",
+      "wallet_stats": {
+        "avg_notional_7d": 5293.78092,
+        "first_seen_ts": 1787222490,
+        "proxy_wallet": "0x63bcf78f77cef62b4a9b8d101a14247bf90292c5",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x4432df49b36c20c1a27a604fa8a1e8bc133c0f9d5e0850fc911277ae3c6afc1c",
         "liquidity_num": 825425.4126,
         "outcome_prices": [
@@ -13986,9 +14060,9 @@
       }
     }
   ],
-  "generated_at": 1787216796,
+  "generated_at": 1787227254,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32352154928",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32352154928"
+  "workflow_run_id": "32366610665",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32366610665"
 }
