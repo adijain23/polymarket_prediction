@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xa05862606d887ed25719559a79356af1622917172cb1eeb07dec0916ccbdb027",
+        "liquidity_num": 209750.953,
+        "outcome_prices": [
+          0.57,
+          0.43
+        ],
+        "outcomes": [
+          "KT Rolster",
+          "T1"
+        ],
+        "question": "LoL: KT Rolster vs T1 (BO3) - LCK Round 3-4 Legend Group",
+        "slug": "lol-kt-t1-2026-08-21",
+        "volume24hr": 421181.54783399997
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 4977.14999948,
+        "price_range_accum_window": 0.19,
+        "price_range_fast_window": 0.19,
+        "top_net_wallet_accum_window": "0x870fd20e18211f72673560c8fc83bae38b3e6da1",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 2897.1499994799997,
+        "top_net_wallet_share_of_market_accum_window": 0.5820901519509531,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x870fd20e18211f72673560c8fc83bae38b3e6da1",
+        "top_wallet_notional_accum_window": 2897.1499994799997,
+        "top_wallet_share_accum_window": 0.5820901519509531,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 4977.14999948,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "80762000047508265463182305511055050801772987383460262058496710184598577566532",
+        "condition_id": "0xa05862606d887ed25719559a79356af1622917172cb1eeb07dec0916ccbdb027",
+        "event_slug": "lol-kt-t1-2026-08-21",
+        "name": "minji",
+        "outcome": "T1",
+        "outcome_index": 1,
+        "price": 0.52,
+        "proxy_wallet": "0x2d395d11014415644fe9a8599fe050e7f3a06053",
+        "pseudonym": "Tedious-Pagan",
+        "side": "BUY",
+        "size": 4000.0,
+        "slug": "lol-kt-t1-2026-08-21",
+        "timestamp": 1787313153,
+        "title": "LoL: KT Rolster vs T1 (BO3) - LCK Round 3-4 Legend Group",
+        "trade_id": "697f2298d8faf5e78d503b1b251e269e0f46e7ea22ec377ec6b66cc0fd906a30",
+        "transaction_hash": "0x0e9f8064e880b3328ad0e94a275c5d150746a7f818a48a2c7bd941afd7e0bfb3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-kt-t1-2026-08-21",
+      "wallet_stats": {
+        "avg_notional_7d": 2080.0,
+        "first_seen_ts": 1787313153,
+        "proxy_wallet": "0x2d395d11014415644fe9a8599fe050e7f3a06053",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xbee7d58b8a5ca59c228423923d1025e808e1d91d1c1d126cc1c575234cd517aa",
         "liquidity_num": 1537572.3549,
         "outcome_prices": [
@@ -14133,9 +14204,9 @@
       }
     }
   ],
-  "generated_at": 1787302946,
-  "new_alerts": 0,
+  "generated_at": 1787313641,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32465942285",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32465942285"
+  "workflow_run_id": "32479798639",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32479798639"
 }
