@@ -2,6 +2,76 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xf0c46fcc899e9460f00879150e719c72f1ec1b074a56654eef0ed96d17097645",
+        "liquidity_num": 130523.5534,
+        "outcome_prices": [
+          0.955,
+          0.045
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Fluminense FC win on 2026-08-22?",
+        "slug": "bra-flu-cre-2026-08-22-flu",
+        "volume24hr": 170709.44423899992
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 4115.360000000001,
+        "price_range_accum_window": 0.26,
+        "price_range_fast_window": 0.26,
+        "top_net_wallet_accum_window": "0xe23cd5fb6bee7b1c9f60f5d9969ac7ba52cc5ae7",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 2095.5,
+        "top_net_wallet_share_of_market_accum_window": 0.50918996151005,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xe23cd5fb6bee7b1c9f60f5d9969ac7ba52cc5ae7",
+        "top_wallet_notional_accum_window": 2095.5,
+        "top_wallet_share_accum_window": 0.50918996151005,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 4115.360000000001,
+      "reasons": [
+        "market_price_move_24h"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "7741393955980192089816939972725486107775657554940847969502769350546987071729",
+        "condition_id": "0xf0c46fcc899e9460f00879150e719c72f1ec1b074a56654eef0ed96d17097645",
+        "event_slug": "bra-flu-cre-2026-08-22",
+        "name": "UpTheBlues",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.92,
+        "proxy_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+        "pseudonym": "Gleeful-Cauliflower",
+        "side": "BUY",
+        "size": 2195.5,
+        "slug": "bra-flu-cre-2026-08-22-flu",
+        "timestamp": 1787431404,
+        "title": "Will Fluminense FC win on 2026-08-22?",
+        "trade_id": "fe7dc5ab1b33f163ff8f98b84cec204b7d220228a0b39bc3d8a6d6151a05c381",
+        "transaction_hash": "0x65270650f9703f1c85dadf07e25f636c86beb1b9c8f85ab9da133c06b872e133"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/bra-flu-cre-2026-08-22-flu",
+      "wallet_stats": {
+        "avg_notional_7d": 3558.5926999999997,
+        "first_seen_ts": 1786911409,
+        "proxy_wallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+        "trades_7d": 12,
+        "trades_total": 12,
+        "unique_markets_7d": 8,
+        "unique_markets_total": 13
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xa200221e39810b91dbbcf5ef319281a5309f8cf70cd54e03f7b1e8180050ed05",
         "liquidity_num": 185206.9512,
         "outcome_prices": [
@@ -14275,9 +14345,9 @@
       }
     }
   ],
-  "generated_at": 1787422386,
+  "generated_at": 1787432932,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32590063155",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32590063155"
+  "workflow_run_id": "32598717341",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32598717341"
 }
