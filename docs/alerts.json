@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xa200221e39810b91dbbcf5ef319281a5309f8cf70cd54e03f7b1e8180050ed05",
+        "liquidity_num": 185206.9512,
+        "outcome_prices": [
+          0.695,
+          0.305
+        ],
+        "outcomes": [
+          "DN SOOPers",
+          "Kiwoom DRX"
+        ],
+        "question": "LoL: DN SOOPers vs Kiwoom DRX - Game 1 Winner",
+        "slug": "lol-dnf-drx-2026-08-22-game1",
+        "volume24hr": 470365.8394840001
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5924.440397852515,
+        "price_range_accum_window": 0.32340110609999995,
+        "price_range_fast_window": 0.32340110609999995,
+        "top_net_wallet_accum_window": "0xab444cf90149a8128eb510099e5917f521547ffe",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 3224.4404,
+        "top_net_wallet_share_of_market_accum_window": 0.5442607543437844,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xab444cf90149a8128eb510099e5917f521547ffe",
+        "top_wallet_notional_accum_window": 3224.4404,
+        "top_wallet_share_accum_window": 0.5442607543437844,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5924.440397852515,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "78483860976826365492289282605225590317058876801614691063920473943126256340180",
+        "condition_id": "0xa200221e39810b91dbbcf5ef319281a5309f8cf70cd54e03f7b1e8180050ed05",
+        "event_slug": "lol-dnf-drx-2026-08-22",
+        "name": "0xED08D59722512DD33a4d9aE74935AC574AD7e082-1773129671057",
+        "outcome": "DN SOOPers",
+        "outcome_index": 0,
+        "price": 0.6785130261,
+        "proxy_wallet": "0xed08d59722512dd33a4d9ae74935ac574ad7e082",
+        "pseudonym": "Extra-Large-Union",
+        "side": "BUY",
+        "size": 3979.28985,
+        "slug": "lol-dnf-drx-2026-08-22-game1",
+        "timestamp": 1787399578,
+        "title": "LoL: DN SOOPers vs Kiwoom DRX - Game 1 Winner",
+        "trade_id": "bb845c426d0b28afbb18447327e04fb67df8d22753b3ebeeaf2d4e65784be047",
+        "transaction_hash": "0x6da7f53d95db242230457712b7a058af63369d5cab78b54a3fda0e3f4188473e"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-dnf-drx-2026-08-22-game1",
+      "wallet_stats": {
+        "avg_notional_7d": 2699.999997852515,
+        "first_seen_ts": 1787399578,
+        "proxy_wallet": "0xed08d59722512dd33a4d9ae74935ac574ad7e082",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xa05862606d887ed25719559a79356af1622917172cb1eeb07dec0916ccbdb027",
         "liquidity_num": 209750.953,
         "outcome_prices": [
@@ -14204,9 +14275,9 @@
       }
     }
   ],
-  "generated_at": 1787389882,
-  "new_alerts": 0,
+  "generated_at": 1787400027,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32564249175",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32564249175"
+  "workflow_run_id": "32571786045",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32571786045"
 }
