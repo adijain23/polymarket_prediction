@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f",
+        "liquidity_num": 503819.2481,
+        "outcome_prices": [
+          0.465,
+          0.535
+        ],
+        "outcomes": [
+          "Jessica Pegula",
+          "Iga Swiatek"
+        ],
+        "question": "Cincinnati Open: Jessica Pegula vs Iga Swiatek",
+        "slug": "wta-pegula-swiatek-2026-08-22",
+        "volume24hr": 2415408.7627459993
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 28894.038,
+        "price_range_accum_window": 0.31000000000000005,
+        "price_range_fast_window": 0.31000000000000005,
+        "top_net_wallet_accum_window": "0xf377b9fb12a4b7507a4f997461a73eb30b564159",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 11569.038,
+        "top_net_wallet_share_of_market_accum_window": 0.40039533415163364,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xf377b9fb12a4b7507a4f997461a73eb30b564159",
+        "top_wallet_notional_accum_window": 11569.038,
+        "top_wallet_share_accum_window": 0.40039533415163364,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 4
+      },
+      "notional": 28894.038,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "20874858684235332434201831843567273166677515844861101254860160986212061751073",
+        "condition_id": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f",
+        "event_slug": "wta-pegula-swiatek-2026-08-22",
+        "name": "787-HUEV-W-ZOPE",
+        "outcome": "Iga Swiatek",
+        "outcome_index": 1,
+        "price": 0.66,
+        "proxy_wallet": "0xdd6331d7e7be19d60649434e99ddb89392fe050f",
+        "pseudonym": "Nutty-Rooster-Colonialism",
+        "side": "BUY",
+        "size": 10000.0,
+        "slug": "wta-pegula-swiatek-2026-08-22",
+        "timestamp": 1787437716,
+        "title": "Cincinnati Open: Jessica Pegula vs Iga Swiatek",
+        "trade_id": "f6e7a4a8af8beb24b50c1e678a6d72bbdb3fb11ec5d93e4dfe057a3aeea4b6e8",
+        "transaction_hash": "0xcd5aa8267c219da7c144dad67606d2c6be6563e790aa0eff75368d682702152d"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/wta-pegula-swiatek-2026-08-22",
+      "wallet_stats": {
+        "avg_notional_7d": 6600.0,
+        "first_seen_ts": 1787437716,
+        "proxy_wallet": "0xdd6331d7e7be19d60649434e99ddb89392fe050f",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xf0c46fcc899e9460f00879150e719c72f1ec1b074a56654eef0ed96d17097645",
         "liquidity_num": 130523.5534,
         "outcome_prices": [
@@ -14345,9 +14417,9 @@
       }
     }
   ],
-  "generated_at": 1787432932,
+  "generated_at": 1787444733,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32598717341",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32598717341"
+  "workflow_run_id": "32607799386",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32607799386"
 }
