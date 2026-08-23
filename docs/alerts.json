@@ -2,6 +2,149 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x0ba31a59ae7b92571ff0f2a6f5bf8843fa88d5c9f4d0d962d21917ba0b2bdb42",
+        "liquidity_num": 236246.1152,
+        "outcome_prices": [
+          0.325,
+          0.675
+        ],
+        "outcomes": [
+          "TEAM VISION",
+          "Team Spirit"
+        ],
+        "question": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
+        "slug": "dota2-vsn2-ts8-2026-08-23",
+        "volume24hr": 8271268.810950003
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 9604.617997908748,
+        "price_range_accum_window": 0.24999999999999994,
+        "price_range_fast_window": 0.24999999999999994,
+        "top_net_wallet_accum_window": "0xd202bf6d89dc6bab1b9f00ead175f75466348973",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3821.44,
+        "top_net_wallet_share_of_market_accum_window": 0.39787527216928953,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xd202bf6d89dc6bab1b9f00ead175f75466348973",
+        "top_wallet_notional_accum_window": 3821.44,
+        "top_wallet_share_accum_window": 0.39787527216928953,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 3
+      },
+      "notional": 9604.617997908748,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "105717336415824188396323710698848701902178478068973000541904427172521007243289",
+        "condition_id": "0x0ba31a59ae7b92571ff0f2a6f5bf8843fa88d5c9f4d0d962d21917ba0b2bdb42",
+        "event_slug": "dota2-vsn2-ts8-2026-08-23",
+        "name": "meoooow",
+        "outcome": "TEAM VISION",
+        "outcome_index": 0,
+        "price": 0.32,
+        "proxy_wallet": "0xd202bf6d89dc6bab1b9f00ead175f75466348973",
+        "pseudonym": "Double-Bricklaying",
+        "side": "BUY",
+        "size": 11942.0,
+        "slug": "dota2-vsn2-ts8-2026-08-23",
+        "timestamp": 1787482420,
+        "title": "Dota 2: TEAM VISION vs Team Spirit (BO5) - The International Playoffs",
+        "trade_id": "6c8848adde4c25a04c877e961f47a692de28b79d4bd8ba10d0adbdb188e67bc9",
+        "transaction_hash": "0x9d2481608c4540d570bb190d723eac4e13e6a04c7da3b3e4ee6d7916eff5d665"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-vsn2-ts8-2026-08-23",
+      "wallet_stats": {
+        "avg_notional_7d": 3821.44,
+        "first_seen_ts": 1787482420,
+        "proxy_wallet": "0xd202bf6d89dc6bab1b9f00ead175f75466348973",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
+        "condition_id": "0xffeb4045a5b3ba8ccb520fbb8c5b2c979dff5d336ea06fa74e97ea6122f8a157",
+        "liquidity_num": 238025.5178,
+        "outcome_prices": [
+          0.485,
+          0.515
+        ],
+        "outcomes": [
+          "TEAM VISION",
+          "Team Spirit"
+        ],
+        "question": "Dota 2: TEAM VISION vs Team Spirit - Game 3 Winner",
+        "slug": "dota2-vsn2-ts8-2026-08-23-game3",
+        "volume24hr": 663981.6485310002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 56668.90279696864,
+        "price_range_accum_window": null,
+        "price_range_fast_window": null,
+        "top_net_wallet_accum_window": null,
+        "top_net_wallet_direction_accum_window": null,
+        "top_net_wallet_notional_accum_window": 0.0,
+        "top_net_wallet_share_of_market_accum_window": null,
+        "top_net_wallet_share_of_wallet_accum_window": null,
+        "top_net_wallet_trades_accum_window": 0,
+        "top_wallet_accum_window": "0x38337de21ff0bb0a11a40761507d51e318d633d1",
+        "top_wallet_notional_accum_window": 10400.0,
+        "top_wallet_share_accum_window": 0.1835221697737956,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 11
+      },
+      "notional": 56668.90279696864,
+      "reasons": [
+        "market_heat_24h",
+        "market_participation_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 5,
+      "trade": {
+        "asset": "66910962581221009989303303830083506844349926468893982955411809367447808525496",
+        "condition_id": "0xffeb4045a5b3ba8ccb520fbb8c5b2c979dff5d336ea06fa74e97ea6122f8a157",
+        "event_slug": "",
+        "name": "0x7a85652F35c4A1b8A1b0393e6e2Fa8DB82F0Ff94-1774626904518",
+        "outcome": "TEAM VISION",
+        "outcome_index": 999,
+        "price": 0.51,
+        "proxy_wallet": "0x7a85652f35c4a1b8a1b0393e6e2fa8db82f0ff94",
+        "pseudonym": "Elegant-Body",
+        "side": "BUY",
+        "size": 6101.686273,
+        "slug": "dota2-vsn2-ts8-2026-08-23-game3",
+        "timestamp": 1787477340,
+        "title": "Dota 2: TEAM VISION vs Team Spirit - Game 3 Winner",
+        "trade_id": "ee0c75e3546e492bce891575631580e52a442291ff30ae89fe90168601aa850b",
+        "transaction_hash": "0x3c4856737be69d60e18b50a0ad6e90f8205d5a5e6ff3243795932c326dc3e3c3"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/dota2-vsn2-ts8-2026-08-23-game3",
+      "wallet_stats": {
+        "avg_notional_7d": 3111.85999923,
+        "first_seen_ts": 1787477340,
+        "proxy_wallet": "0x7a85652f35c4a1b8a1b0393e6e2fa8db82f0ff94",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xb86abf01049c3cceb57acbfedf906bd844f3cc7631e0ae623d517b8097e37850",
         "liquidity_num": 179808.3441,
         "outcome_prices": [
@@ -14250,157 +14393,11 @@
         "unique_markets_7d": 1,
         "unique_markets_total": 1
       }
-    },
-    {
-      "market": {
-        "condition_id": "0xd1047755d35a03b7ceea9923daae56ecf67784446daa63e87eebc471b4b9dbd9",
-        "liquidity_num": 34674.0469,
-        "outcome_prices": [
-          0.395,
-          0.605
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "US strikes Iran by January 16, 2026?",
-        "slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
-        "volume24hr": 1074151.2404390005
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 12681.437,
-        "price_range_accum_window": 0.0256880998223607,
-        "price_range_fast_window": 0.17000000000000004,
-        "top_net_wallet_accum_window": "0xd576b9ee74c58fcb913675fd9c1d14c85312d5e3",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 2936.0795000000003,
-        "top_net_wallet_share_of_market_accum_window": 0.5853618249556355,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0xd576b9ee74c58fcb913675fd9c1d14c85312d5e3",
-        "top_wallet_notional_accum_window": 2936.0795000000003,
-        "top_wallet_share_accum_window": 0.5853618249556355,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 4
-      },
-      "notional": 12681.437,
-      "reasons": [
-        "market_price_move_24h",
-        "new_wallet_to_system"
-      ],
-      "score": 6,
-      "trade": {
-        "asset": "71245395341640282981822050245876486438708685626052577722484604820158902803989",
-        "condition_id": "0xd1047755d35a03b7ceea9923daae56ecf67784446daa63e87eebc471b4b9dbd9",
-        "event_slug": "us-strikes-iran-by",
-        "name": "TealV",
-        "outcome": "Yes",
-        "outcome_index": 0,
-        "price": 0.3443119001776393,
-        "proxy_wallet": "0xd748c701ad93cfec32a3420e10f3b08e68612125",
-        "pseudonym": "Sticky-Peach",
-        "side": "SELL",
-        "size": 6040.33,
-        "slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
-        "timestamp": 1768333150,
-        "title": "US strikes Iran by January 16, 2026?",
-        "trade_id": "61275716ee83fc07f505f06ed0fe505c634bee0013ae3c154144ffe68a2f3a7e",
-        "transaction_hash": "0x9d20c7a561191f42a4fdaef71b4741798b1fb2d0a062aa75d42b24edcdd074fa"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/us-strikes-iran-by-january-16-2026-498-181-173-663",
-      "wallet_stats": {
-        "avg_notional_7d": 2079.7575,
-        "first_seen_ts": 1768333150,
-        "proxy_wallet": "0xd748c701ad93cfec32a3420e10f3b08e68612125",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
-    },
-    {
-      "market": {
-        "condition_id": "0xdde10390229a08f12134eb8cbbffbc9b6f8c7bf26e1867a73ebb932e256b514e",
-        "liquidity_num": 624311.4091,
-        "outcome_prices": [
-          0.575,
-          0.425
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Will VfB Stuttgart win on 2026-01-13?",
-        "slug": "bun-stu-ein-2026-01-13-stu",
-        "volume24hr": 284440.8115499998
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 31524.724299999994,
-        "price_range_accum_window": 0.40916601533565267,
-        "price_range_fast_window": 0.40916601533565267,
-        "top_net_wallet_accum_window": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 27652.079999999994,
-        "top_net_wallet_share_of_market_accum_window": 0.8771553316962711,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 5,
-        "top_wallet_accum_window": "0x1455445e9a775cfa3fe9fc4b02bb4d2f682ae5cd",
-        "top_wallet_notional_accum_window": 27652.079999999994,
-        "top_wallet_share_accum_window": 0.8771553316962711,
-        "top_wallet_trades_accum_window": 5,
-        "unique_wallets_fast_window": 2
-      },
-      "notional": 31524.724299999994,
-      "reasons": [
-        "market_price_move_24h",
-        "market_heat_24h",
-        "whale_accumulation_6h",
-        "concentrated_flow_6h",
-        "new_wallet_to_system",
-        "extreme_price"
-      ],
-      "score": 14,
-      "trade": {
-        "asset": "97212124472656863524759471926817043433361174058046518215176297401726819547323",
-        "condition_id": "0xdde10390229a08f12134eb8cbbffbc9b6f8c7bf26e1867a73ebb932e256b514e",
-        "event_slug": "bun-stu-ein-2026-01-13",
-        "name": "wowfarm",
-        "outcome": "Yes",
-        "outcome_index": 0,
-        "price": 0.9891660153356526,
-        "proxy_wallet": "0x2ada299aaaf27c806424ec6dcb0c169d1a9c2f28",
-        "pseudonym": "Black-And-White-Summit",
-        "side": "BUY",
-        "size": 3915.06,
-        "slug": "bun-stu-ein-2026-01-13-stu",
-        "timestamp": 1768332414,
-        "title": "Will VfB Stuttgart win on 2026-01-13?",
-        "trade_id": "7f5c3fd6ab00483c3341826497e2853fb2a61aa3600d2ff59dbfafca8a84b8a6",
-        "transaction_hash": "0x96f4b2c96abcd538b7f440f932a813d72d662a8250c74a0e71628223843dd17b"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/bun-stu-ein-2026-01-13-stu",
-      "wallet_stats": {
-        "avg_notional_7d": 3872.6443,
-        "first_seen_ts": 1768332414,
-        "proxy_wallet": "0x2ada299aaaf27c806424ec6dcb0c169d1a9c2f28",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1787475666,
+  "generated_at": 1787489456,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32629809545",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32629809545"
+  "workflow_run_id": "32640553934",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32640553934"
 }
