@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xaffc02d5c834a97d231a02c3346f7d0f083c01c13cdb8e4283ddc6a188edef70",
+        "liquidity_num": 723056.53037,
+        "outcome_prices": [
+          0.0005,
+          0.9995
+        ],
+        "outcomes": [
+          "Sebastian Gorzny",
+          "Cruz Hewitt"
+        ],
+        "question": "Winston-Salem Open: Sebastian Gorzny vs Cruz Hewitt",
+        "slug": "atp-gorzny-hewitt-2026-08-24",
+        "volume24hr": 222975.92817099995
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 6399.622199843188,
+        "price_range_accum_window": 0.5470992684,
+        "price_range_fast_window": 0.5470992684,
+        "top_net_wallet_accum_window": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3571.453199843188,
+        "top_net_wallet_share_of_market_accum_window": 0.5580725062068039,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+        "top_wallet_notional_accum_window": 3571.453199843188,
+        "top_wallet_share_accum_window": 0.5580725062068039,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 6399.622199843188,
+      "reasons": [
+        "market_price_move_24h",
+        "concentrated_activity_7d",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "44417606306349344675741388414965618743313170768862453747617943060009735740160",
+        "condition_id": "0xaffc02d5c834a97d231a02c3346f7d0f083c01c13cdb8e4283ddc6a188edef70",
+        "event_slug": "atp-gorzny-hewitt-2026-08-24",
+        "name": "alpheclabs",
+        "outcome": "Cruz Hewitt",
+        "outcome_index": 1,
+        "price": 0.999,
+        "proxy_wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+        "pseudonym": "Past-Punishment",
+        "side": "SELL",
+        "size": 2831.0,
+        "slug": "atp-gorzny-hewitt-2026-08-24",
+        "timestamp": 1787608182,
+        "title": "Winston-Salem Open: Sebastian Gorzny vs Cruz Hewitt",
+        "trade_id": "d6489440df58d75d94606ee3afa148deffd27a8b88edf18ca95fa6de2702f5b9",
+        "transaction_hash": "0xee58cd65561077c200c1411ea3fc3467a0caf66baebc46d1bc834bc803693800"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-gorzny-hewitt-2026-08-24",
+      "wallet_stats": {
+        "avg_notional_7d": 2952.4712400000003,
+        "first_seen_ts": 1787074704,
+        "proxy_wallet": "0xb4d250f58c26840e09723a83ce9c8149aa32ce99",
+        "trades_7d": 3,
+        "trades_total": 3,
+        "unique_markets_7d": 3,
+        "unique_markets_total": 4
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x0ba31a59ae7b92571ff0f2a6f5bf8843fa88d5c9f4d0d962d21917ba0b2bdb42",
         "liquidity_num": 236246.1152,
         "outcome_prices": [
@@ -14319,85 +14391,11 @@
         "unique_markets_7d": 9,
         "unique_markets_total": 9
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "liquidity_num": 8880361.74544,
-        "outcome_prices": [
-          0.0005,
-          0.9995
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "volume24hr": 6039548.418112008
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "accumulation",
-        "fast_window_s": 86400,
-        "notional_fast_window": 63620.316000000006,
-        "price_range_accum_window": 0.0,
-        "price_range_fast_window": 0.0,
-        "top_net_wallet_accum_window": "0xce5bec63b40392845a9a504915f607c8e03a047a",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 40643.316,
-        "top_net_wallet_share_of_market_accum_window": 0.6388417812951447,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 2,
-        "top_wallet_accum_window": "0xce5bec63b40392845a9a504915f607c8e03a047a",
-        "top_wallet_notional_accum_window": 40643.316,
-        "top_wallet_share_accum_window": 0.6388417812951447,
-        "top_wallet_trades_accum_window": 2,
-        "unique_wallets_fast_window": 2
-      },
-      "notional": 40643.316,
-      "reasons": [
-        "market_heat_24h",
-        "whale_accumulation_6h",
-        "concentrated_flow_6h",
-        "quiet_price_6h",
-        "extreme_price"
-      ],
-      "score": 10,
-      "trade": {
-        "asset": "42139849929574046088630785796780813725435914859433767469767950066058132350666",
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "event_slug": "fed-decision-in-january",
-        "name": "Nexuus",
-        "outcome": "No",
-        "outcome_index": 1,
-        "price": 0.999,
-        "proxy_wallet": "0xce5bec63b40392845a9a504915f607c8e03a047a",
-        "pseudonym": "Educated-Jockey",
-        "side": "SELL",
-        "size": 20234.0,
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "timestamp": 1768341158,
-        "title": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "trade_id": "1f39ef10c115496d86dbd65b0eee63676dce67e08de739cb02b7b6d93ac65e87",
-        "transaction_hash": "0x28405145478b5e578d9356b7b64f8c5057cd1d518496b87354b6bb43143688ff"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-      "wallet_stats": {
-        "avg_notional_7d": 20321.658,
-        "first_seen_ts": 1768340530,
-        "proxy_wallet": "0xce5bec63b40392845a9a504915f607c8e03a047a",
-        "trades_7d": 2,
-        "trades_total": 2,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1787605322,
+  "generated_at": 1787618196,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32777203459",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32777203459"
+  "workflow_run_id": "32794285600",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32794285600"
 }
