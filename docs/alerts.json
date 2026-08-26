@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x26a6c7e4a905dfc13f23c44a8e41d0b96ad60569ef49869c46c237dfd8f3c003",
+        "liquidity_num": 27128.77877,
+        "outcome_prices": [
+          0.788,
+          0.212
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+        "slug": "will-person-f-be-the-new-republican-nominee-for-senate-in-south-carolina-20260712140628838",
+        "volume24hr": 347768.75420799985
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 5324.200229985867,
+        "price_range_accum_window": 0.16485920789999997,
+        "price_range_fast_window": 0.16485920789999997,
+        "top_net_wallet_accum_window": "0x7131cb618fb195c70e8e629c45199096833c29cc",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 3269.217079852534,
+        "top_net_wallet_share_of_market_accum_window": 0.6140297018583789,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x7131cb618fb195c70e8e629c45199096833c29cc",
+        "top_wallet_notional_accum_window": 3269.217079852534,
+        "top_wallet_share_accum_window": 0.6140297018583789,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 5324.200229985867,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "49869160041323840584812036178393008034046781140245590791017996532351395946894",
+        "condition_id": "0x26a6c7e4a905dfc13f23c44a8e41d0b96ad60569ef49869c46c237dfd8f3c003",
+        "event_slug": "south-carolina-republican-senate-special-primary-winner-20260712135206676",
+        "name": "0x7131cB618fb195C70E8e629C45199096833C29",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "price": 0.8498558746,
+        "proxy_wallet": "0x7131cb618fb195c70e8e629c45199096833c29cc",
+        "pseudonym": "Twin-Cupola",
+        "side": "BUY",
+        "size": 3846.79,
+        "slug": "will-person-f-be-the-new-republican-nominee-for-senate-in-south-carolina-20260712140628838",
+        "timestamp": 1787699433,
+        "title": "Will Darline Graham Nordone be the new republican nominee for Senate in South Carolina?",
+        "trade_id": "4aec1c5869aa50233dcf1d7d6994a611fea7edf20324e2a64a35f9b77edfb6d4",
+        "transaction_hash": "0x53ec38d06d41f3552335f114d5351064c6a7f5f387ec1d0bd193b123b163c992"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-person-f-be-the-new-republican-nominee-for-senate-in-south-carolina-20260712140628838",
+      "wallet_stats": {
+        "avg_notional_7d": 3269.217079852534,
+        "first_seen_ts": 1787699433,
+        "proxy_wallet": "0x7131cb618fb195c70e8e629c45199096833c29cc",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xaffc02d5c834a97d231a02c3346f7d0f083c01c13cdb8e4283ddc6a188edef70",
         "liquidity_num": 723056.53037,
         "outcome_prices": [
@@ -14318,84 +14389,11 @@
         "unique_markets_7d": 2,
         "unique_markets_total": 2
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x03cdd1d7132de0e52318a0afd9fc5ff75382fc8b7f4e607a5504f4948ded5a6c",
-        "liquidity_num": 45390.7702,
-        "outcome_prices": [
-          0.645,
-          0.355
-        ],
-        "outcomes": [
-          "Massachusetts Minutemen",
-          "Western Michigan Broncos"
-        ],
-        "question": "Massachusetts Minutemen vs. Western Michigan Broncos",
-        "slug": "cbb-umass-wmich-2026-01-13",
-        "volume24hr": 882.168558
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "accumulation",
-        "fast_window_s": 86400,
-        "notional_fast_window": 211616.3076,
-        "price_range_accum_window": 0.00028236732296238465,
-        "price_range_fast_window": 0.00028236732296238465,
-        "top_net_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 211616.3076,
-        "top_net_wallet_share_of_market_accum_window": 1.0,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 2,
-        "top_wallet_accum_window": "0x492442eab586f242b53bda933fd5de859c8a3782",
-        "top_wallet_notional_accum_window": 211616.3076,
-        "top_wallet_share_accum_window": 1.0,
-        "top_wallet_trades_accum_window": 2,
-        "unique_wallets_fast_window": 1
-      },
-      "notional": 211616.3076,
-      "reasons": [
-        "market_heat_24h",
-        "whale_accumulation_6h",
-        "concentrated_flow_6h",
-        "quiet_price_6h"
-      ],
-      "score": 13,
-      "trade": {
-        "asset": "44308738334806869623603044484246965892763601321993799614516268445266086900005",
-        "condition_id": "0x03cdd1d7132de0e52318a0afd9fc5ff75382fc8b7f4e607a5504f4948ded5a6c",
-        "event_slug": "cbb-umass-wmich-2026-01-13",
-        "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
-        "outcome": "Massachusetts Minutemen",
-        "outcome_index": 0,
-        "price": 0.6799982496495128,
-        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
-        "pseudonym": "Multicolored-Self",
-        "side": "BUY",
-        "size": 77927.25,
-        "slug": "cbb-umass-wmich-2026-01-13",
-        "timestamp": 1768347016,
-        "title": "Massachusetts Minutemen vs. Western Michigan Broncos",
-        "trade_id": "b52aa785967bf009b1a34c02beced0373f27b4ce8146583ae2eaa6c9265d77e2",
-        "transaction_hash": "0x72d0193b90ee93530e52ec8056d27b48af9c98f127197d8c0852712904f36c3f"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/cbb-umass-wmich-2026-01-13",
-      "wallet_stats": {
-        "avg_notional_7d": 123608.67601000001,
-        "first_seen_ts": 1767923612,
-        "proxy_wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
-        "trades_7d": 10,
-        "trades_total": 10,
-        "unique_markets_7d": 9,
-        "unique_markets_total": 9
-      }
     }
   ],
-  "generated_at": 1787691896,
+  "generated_at": 1787708570,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "32898948829",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32898948829"
+  "workflow_run_id": "32919981500",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/32919981500"
 }
