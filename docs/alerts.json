@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xf9b02eaa3b651c941c8ac31421541e94427f022ebbdbf30f1276cbfeab5eb935",
+        "liquidity_num": 63366.9895,
+        "outcome_prices": [
+          0.725,
+          0.275
+        ],
+        "outcomes": [
+          "Titouan Droguet",
+          "Maxime Chazal"
+        ],
+        "question": "Cassis: Titouan Droguet vs Maxime Chazal",
+        "slug": "atp-droguet-chazal-2026-09-07",
+        "volume24hr": 3580.933992
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "accumulation",
+        "fast_window_s": 86400,
+        "notional_fast_window": 49999.99999801886,
+        "price_range_accum_window": 0.052857969800000015,
+        "price_range_fast_window": 0.052857969800000015,
+        "top_net_wallet_accum_window": "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 49999.99999801886,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+        "top_wallet_notional_accum_window": 49999.99999801886,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 1
+      },
+      "notional": 49999.99999801886,
+      "reasons": [
+        "market_heat_24h",
+        "whale_accumulation_6h",
+        "concentrated_flow_6h"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "43272588870278086745055163876206684849832238957193758163601156357584079402712",
+        "condition_id": "0xf9b02eaa3b651c941c8ac31421541e94427f022ebbdbf30f1276cbfeab5eb935",
+        "event_slug": "atp-droguet-chazal-2026-09-07",
+        "name": null,
+        "outcome": "Titouan Droguet",
+        "outcome_index": 0,
+        "price": 0.7388113003,
+        "proxy_wallet": "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+        "pseudonym": null,
+        "side": "BUY",
+        "size": 45190.22,
+        "slug": "atp-droguet-chazal-2026-09-07",
+        "timestamp": 1788797014,
+        "title": "Cassis: Titouan Droguet vs Maxime Chazal",
+        "trade_id": "d562c0995393ede3596960ef1a427236fc65a52be306bbc799b64af5a33bd87b",
+        "transaction_hash": "0xb4ba1206d6278a0abfc4bdc35464244c3efd3599d9aaed79c6c0ae6db05e802a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/atp-droguet-chazal-2026-09-07",
+      "wallet_stats": {
+        "avg_notional_7d": 24999.99999900943,
+        "first_seen_ts": 1788797014,
+        "proxy_wallet": "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x5ca44789ebbeb595cc07296c561d60fbe525ed945a4c7ec4a61fd4308e093d0d",
         "liquidity_num": 1489825.07561,
         "outcome_prices": [
@@ -14313,84 +14385,11 @@
         "unique_markets_7d": 1,
         "unique_markets_total": 1
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "liquidity_num": 8880361.74544,
-        "outcome_prices": [
-          0.0005,
-          0.9995
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "volume24hr": 6039548.418112008
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 65634.340112,
-        "price_range_accum_window": 0.0,
-        "price_range_fast_window": 0.0010000000000000009,
-        "top_net_wallet_accum_window": "0xd593239b8bc6ace71398a45e1fbb7f3040ad8240",
-        "top_net_wallet_direction_accum_window": "anti0",
-        "top_net_wallet_notional_accum_window": 13546.66977,
-        "top_net_wallet_share_of_market_accum_window": 0.35097546099366045,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0xd593239b8bc6ace71398a45e1fbb7f3040ad8240",
-        "top_wallet_notional_accum_window": 13546.66977,
-        "top_wallet_share_accum_window": 0.35097546099366045,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 5
-      },
-      "notional": 65634.340112,
-      "reasons": [
-        "market_heat_24h",
-        "market_participation_24h",
-        "new_wallet_to_system",
-        "extreme_price"
-      ],
-      "score": 5,
-      "trade": {
-        "asset": "42139849929574046088630785796780813725435914859433767469767950066058132350666",
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "event_slug": "fed-decision-in-january",
-        "name": "WinsomeSears",
-        "outcome": "No",
-        "outcome_index": 1,
-        "price": 0.999,
-        "proxy_wallet": "0xd593239b8bc6ace71398a45e1fbb7f3040ad8240",
-        "pseudonym": "Well-Made-Pagan",
-        "side": "BUY",
-        "size": 13560.23,
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "timestamp": 1768543028,
-        "title": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "trade_id": "bcde3545caf792508036f83846a5b31f0edfd36d85acccf3725d81b89ad3eb4c",
-        "transaction_hash": "0x6f15191adbee39f2a125196babd9ded9349f1b988af02cd1fd8323243fe3beca"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-      "wallet_stats": {
-        "avg_notional_7d": 13546.66977,
-        "first_seen_ts": 1768543028,
-        "proxy_wallet": "0xd593239b8bc6ace71398a45e1fbb7f3040ad8240",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1788777982,
-  "new_alerts": 0,
+  "generated_at": 1788797161,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "34113132374",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/34113132374"
+  "workflow_run_id": "34141568757",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/34141568757"
 }
