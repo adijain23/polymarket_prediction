@@ -2,6 +2,78 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x792faa04c8bf62d230b38a351cc48b33e7199fe7af74192cc2a01d3b209a3182",
+        "liquidity_num": 485419.51465,
+        "outcome_prices": [
+          0.9995,
+          0.0005
+        ],
+        "outcomes": [
+          "9z",
+          "TYLOO"
+        ],
+        "question": "Counter-Strike: 9z vs TYLOO (BO3) - ESL Pro League Group Stage",
+        "slug": "cs2-9z-tyloo-2026-10-04",
+        "volume24hr": 406890.81911500025
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 8699.16618,
+        "price_range_accum_window": 0.43899999999999995,
+        "price_range_fast_window": 0.43899999999999995,
+        "top_net_wallet_accum_window": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 5963.05098,
+        "top_net_wallet_share_of_market_accum_window": 0.6854738553804705,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
+        "top_wallet_notional_accum_window": 5963.05098,
+        "top_wallet_share_accum_window": 0.6854738553804705,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 8699.16618,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system",
+        "extreme_price"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "41293984069726363103707422070727492290998775370170536227795121701520251605042",
+        "condition_id": "0x792faa04c8bf62d230b38a351cc48b33e7199fe7af74192cc2a01d3b209a3182",
+        "event_slug": "cs2-9z-tyloo-2026-10-04",
+        "name": "kid817",
+        "outcome": "9z",
+        "outcome_index": 0,
+        "price": 0.999,
+        "proxy_wallet": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
+        "pseudonym": "Total-Cover-Author",
+        "side": "SELL",
+        "size": 5969.02,
+        "slug": "cs2-9z-tyloo-2026-10-04",
+        "timestamp": 1791119641,
+        "title": "Counter-Strike: 9z vs TYLOO (BO3) - ESL Pro League Group Stage",
+        "trade_id": "f4ca1e0fe1a50cde64c8e3f419fbbba9463ad0e6c8f269931535654fe06efb78",
+        "transaction_hash": "0x53619702c22d1d925c1a897d16ed941350e63514fdd1f398ac5d526f737e9fd4"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-9z-tyloo-2026-10-04",
+      "wallet_stats": {
+        "avg_notional_7d": 5963.05098,
+        "first_seen_ts": 1791119641,
+        "proxy_wallet": "0xb13268eb47396af4f2e7ff91ed374f9026e16b5e",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f",
         "liquidity_num": 140586.8346,
         "outcome_prices": [
@@ -14313,83 +14385,11 @@
         "unique_markets_7d": 1,
         "unique_markets_total": 1
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x843fc1f23d8cfd3df343031312a8a3f0a930ad118c0c0e81a56c21f0ea9ff217",
-        "liquidity_num": 63004.8302,
-        "outcome_prices": [
-          0.115,
-          0.885
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "US strikes Iran by January 23, 2026?",
-        "slug": "us-strikes-iran-by-january-23-2026-494-711-798-734-155",
-        "volume24hr": 453109.14284199954
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 24579.964396000003,
-        "price_range_accum_window": null,
-        "price_range_fast_window": 0.09133831163055062,
-        "top_net_wallet_accum_window": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
-        "top_net_wallet_direction_accum_window": "anti0",
-        "top_net_wallet_notional_accum_window": 15508.699996000001,
-        "top_net_wallet_share_of_market_accum_window": 1.0,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
-        "top_wallet_notional_accum_window": 15508.699996000001,
-        "top_wallet_share_accum_window": 1.0,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 2
-      },
-      "notional": 24579.964396000003,
-      "reasons": [
-        "market_price_move_24h",
-        "market_heat_24h",
-        "new_wallet_to_system"
-      ],
-      "score": 6,
-      "trade": {
-        "asset": "107096794127270890984101242570698639474010707625351397547174129311341989598349",
-        "condition_id": "0x843fc1f23d8cfd3df343031312a8a3f0a930ad118c0c0e81a56c21f0ea9ff217",
-        "event_slug": "us-strikes-iran-by",
-        "name": "revers4l",
-        "outcome": "No",
-        "outcome_index": 1,
-        "price": 0.8961398674224954,
-        "proxy_wallet": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
-        "pseudonym": "Ashamed-Veal",
-        "side": "BUY",
-        "size": 17306.11544,
-        "slug": "us-strikes-iran-by-january-23-2026-494-711-798-734-155",
-        "timestamp": 1768628930,
-        "title": "US strikes Iran by January 23, 2026?",
-        "trade_id": "914e1ea6df3973b9eb138a4045541246a1adaba6464381f59e3cb878d0b05c91",
-        "transaction_hash": "0x73190892370bf6a623f503f0bbd8668beb147bdb4d871d3909d69f77c5976b92"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/us-strikes-iran-by-january-23-2026-494-711-798-734-155",
-      "wallet_stats": {
-        "avg_notional_7d": 15508.699996000001,
-        "first_seen_ts": 1768628930,
-        "proxy_wallet": "0x5d861bcdd27e8a74d1aa14f2eade9e53e4500e96",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1791098898,
-  "new_alerts": 0,
+  "generated_at": 1791120183,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "37185865217",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/37185865217"
+  "workflow_run_id": "37205409711",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/37205409711"
 }
