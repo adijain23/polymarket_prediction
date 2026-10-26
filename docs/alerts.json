@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0xbf37c4670d63a250f5837c12636615950a03434219cced86f4da545d8087ebb0",
+        "liquidity_num": 39204.3678,
+        "outcome_prices": [
+          0.19,
+          0.81
+        ],
+        "outcomes": [
+          "9z",
+          "TYLOO"
+        ],
+        "question": "Counter-Strike: 9z vs TYLOO (BO3) - PGL Masters Bucharest Group Stage",
+        "slug": "cs2-9z-tyloo-2026-10-26",
+        "volume24hr": 469573.34229900024
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 13922.002199593511,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.6282642985000001,
+        "top_net_wallet_accum_window": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+        "top_net_wallet_direction_accum_window": "anti0",
+        "top_net_wallet_notional_accum_window": 10792.002199593511,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+        "top_wallet_notional_accum_window": 10792.002199593511,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 13922.002199593511,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "23855822464570164977909500782660485406950589381969743368244162392681743564238",
+        "condition_id": "0xbf37c4670d63a250f5837c12636615950a03434219cced86f4da545d8087ebb0",
+        "event_slug": "cs2-9z-tyloo-2026-10-26",
+        "name": "JokerTheClown",
+        "outcome": "TYLOO",
+        "outcome_index": 1,
+        "price": 0.8282642985,
+        "proxy_wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+        "pseudonym": "Knowing-Kit",
+        "side": "BUY",
+        "size": 13029.66,
+        "slug": "cs2-9z-tyloo-2026-10-26",
+        "timestamp": 1793021427,
+        "title": "Counter-Strike: 9z vs TYLOO (BO3) - PGL Masters Bucharest Group Stage",
+        "trade_id": "0365d65abbf496c5da6738605105c65c8fbbe12188c364bc20e73ee148f75490",
+        "transaction_hash": "0x279a78463586a0b4ba17c444e36106a7ea086e59b7d050cc1dd2f7b280365a23"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/cs2-9z-tyloo-2026-10-26",
+      "wallet_stats": {
+        "avg_notional_7d": 10792.002199593511,
+        "first_seen_ts": 1793021427,
+        "proxy_wallet": "0x819dfea4ffa9c4d3ef27f00e2dbac7e9e93507f1",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
         "liquidity_num": 1070732.88503,
         "outcome_prices": [
@@ -14312,82 +14383,11 @@
         "unique_markets_7d": 6,
         "unique_markets_total": 9
       }
-    },
-    {
-      "market": {
-        "condition_id": "0xfb27ae224748d8504149feed86ba4d1b32fcd794b3742207f0d521ecdb9ce5b2",
-        "liquidity_num": 519385.11556,
-        "outcome_prices": [
-          0.9995,
-          0.0005
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Will SSC Napoli win on 2026-01-17?",
-        "slug": "sea-nap-sas-2026-01-17-nap",
-        "volume24hr": 284709.5633830004
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 10216.7844,
-        "price_range_accum_window": 0.32899999999999996,
-        "price_range_fast_window": 0.32899999999999996,
-        "top_net_wallet_accum_window": "0x3cea4a966788eeb5b386383be712b772b0ca03d4",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 4244.9994,
-        "top_net_wallet_share_of_market_accum_window": 0.6740293547208831,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0x3cea4a966788eeb5b386383be712b772b0ca03d4",
-        "top_wallet_notional_accum_window": 4244.9994,
-        "top_wallet_share_accum_window": 0.6740293547208831,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 3
-      },
-      "notional": 10216.7844,
-      "reasons": [
-        "market_price_move_24h",
-        "extreme_price"
-      ],
-      "score": 6,
-      "trade": {
-        "asset": "41398891980856242431416964329543054337890113177016928329848744989916953512866",
-        "condition_id": "0xfb27ae224748d8504149feed86ba4d1b32fcd794b3742207f0d521ecdb9ce5b2",
-        "event_slug": "sea-nap-sas-2026-01-17",
-        "name": "elkmonkey",
-        "outcome": "Yes",
-        "outcome_index": 0,
-        "price": 0.999,
-        "proxy_wallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
-        "pseudonym": "Unconscious-Penguin",
-        "side": "SELL",
-        "size": 2055.0,
-        "slug": "sea-nap-sas-2026-01-17-nap",
-        "timestamp": 1768678522,
-        "title": "Will SSC Napoli win on 2026-01-17?",
-        "trade_id": "95114aefcf4bfde404ec3fb6cd0215e48ab80cb91b53d1e96f884ebec2024395",
-        "transaction_hash": "0xf7c69c4e7c7fc069c7f2cebdf613d2c2693068a96196069a6c01c4cadf08571a"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/sea-nap-sas-2026-01-17-nap",
-      "wallet_stats": {
-        "avg_notional_7d": 8159.9628571428575,
-        "first_seen_ts": 1768114546,
-        "proxy_wallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
-        "trades_7d": 7,
-        "trades_total": 7,
-        "unique_markets_7d": 6,
-        "unique_markets_total": 9
-      }
     }
   ],
-  "generated_at": 1792996753,
-  "new_alerts": 0,
+  "generated_at": 1793021553,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "40281056028",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/40281056028"
+  "workflow_run_id": "40331435574",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/40331435574"
 }
