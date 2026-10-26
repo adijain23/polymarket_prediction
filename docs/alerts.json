@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+        "liquidity_num": 1070732.88503,
+        "outcome_prices": [
+          0.112,
+          0.888
+        ],
+        "outcomes": [
+          "Yes",
+          "No"
+        ],
+        "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+        "volume24hr": 19795553.917265974
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 24195.329000104,
+        "price_range_accum_window": 2.9900000000027127e-05,
+        "price_range_fast_window": 0.7270299,
+        "top_net_wallet_accum_window": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 18000.299,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 2,
+        "top_wallet_accum_window": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+        "top_wallet_notional_accum_window": 18000.299,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 2,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 24195.329000104,
+      "reasons": [
+        "market_price_move_24h",
+        "market_heat_24h"
+      ],
+      "score": 8,
+      "trade": {
+        "asset": "38310927461258927563020508025396887688249787380193911540547071417200646834355",
+        "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+        "event_slug": "brazil-presidential-election",
+        "name": "0xa7517ed74c6b07843946e0e69cad10a9fa94e05",
+        "outcome": "No",
+        "outcome_index": 1,
+        "price": 0.9,
+        "proxy_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+        "pseudonym": "Fearless-Misnomer",
+        "side": "SELL",
+        "size": 10000.0,
+        "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+        "timestamp": 1792970379,
+        "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "trade_id": "062e998e37779795cf6b68529a63c81c0cf28c8dc4dacda21bfb687c56ac10a5",
+        "transaction_hash": "0x90e68ea60b084157459f4ddbcb694ac8ec417cf6b9e527ab491d9475d46fe36a"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+      "wallet_stats": {
+        "avg_notional_7d": 9000.1495,
+        "first_seen_ts": 1792970370,
+        "proxy_wallet": "0xe234959595e01dacd391a9502a6ad0edf4e3304a",
+        "trades_7d": 2,
+        "trades_total": 2,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x792faa04c8bf62d230b38a351cc48b33e7199fe7af74192cc2a01d3b209a3182",
         "liquidity_num": 485419.51465,
         "outcome_prices": [
@@ -14312,84 +14383,11 @@
         "unique_markets_7d": 6,
         "unique_markets_total": 9
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "liquidity_num": 8880361.74544,
-        "outcome_prices": [
-          0.0005,
-          0.9995
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "volume24hr": 6039548.418112008
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 70420.730779,
-        "price_range_accum_window": 0.0010000000000000009,
-        "price_range_fast_window": 0.0010000000000000009,
-        "top_net_wallet_accum_window": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 13533.70834,
-        "top_net_wallet_share_of_market_accum_window": 0.4541099283021208,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
-        "top_wallet_notional_accum_window": 13533.70834,
-        "top_wallet_share_accum_window": 0.4541099283021208,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 6
-      },
-      "notional": 70420.730779,
-      "reasons": [
-        "market_heat_24h",
-        "market_participation_24h",
-        "new_wallet_to_system",
-        "extreme_price"
-      ],
-      "score": 5,
-      "trade": {
-        "asset": "42139849929574046088630785796780813725435914859433767469767950066058132350666",
-        "condition_id": "0x7c6c69d91b21cbbea08a13d0ad51c0e96a956045aaadc77bce507c6b0475b66e",
-        "event_slug": "fed-decision-in-january",
-        "name": "RenzoProtocol",
-        "outcome": "No",
-        "outcome_index": 1,
-        "price": 0.998,
-        "proxy_wallet": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
-        "pseudonym": "Able-Keyboard",
-        "side": "SELL",
-        "size": 13560.83,
-        "slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-        "timestamp": 1768639224,
-        "title": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
-        "trade_id": "4cbfb6b366597cef422a9e37899ddca42042c64f21332b1fa001ce3a334df6ad",
-        "transaction_hash": "0xa959e89dfc4fbe0d346de4fca95f0eb2891388049a7d4565158b8aa42ed70107"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
-      "wallet_stats": {
-        "avg_notional_7d": 13533.70834,
-        "first_seen_ts": 1768639224,
-        "proxy_wallet": "0xc3184efea25767fbb22e1fd5e86e7b4e5368b9dd",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1792963482,
+  "generated_at": 1792977953,
   "new_alerts": 0,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "40235344603",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/40235344603"
+  "workflow_run_id": "40254149492",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/40254149492"
 }
