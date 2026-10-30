@@ -2,6 +2,77 @@
   "alerts": [
     {
       "market": {
+        "condition_id": "0x62385b7f3de107b144914fc446b502108d6671d7407d826fa55fa35dec66e64c",
+        "liquidity_num": 85129.272,
+        "outcome_prices": [
+          0.34,
+          0.66
+        ],
+        "outcomes": [
+          "Team Liquid",
+          "LOS"
+        ],
+        "question": "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
+        "slug": "lol-tl2-los-2026-10-30",
+        "volume24hr": 3248089.472864002
+      },
+      "metrics": {
+        "accum_window_s": 21600,
+        "event_type": "fast_move",
+        "fast_window_s": 86400,
+        "notional_fast_window": 12498.75,
+        "price_range_accum_window": null,
+        "price_range_fast_window": 0.55,
+        "top_net_wallet_accum_window": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+        "top_net_wallet_direction_accum_window": "pro0",
+        "top_net_wallet_notional_accum_window": 2499.75,
+        "top_net_wallet_share_of_market_accum_window": 1.0,
+        "top_net_wallet_share_of_wallet_accum_window": 1.0,
+        "top_net_wallet_trades_accum_window": 1,
+        "top_wallet_accum_window": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+        "top_wallet_notional_accum_window": 2499.75,
+        "top_wallet_share_accum_window": 1.0,
+        "top_wallet_trades_accum_window": 1,
+        "unique_wallets_fast_window": 2
+      },
+      "notional": 12498.75,
+      "reasons": [
+        "market_price_move_24h",
+        "new_wallet_to_system"
+      ],
+      "score": 6,
+      "trade": {
+        "asset": "33352057509777233825843598642714534722572912516718343133604999018445122878252",
+        "condition_id": "0x62385b7f3de107b144914fc446b502108d6671d7407d826fa55fa35dec66e64c",
+        "event_slug": "lol-tl2-los-2026-10-30",
+        "name": "JustADonk",
+        "outcome": "LOS",
+        "outcome_index": 1,
+        "price": 0.75,
+        "proxy_wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+        "pseudonym": "Well-Made-Sovereignty",
+        "side": "SELL",
+        "size": 3333.0,
+        "slug": "lol-tl2-los-2026-10-30",
+        "timestamp": 1793398848,
+        "title": "LoL: Team Liquid vs LOS (BO3) - Worlds Group Stage",
+        "trade_id": "30e10d92701841019e6291701defb3bf2c7a2f37eb93acf8a35f69e39951d2e8",
+        "transaction_hash": "0x4538644c2bd6f88ad5b06e3055ca8d9af55b32992d2fc11f36571a7ceaad5698"
+      },
+      "type": "alert",
+      "url": "https://polymarket.com/market/lol-tl2-los-2026-10-30",
+      "wallet_stats": {
+        "avg_notional_7d": 2499.75,
+        "first_seen_ts": 1793398848,
+        "proxy_wallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
+        "trades_7d": 1,
+        "trades_total": 1,
+        "unique_markets_7d": 1,
+        "unique_markets_total": 1
+      }
+    },
+    {
+      "market": {
         "condition_id": "0x06417297d5f208370e9d1a3b989318f3c11f33920705de15227fa192a2db03b5",
         "liquidity_num": 69071.6878,
         "outcome_prices": [
@@ -14313,83 +14384,11 @@
         "unique_markets_7d": 3,
         "unique_markets_total": 4
       }
-    },
-    {
-      "market": {
-        "condition_id": "0x549738ac5670af45f638ba8cfb70144536f939edcdeae93fca2c3dbfcac5405b",
-        "liquidity_num": 17556.74343,
-        "outcome_prices": [
-          0.019,
-          0.981
-        ],
-        "outcomes": [
-          "Yes",
-          "No"
-        ],
-        "question": "Will Juventus FC win on 2026-01-17?",
-        "slug": "sea-cag-juv-2026-01-17-juv",
-        "volume24hr": 54190.58719299999
-      },
-      "metrics": {
-        "accum_window_s": 21600,
-        "event_type": "fast_move",
-        "fast_window_s": 86400,
-        "notional_fast_window": 15844.469249,
-        "price_range_accum_window": 0.639,
-        "price_range_fast_window": 0.639,
-        "top_net_wallet_accum_window": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-        "top_net_wallet_direction_accum_window": "pro0",
-        "top_net_wallet_notional_accum_window": 6274.46925,
-        "top_net_wallet_share_of_market_accum_window": 0.39600375067129523,
-        "top_net_wallet_share_of_wallet_accum_window": 1.0,
-        "top_net_wallet_trades_accum_window": 1,
-        "top_wallet_accum_window": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-        "top_wallet_notional_accum_window": 6274.46925,
-        "top_wallet_share_accum_window": 0.39600375067129523,
-        "top_wallet_trades_accum_window": 1,
-        "unique_wallets_fast_window": 3
-      },
-      "notional": 15844.469249,
-      "reasons": [
-        "market_price_move_24h",
-        "new_wallet_to_system",
-        "extreme_price"
-      ],
-      "score": 6,
-      "trade": {
-        "asset": "98973084904726294176858484691428160988022011351380877678384134838288605931898",
-        "condition_id": "0x549738ac5670af45f638ba8cfb70144536f939edcdeae93fca2c3dbfcac5405b",
-        "event_slug": "sea-cag-juv-2026-01-17",
-        "name": "olegio",
-        "outcome": "No",
-        "outcome_index": 1,
-        "price": 0.999,
-        "proxy_wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-        "pseudonym": "Pushy-Program",
-        "side": "SELL",
-        "size": 6280.75,
-        "slug": "sea-cag-juv-2026-01-17-juv",
-        "timestamp": 1768686172,
-        "title": "Will Juventus FC win on 2026-01-17?",
-        "trade_id": "f38562e27a191f6ead0735eb51688ca17ab01070ef51bf50e4aeafa4978280e5",
-        "transaction_hash": "0xc28b6b150bf5cc1c84e2d49fcd0c94572e7a4d57831cc6022781bd4664e89370"
-      },
-      "type": "alert",
-      "url": "https://polymarket.com/market/sea-cag-juv-2026-01-17-juv",
-      "wallet_stats": {
-        "avg_notional_7d": 6274.46925,
-        "first_seen_ts": 1768686172,
-        "proxy_wallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-        "trades_7d": 1,
-        "trades_total": 1,
-        "unique_markets_7d": 1,
-        "unique_markets_total": 1
-      }
     }
   ],
-  "generated_at": 1793384097,
-  "new_alerts": 0,
+  "generated_at": 1793399095,
+  "new_alerts": 1,
   "repo": "adijain23/polymarket_prediction",
-  "workflow_run_id": "41105231367",
-  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/41105231367"
+  "workflow_run_id": "41137917736",
+  "workflow_run_url": "https://github.com/adijain23/polymarket_prediction/actions/runs/41137917736"
 }
